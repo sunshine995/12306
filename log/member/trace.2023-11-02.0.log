@@ -1,0 +1,1316 @@
+2023-11-02 09:39:39.798 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-02 09:39:39.920 INFO  com.jiawa.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 14944 (E:\Springboot\train1\member\target\classes started by MK in E:\Springboot\train1)
+2023-11-02 09:39:39.920 INFO  com.jiawa.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-02 09:39:39.989 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-02 09:39:39.991 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-02 09:39:41.378 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=5f1ff361-79fa-31ae-b55b-acdf79e1bac9
+2023-11-02 09:39:42.304 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8082 (http)
+2023-11-02 09:39:42.325 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-02 09:39:42.325 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-02 09:39:42.325 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-02 09:39:42.400 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-02 09:39:42.404 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2413 ms
+2023-11-02 09:39:43.701 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-11-02 09:39:43.880 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8082"]
+2023-11-02 09:39:43.899 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8082 (http) with context path '/member'
+2023-11-02 09:39:43.983 INFO  com.jiawa.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 5.129 seconds (process running for 7.256)
+2023-11-02 09:39:43.987 INFO  com.jiawa.train.member.config.MemberApplication   :23   [32m                  [0;39m 启动成功！！
+2023-11-02 09:39:43.987 INFO  com.jiawa.train.member.config.MemberApplication   :24   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8082/member/hello
+2023-11-02 10:36:35.808 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-02 10:36:35.811 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-02 10:36:35.822 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 11 ms
+2023-11-02 10:36:35.958 ERROR c.j.t.common.controller.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常：
+org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'memberSendCodeReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberSendCodeReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberSendCodeReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:175)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-11-02 10:36:36.124 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors<EOL>Field error in object 'memberSendCodeReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberSendCodeReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberSendCodeReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]]
+2023-11-02 10:38:29.359 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-02 10:38:29.422 INFO  com.jiawa.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 15632 (E:\Springboot\train1\member\target\classes started by MK in E:\Springboot\train1)
+2023-11-02 10:38:29.422 INFO  com.jiawa.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-02 10:38:29.479 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-02 10:38:29.479 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-02 10:38:30.116 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=5f1ff361-79fa-31ae-b55b-acdf79e1bac9
+2023-11-02 10:38:30.649 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8082 (http)
+2023-11-02 10:38:30.649 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-02 10:38:30.649 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-02 10:38:30.649 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-02 10:38:30.702 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-02 10:38:30.702 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1223 ms
+2023-11-02 10:38:31.435 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-11-02 10:38:31.566 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8082"]
+2023-11-02 10:38:31.582 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8082 (http) with context path '/member'
+2023-11-02 10:38:31.667 INFO  com.jiawa.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 2.838 seconds (process running for 3.458)
+2023-11-02 10:38:31.667 INFO  com.jiawa.train.member.config.MemberApplication   :23   [32m                  [0;39m 启动成功！！
+2023-11-02 10:38:31.667 INFO  com.jiawa.train.member.config.MemberApplication   :24   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8082/member/hello
+2023-11-02 10:38:36.002 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-02 10:38:36.002 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-02 10:38:36.003 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-11-02 10:38:36.068 ERROR c.j.t.common.controller.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常：
+org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'memberSendCodeReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberSendCodeReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberSendCodeReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:175)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-11-02 10:38:36.117 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors<EOL>Field error in object 'memberSendCodeReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberSendCodeReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberSendCodeReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]]
+2023-11-02 10:39:33.162 ERROR c.j.t.common.controller.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常：
+org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'memberSendCodeReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberSendCodeReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberSendCodeReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:175)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-11-02 10:39:33.164 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors<EOL>Field error in object 'memberSendCodeReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberSendCodeReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberSendCodeReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]]
+2023-11-02 10:42:58.745 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-02 10:42:58.797 INFO  com.jiawa.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 12212 (E:\Springboot\train1\member\target\classes started by MK in E:\Springboot\train1)
+2023-11-02 10:42:58.797 INFO  com.jiawa.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-02 10:42:58.852 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-02 10:42:58.852 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-02 10:42:59.497 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=5f1ff361-79fa-31ae-b55b-acdf79e1bac9
+2023-11-02 10:43:00.021 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8082 (http)
+2023-11-02 10:43:00.037 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-02 10:43:00.037 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-02 10:43:00.037 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-02 10:43:00.084 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-02 10:43:00.084 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1232 ms
+2023-11-02 10:43:00.754 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-11-02 10:43:00.886 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8082"]
+2023-11-02 10:43:00.901 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8082 (http) with context path '/member'
+2023-11-02 10:43:00.970 INFO  com.jiawa.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 2.747 seconds (process running for 3.34)
+2023-11-02 10:43:00.986 INFO  com.jiawa.train.member.config.MemberApplication   :23   [32m                  [0;39m 启动成功！！
+2023-11-02 10:43:00.986 INFO  com.jiawa.train.member.config.MemberApplication   :24   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8082/member/hello
+2023-11-02 10:43:13.194 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-02 10:43:13.194 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-02 10:43:13.194 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2023-11-02 10:43:13.259 ERROR c.j.t.common.controller.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常：
+org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'memberSendCodeReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberSendCodeReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberSendCodeReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:175)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-11-02 10:43:13.311 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors<EOL>Field error in object 'memberSendCodeReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberSendCodeReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberSendCodeReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]]
+2023-11-02 10:44:34.837 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-02 10:44:34.872 INFO  com.jiawa.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 6704 (E:\Springboot\train1\member\target\classes started by MK in E:\Springboot\train1)
+2023-11-02 10:44:34.872 INFO  com.jiawa.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-02 10:44:34.927 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-02 10:44:34.927 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-02 10:44:35.586 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=5f1ff361-79fa-31ae-b55b-acdf79e1bac9
+2023-11-02 10:44:36.109 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8082 (http)
+2023-11-02 10:44:36.109 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-02 10:44:36.109 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-02 10:44:36.109 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-02 10:44:36.172 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-02 10:44:36.172 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1245 ms
+2023-11-02 10:44:36.843 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-11-02 10:44:36.974 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8082"]
+2023-11-02 10:44:36.990 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8082 (http) with context path '/member'
+2023-11-02 10:44:37.059 INFO  com.jiawa.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 2.725 seconds (process running for 3.34)
+2023-11-02 10:44:37.075 INFO  com.jiawa.train.member.config.MemberApplication   :23   [32m                  [0;39m 启动成功！！
+2023-11-02 10:44:37.075 INFO  com.jiawa.train.member.config.MemberApplication   :24   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8082/member/hello
+2023-11-02 10:44:45.446 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-02 10:44:45.447 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-02 10:44:45.448 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-11-02 10:44:45.598 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 10:44:45.598 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/send-code POST
+2023-11-02 10:44:45.598 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.sendCode
+2023-11-02 10:44:45.598 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 10:44:45.711 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{}]
+2023-11-02 10:44:45.713 ERROR c.j.t.common.controller.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常：
+java.lang.RuntimeException: Value for mobile cannot be null
+	at com.jiawa.train.member.domain.MemberExample$GeneratedCriteria.addCriterion(MemberExample.java:95)
+	at com.jiawa.train.member.domain.MemberExample$GeneratedCriteria.andMobileEqualTo(MemberExample.java:178)
+	at com.jiawa.train.member.domain.MemberExample$Criteria.andMobileEqualTo(MemberExample.java:238)
+	at com.jiawa.train.member.service.MemberService.selectByMobile(MemberService.java:106)
+	at com.jiawa.train.member.service.MemberService.sendCode(MemberService.java:58)
+	at com.jiawa.train.member.controller.MemberController.sendCode(MemberController.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.jiawa.train.common.aspect.LogAspect.doAround(LogAspect.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:623)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at com.jiawa.train.member.controller.MemberController$$SpringCGLIB$$0.sendCode(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-11-02 10:44:45.747 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [java.lang.RuntimeException: Value for mobile cannot be null]
+2023-11-02 10:48:08.927 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-02 10:48:08.973 INFO  com.jiawa.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 12844 (E:\Springboot\train1\member\target\classes started by MK in E:\Springboot\train1)
+2023-11-02 10:48:08.973 INFO  com.jiawa.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-02 10:48:09.023 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-02 10:48:09.023 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-02 10:48:09.695 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=5f1ff361-79fa-31ae-b55b-acdf79e1bac9
+2023-11-02 10:48:10.227 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8082 (http)
+2023-11-02 10:48:10.227 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-02 10:48:10.227 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-02 10:48:10.227 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-02 10:48:10.281 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-02 10:48:10.281 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1258 ms
+2023-11-02 10:48:10.945 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-11-02 10:48:11.068 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8082"]
+2023-11-02 10:48:11.083 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8082 (http) with context path '/member'
+2023-11-02 10:48:11.168 INFO  com.jiawa.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 2.758 seconds (process running for 3.409)
+2023-11-02 10:48:11.168 INFO  com.jiawa.train.member.config.MemberApplication   :23   [32m                  [0;39m 启动成功！！
+2023-11-02 10:48:11.168 INFO  com.jiawa.train.member.config.MemberApplication   :24   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8082/member/hello
+2023-11-02 10:48:16.833 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-02 10:48:16.833 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-02 10:48:16.834 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-11-02 10:48:17.030 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 10:48:17.030 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/send-code POST
+2023-11-02 10:48:17.030 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.sendCode
+2023-11-02 10:48:17.030 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 10:48:17.082 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"mobile":"17513366869"}]
+2023-11-02 10:48:17.166 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-11-02 10:48:18.362 ERROR com.zaxxer.hikari.pool.HikariPool                 :594  [32m                  [0;39m HikariPool-1 - Exception during pool initialization.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	at jdk.proxy2/jdk.proxy2.$Proxy80.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy3/jdk.proxy3.$Proxy81.selectByExample(Unknown Source)
+	at com.jiawa.train.member.service.MemberService.selectByMobile(MemberService.java:107)
+	at com.jiawa.train.member.service.MemberService.sendCode(MemberService.java:58)
+	at com.jiawa.train.member.controller.MemberController.sendCode(MemberController.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.jiawa.train.common.aspect.LogAspect.doAround(LogAspect.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:623)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at com.jiawa.train.member.controller.MemberController$$SpringCGLIB$$0.sendCode(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 117 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 120 common frames omitted
+2023-11-02 10:48:18.376 ERROR c.j.t.common.controller.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常：
+org.mybatis.spring.MyBatisSystemException: null
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:97)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy80.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy3/jdk.proxy3.$Proxy81.selectByExample(Unknown Source)
+	at com.jiawa.train.member.service.MemberService.selectByMobile(MemberService.java:107)
+	at com.jiawa.train.member.service.MemberService.sendCode(MemberService.java:58)
+	at com.jiawa.train.member.controller.MemberController.sendCode(MemberController.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.jiawa.train.common.aspect.LogAspect.doAround(LogAspect.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:623)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at com.jiawa.train.member.controller.MemberController$$SpringCGLIB$$0.sendCode(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+### The error may exist in file [E:\Springboot\train1\member\target\classes\mapper\MemberMapper.xml]
+### The error may involve com.jiawa.train.member.mapper.MemberMapper.selectByExample
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:153)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 87 common frames omitted
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:83)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	... 94 common frames omitted
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	... 104 common frames omitted
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 117 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 120 common frames omitted
+2023-11-02 10:48:18.398 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.mybatis.spring.MyBatisSystemException]
+2023-11-02 10:50:20.421 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 10:50:20.422 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/send-code POST
+2023-11-02 10:50:20.422 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.sendCode
+2023-11-02 10:50:20.422 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 10:50:20.422 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"mobile":"17513366869"}]
+2023-11-02 10:50:20.423 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-11-02 10:50:20.680 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40ec2aea
+2023-11-02 10:50:20.696 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-11-02 10:50:20.805 INFO  com.jiawa.train.member.service.MemberService      :63   [32m                  [0;39m 手机号不存在，插入一条记录
+2023-11-02 10:50:20.954 INFO  com.jiawa.train.member.service.MemberService      :74   [32m                  [0;39m 生成短信验证码：q53c
+2023-11-02 10:50:20.955 INFO  com.jiawa.train.member.service.MemberService      :77   [32m                  [0;39m 保存短信记录表
+2023-11-02 10:50:20.955 INFO  com.jiawa.train.member.service.MemberService      :80   [32m                  [0;39m 对接短信通道
+2023-11-02 10:50:20.957 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"success":true}
+2023-11-02 10:50:20.958 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：537 ms -------------
+2023-11-02 11:03:49.703 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 11:03:49.704 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/send-code POST
+2023-11-02 11:03:49.704 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.sendCode
+2023-11-02 11:03:49.705 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 11:03:49.705 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"mobile":"13000000000"}]
+2023-11-02 11:03:49.708 INFO  com.jiawa.train.member.service.MemberService      :63   [32m                  [0;39m 手机号不存在，插入一条记录
+2023-11-02 11:03:49.780 INFO  com.jiawa.train.member.service.MemberService      :74   [32m                  [0;39m 生成短信验证码：c9ps
+2023-11-02 11:03:49.781 INFO  com.jiawa.train.member.service.MemberService      :77   [32m                  [0;39m 保存短信记录表
+2023-11-02 11:03:49.781 INFO  com.jiawa.train.member.service.MemberService      :80   [32m                  [0;39m 对接短信通道
+2023-11-02 11:03:49.782 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"success":true}
+2023-11-02 11:03:49.782 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：79 ms -------------
+2023-11-02 11:16:24.349 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 11:16:24.349 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/send-code POST
+2023-11-02 11:16:24.349 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.sendCode
+2023-11-02 11:16:24.350 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 11:16:24.350 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"mobile":"13000000000"}]
+2023-11-02 11:16:24.449 INFO  com.jiawa.train.member.service.MemberService      :69   [32m                  [0;39m 手机号存在，不插入记录
+2023-11-02 11:16:24.450 INFO  com.jiawa.train.member.service.MemberService      :74   [32m                  [0;39m 生成短信验证码：h1wa
+2023-11-02 11:16:24.450 INFO  com.jiawa.train.member.service.MemberService      :77   [32m                  [0;39m 保存短信记录表
+2023-11-02 11:16:24.450 INFO  com.jiawa.train.member.service.MemberService      :80   [32m                  [0;39m 对接短信通道
+2023-11-02 11:16:24.450 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"success":true}
+2023-11-02 11:16:24.450 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：102 ms -------------
+2023-11-02 11:16:25.608 ERROR c.j.t.common.controller.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常：
+org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors
+Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]
+Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:175)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-11-02 11:16:25.611 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors<EOL>Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]<EOL>Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]]
+2023-11-02 11:17:10.549 ERROR c.j.t.common.controller.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常：
+org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors
+Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]
+Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:175)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-11-02 11:17:10.551 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors<EOL>Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]<EOL>Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]]
+2023-11-02 11:17:54.417 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-02 11:17:54.473 INFO  com.jiawa.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 716 (E:\Springboot\train1\member\target\classes started by MK in E:\Springboot\train1)
+2023-11-02 11:17:54.475 INFO  com.jiawa.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-02 11:17:54.525 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-02 11:17:54.526 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-02 11:17:55.181 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=5f1ff361-79fa-31ae-b55b-acdf79e1bac9
+2023-11-02 11:17:55.719 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8082 (http)
+2023-11-02 11:17:55.726 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-02 11:17:55.726 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-02 11:17:55.727 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-02 11:17:55.774 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-02 11:17:55.774 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1247 ms
+2023-11-02 11:17:56.449 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-11-02 11:17:56.581 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8082"]
+2023-11-02 11:17:56.595 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8082 (http) with context path '/member'
+2023-11-02 11:17:56.675 INFO  com.jiawa.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 2.768 seconds (process running for 3.333)
+2023-11-02 11:17:56.678 INFO  com.jiawa.train.member.config.MemberApplication   :23   [32m                  [0;39m 启动成功！！
+2023-11-02 11:17:56.679 INFO  com.jiawa.train.member.config.MemberApplication   :24   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8082/member/hello
+2023-11-02 11:18:01.237 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-02 11:18:01.237 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-02 11:18:01.238 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-11-02 11:18:01.349 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 11:18:01.350 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/login POST
+2023-11-02 11:18:01.350 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.login
+2023-11-02 11:18:01.351 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 11:18:01.388 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"code":"8888","mobile":"13000000000"}]
+2023-11-02 11:18:01.422 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-11-02 11:18:01.511 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@301499be
+2023-11-02 11:18:01.512 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-11-02 11:18:01.675 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"id":1719913173697564672,"mobile":"13000000000"},"success":true}
+2023-11-02 11:18:01.675 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：326 ms -------------
+2023-11-02 11:25:23.064 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 11:25:23.065 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/send-code POST
+2023-11-02 11:25:23.065 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.sendCode
+2023-11-02 11:25:23.065 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 11:25:23.067 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"mobile":"13000000000"}]
+2023-11-02 11:25:23.071 INFO  com.jiawa.train.member.service.MemberService      :69   [32m                  [0;39m 手机号存在，不插入记录
+2023-11-02 11:25:23.073 INFO  com.jiawa.train.member.service.MemberService      :74   [32m                  [0;39m 生成短信验证码：f5z9
+2023-11-02 11:25:23.074 INFO  com.jiawa.train.member.service.MemberService      :77   [32m                  [0;39m 保存短信记录表
+2023-11-02 11:25:23.074 INFO  com.jiawa.train.member.service.MemberService      :80   [32m                  [0;39m 对接短信通道
+2023-11-02 11:25:23.074 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"success":true}
+2023-11-02 11:25:23.074 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：10 ms -------------
+2023-11-02 11:25:24.278 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 11:25:24.279 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/login POST
+2023-11-02 11:25:24.279 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.login
+2023-11-02 11:25:24.279 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 11:25:24.279 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"code":"8888","mobile":"13000000000"}]
+2023-11-02 11:25:24.281 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"id":1719913173697564672,"mobile":"13000000000"},"success":true}
+2023-11-02 11:25:24.281 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2023-11-02 15:29:58.016 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-11-02 15:29:58.051 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8082"]
+2023-11-02 15:29:58.052 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-11-02 15:29:58.055 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-02 15:29:58.091 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [member] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-11-02 15:29:58.094 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8082"]
+2023-11-02 15:29:58.097 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8082"]
+2023-11-02 15:29:58.107 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-11-02 15:29:58.111 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-11-02 15:29:58.418 INFO  com.jiawa.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 716 (E:\Springboot\train1\member\target\classes started by MK in E:\Springboot\train1)
+2023-11-02 15:29:58.418 INFO  com.jiawa.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-02 15:29:58.840 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=5f1ff361-79fa-31ae-b55b-acdf79e1bac9
+2023-11-02 15:29:58.986 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8082 (http)
+2023-11-02 15:29:58.987 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-02 15:29:58.987 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-02 15:29:58.987 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-02 15:29:59.000 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-02 15:29:59.001 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 579 ms
+2023-11-02 15:29:59.397 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-11-02 15:29:59.548 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8082"]
+2023-11-02 15:29:59.552 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8082 (http) with context path '/member'
+2023-11-02 15:29:59.653 INFO  com.jiawa.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 1.396 seconds (process running for 15126.311)
+2023-11-02 15:29:59.655 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-11-02 15:29:59.656 INFO  com.jiawa.train.member.config.MemberApplication   :23   [32m                  [0;39m 启动成功！！
+2023-11-02 15:29:59.656 INFO  com.jiawa.train.member.config.MemberApplication   :24   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8082/member/hello
+2023-11-02 15:38:20.460 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-02 15:38:20.493 INFO  com.jiawa.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 8056 (E:\Springboot\train1\member\target\classes started by MK in E:\Springboot\train1)
+2023-11-02 15:38:20.494 INFO  com.jiawa.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-02 15:38:20.540 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-02 15:38:20.541 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-02 15:38:21.227 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=5f1ff361-79fa-31ae-b55b-acdf79e1bac9
+2023-11-02 15:38:21.754 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8082 (http)
+2023-11-02 15:38:21.760 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-02 15:38:21.761 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-02 15:38:21.761 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-02 15:38:21.809 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-02 15:38:21.810 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1269 ms
+2023-11-02 15:38:22.477 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-11-02 15:38:22.610 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8082"]
+2023-11-02 15:38:22.627 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8082 (http) with context path '/member'
+2023-11-02 15:38:22.707 INFO  com.jiawa.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 2.754 seconds (process running for 3.377)
+2023-11-02 15:38:22.710 INFO  com.jiawa.train.member.config.MemberApplication   :23   [32m                  [0;39m 启动成功！！
+2023-11-02 15:38:22.711 INFO  com.jiawa.train.member.config.MemberApplication   :24   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8082/member/hello
+2023-11-02 15:42:54.403 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-02 15:42:54.404 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-02 15:42:54.405 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-11-02 15:42:54.499 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 15:42:54.500 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/send-code POST
+2023-11-02 15:42:54.500 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.sendCode
+2023-11-02 15:42:54.500 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 15:42:54.538 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"mobile":"13000000000"}]
+2023-11-02 15:42:54.571 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-11-02 15:42:54.656 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13a9294e
+2023-11-02 15:42:54.659 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-11-02 15:42:54.688 INFO  com.jiawa.train.member.service.MemberService      :71   [32m                  [0;39m 手机号存在，不插入记录
+2023-11-02 15:42:54.691 INFO  com.jiawa.train.member.service.MemberService      :76   [32m                  [0;39m 生成短信验证码：zyb6
+2023-11-02 15:42:54.691 INFO  com.jiawa.train.member.service.MemberService      :79   [32m                  [0;39m 保存短信记录表
+2023-11-02 15:42:54.691 INFO  com.jiawa.train.member.service.MemberService      :82   [32m                  [0;39m 对接短信通道
+2023-11-02 15:42:54.693 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"success":true}
+2023-11-02 15:42:54.694 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：195 ms -------------
+2023-11-02 15:42:58.198 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 15:42:58.199 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/login POST
+2023-11-02 15:42:58.199 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.login
+2023-11-02 15:42:58.199 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 15:42:58.200 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"code":"8888","mobile":"13000000000"}]
+2023-11-02 15:42:58.727 INFO  com.jiawa.train.common.util.JwtUtil               :37   [32m                  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg5MTA5NzgsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5ODk5NzM3OCwiaWF0IjoxNjk4OTEwOTc4fQ.LLPuwjvEfxyK17uWZKLLXq53D_OxSXnHSbEs3k3Z0Uc
+2023-11-02 15:42:58.728 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"id":1719913173697564672,"mobile":"13000000000","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg5MTA5NzgsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5ODk5NzM3OCwiaWF0IjoxNjk4OTEwOTc4fQ.LLPuwjvEfxyK17uWZKLLXq53D_OxSXnHSbEs3k3Z0Uc"},"success":true}
+2023-11-02 15:42:58.728 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：530 ms -------------
+2023-11-02 15:53:56.235 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 15:53:56.235 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/send-code POST
+2023-11-02 15:53:56.236 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.sendCode
+2023-11-02 15:53:56.236 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 15:53:56.236 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"mobile":"13000000000"}]
+2023-11-02 15:53:56.238 INFO  com.jiawa.train.member.service.MemberService      :71   [32m                  [0;39m 手机号存在，不插入记录
+2023-11-02 15:53:56.239 INFO  com.jiawa.train.member.service.MemberService      :76   [32m                  [0;39m 生成短信验证码：11th
+2023-11-02 15:53:56.239 INFO  com.jiawa.train.member.service.MemberService      :79   [32m                  [0;39m 保存短信记录表
+2023-11-02 15:53:56.239 INFO  com.jiawa.train.member.service.MemberService      :82   [32m                  [0;39m 对接短信通道
+2023-11-02 15:53:56.240 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"success":true}
+2023-11-02 15:53:56.240 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2023-11-02 15:53:57.007 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 15:53:57.008 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/login POST
+2023-11-02 15:53:57.008 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.login
+2023-11-02 15:53:57.008 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 15:53:57.009 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"code":"8888","mobile":"13000000000"}]
+2023-11-02 15:53:57.013 INFO  com.jiawa.train.common.util.JwtUtil               :37   [32m                  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg5MTE2MzcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5ODk5ODAzNywiaWF0IjoxNjk4OTExNjM3fQ.3mqwJmDvWPLT3Xd7IwLdklefK1VcSxeui-QZybIbXeo
+2023-11-02 15:53:57.013 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"id":1719913173697564672,"mobile":"13000000000","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg5MTE2MzcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5ODk5ODAzNywiaWF0IjoxNjk4OTExNjM3fQ.3mqwJmDvWPLT3Xd7IwLdklefK1VcSxeui-QZybIbXeo"},"success":true}
+2023-11-02 15:53:57.014 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：7 ms -------------
+2023-11-02 15:54:36.435 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 15:54:36.436 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/send-code POST
+2023-11-02 15:54:36.436 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.sendCode
+2023-11-02 15:54:36.436 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 15:54:36.436 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"mobile":"13000000000"}]
+2023-11-02 15:54:36.438 INFO  com.jiawa.train.member.service.MemberService      :71   [32m                  [0;39m 手机号存在，不插入记录
+2023-11-02 15:54:36.438 INFO  com.jiawa.train.member.service.MemberService      :76   [32m                  [0;39m 生成短信验证码：ikvk
+2023-11-02 15:54:36.438 INFO  com.jiawa.train.member.service.MemberService      :79   [32m                  [0;39m 保存短信记录表
+2023-11-02 15:54:36.439 INFO  com.jiawa.train.member.service.MemberService      :82   [32m                  [0;39m 对接短信通道
+2023-11-02 15:54:36.439 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"success":true}
+2023-11-02 15:54:36.439 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2023-11-02 15:54:36.998 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 15:54:36.998 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/login POST
+2023-11-02 15:54:36.999 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.login
+2023-11-02 15:54:36.999 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 15:54:36.999 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"code":"8888","mobile":"13000000000"}]
+2023-11-02 15:54:37.001 INFO  com.jiawa.train.common.util.JwtUtil               :37   [32m                  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg5MTE2NzcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5ODk5ODA3NywiaWF0IjoxNjk4OTExNjc3fQ.DXoxwRWjzqzvPQTs7yy1N-LJF-tIsovfCxQYrqpfEgQ
+2023-11-02 15:54:37.001 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"id":1719913173697564672,"mobile":"13000000000","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg5MTE2NzcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5ODk5ODA3NywiaWF0IjoxNjk4OTExNjc3fQ.DXoxwRWjzqzvPQTs7yy1N-LJF-tIsovfCxQYrqpfEgQ"},"success":true}
+2023-11-02 15:54:37.002 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2023-11-02 16:04:20.336 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 16:04:20.337 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/send-code POST
+2023-11-02 16:04:20.337 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.sendCode
+2023-11-02 16:04:20.337 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 16:04:20.338 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"mobile":"13000000000"}]
+2023-11-02 16:04:20.340 INFO  com.jiawa.train.member.service.MemberService      :71   [32m                  [0;39m 手机号存在，不插入记录
+2023-11-02 16:04:20.340 INFO  com.jiawa.train.member.service.MemberService      :76   [32m                  [0;39m 生成短信验证码：fpoy
+2023-11-02 16:04:20.340 INFO  com.jiawa.train.member.service.MemberService      :79   [32m                  [0;39m 保存短信记录表
+2023-11-02 16:04:20.340 INFO  com.jiawa.train.member.service.MemberService      :82   [32m                  [0;39m 对接短信通道
+2023-11-02 16:04:20.341 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"success":true}
+2023-11-02 16:04:20.341 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2023-11-02 16:04:21.180 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 16:04:21.181 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/login POST
+2023-11-02 16:04:21.181 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.login
+2023-11-02 16:04:21.181 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 16:04:21.183 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"code":"8888","mobile":"13000000000"}]
+2023-11-02 16:04:21.187 INFO  com.jiawa.train.common.util.JwtUtil               :37   [32m                  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg5MTIyNjEsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5ODk5ODY2MSwiaWF0IjoxNjk4OTEyMjYxfQ.1FiOZZOSyJoGLIpd_a3ufEhKpA8CDPQqjn6abbOi5KE
+2023-11-02 16:04:21.188 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"id":1719913173697564672,"mobile":"13000000000","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg5MTIyNjEsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5ODk5ODY2MSwiaWF0IjoxNjk4OTEyMjYxfQ.1FiOZZOSyJoGLIpd_a3ufEhKpA8CDPQqjn6abbOi5KE"},"success":true}
+2023-11-02 16:04:21.188 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：8 ms -------------
+2023-11-02 16:08:54.400 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 16:08:54.400 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/count GET
+2023-11-02 16:08:54.400 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.count
+2023-11-02 16:08:54.401 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 16:08:54.401 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-11-02 16:08:54.403 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":4,"success":true}
+2023-11-02 16:08:54.403 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2023-11-02 16:22:28.340 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 16:22:28.341 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/hello GET
+2023-11-02 16:22:28.341 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.TestController.hello
+2023-11-02 16:22:28.341 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 16:22:28.342 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-11-02 16:22:28.342 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: "hello world"
+2023-11-02 16:22:28.342 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2023-11-02 16:22:36.959 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 16:22:36.959 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/hello GET
+2023-11-02 16:22:36.960 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.TestController.hello
+2023-11-02 16:22:36.960 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 16:22:36.960 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-11-02 16:22:36.960 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: "hello world"
+2023-11-02 16:22:36.960 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：1 ms -------------
+2023-11-02 16:22:39.824 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 16:22:39.824 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/hello GET
+2023-11-02 16:22:39.824 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.TestController.hello
+2023-11-02 16:22:39.824 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 16:22:39.824 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-11-02 16:22:39.825 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: "hello world"
+2023-11-02 16:22:39.825 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：1 ms -------------
+2023-11-02 16:36:24.134 ERROR c.j.t.common.controller.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常：
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:261)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:441)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:382)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:126)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:68)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:504)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1274)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-11-02 16:36:24.171 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2023-11-02 16:37:12.312 ERROR c.j.t.common.controller.ControllerExceptionHandler:31   [32m                  [0;39m 系统异常：
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:261)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:441)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:382)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:126)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:68)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:504)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1274)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-11-02 16:37:12.314 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2023-11-02 16:37:26.590 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 16:37:26.590 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/count GET
+2023-11-02 16:37:26.591 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.count
+2023-11-02 16:37:26.591 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 16:37:26.592 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-11-02 16:37:26.594 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":4,"success":true}
+2023-11-02 16:37:26.594 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2023-11-02 16:37:54.770 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 16:37:54.771 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/count GET
+2023-11-02 16:37:54.771 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.count
+2023-11-02 16:37:54.771 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 16:37:54.771 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-11-02 16:37:54.772 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":4,"success":true}
+2023-11-02 16:37:54.772 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2023-11-02 16:38:02.125 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 16:38:02.125 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/send-code POST
+2023-11-02 16:38:02.126 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.sendCode
+2023-11-02 16:38:02.126 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 16:38:02.126 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"mobile":"13000000000"}]
+2023-11-02 16:38:02.128 INFO  com.jiawa.train.member.service.MemberService      :71   [32m                  [0;39m 手机号存在，不插入记录
+2023-11-02 16:38:02.128 INFO  com.jiawa.train.member.service.MemberService      :76   [32m                  [0;39m 生成短信验证码：a63c
+2023-11-02 16:38:02.128 INFO  com.jiawa.train.member.service.MemberService      :79   [32m                  [0;39m 保存短信记录表
+2023-11-02 16:38:02.128 INFO  com.jiawa.train.member.service.MemberService      :82   [32m                  [0;39m 对接短信通道
+2023-11-02 16:38:02.128 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"success":true}
+2023-11-02 16:38:02.128 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2023-11-02 16:38:02.910 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 16:38:02.911 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/login POST
+2023-11-02 16:38:02.911 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.login
+2023-11-02 16:38:02.911 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 16:38:02.911 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"code":"8888","mobile":"13000000000"}]
+2023-11-02 16:38:02.913 INFO  com.jiawa.train.common.util.JwtUtil               :37   [32m                  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg5MTQyODIsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTAwMDY4MiwiaWF0IjoxNjk4OTE0MjgyfQ.0HRMVX_SpybWIVNAACjyqBNs45Mes7yQelTBBfnda9A
+2023-11-02 16:38:02.913 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"id":1719913173697564672,"mobile":"13000000000","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg5MTQyODIsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTAwMDY4MiwiaWF0IjoxNjk4OTE0MjgyfQ.0HRMVX_SpybWIVNAACjyqBNs45Mes7yQelTBBfnda9A"},"success":true}
+2023-11-02 16:38:02.914 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2023-11-02 16:38:02.958 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 16:38:02.958 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/count GET
+2023-11-02 16:38:02.959 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.count
+2023-11-02 16:38:02.959 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 16:38:02.959 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-11-02 16:38:02.960 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":4,"success":true}
+2023-11-02 16:38:02.960 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2023-11-02 16:39:53.232 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 16:39:53.232 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/send-code POST
+2023-11-02 16:39:53.232 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.sendCode
+2023-11-02 16:39:53.232 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 16:39:53.232 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"mobile":"13000000000"}]
+2023-11-02 16:39:53.234 INFO  com.jiawa.train.member.service.MemberService      :71   [32m                  [0;39m 手机号存在，不插入记录
+2023-11-02 16:39:53.234 INFO  com.jiawa.train.member.service.MemberService      :76   [32m                  [0;39m 生成短信验证码：unj5
+2023-11-02 16:39:53.234 INFO  com.jiawa.train.member.service.MemberService      :79   [32m                  [0;39m 保存短信记录表
+2023-11-02 16:39:53.234 INFO  com.jiawa.train.member.service.MemberService      :82   [32m                  [0;39m 对接短信通道
+2023-11-02 16:39:53.234 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"success":true}
+2023-11-02 16:39:53.235 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2023-11-02 16:39:54.158 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 16:39:54.159 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/login POST
+2023-11-02 16:39:54.159 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.login
+2023-11-02 16:39:54.159 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 16:39:54.159 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"code":"8888","mobile":"13000000000"}]
+2023-11-02 16:39:54.162 INFO  com.jiawa.train.common.util.JwtUtil               :37   [32m                  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg5MTQzOTQsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTAwMDc5NCwiaWF0IjoxNjk4OTE0Mzk0fQ.HPqdONCfOTmFXwe_PHQEYc4OdTZ7FvMDQ6mzg-VINI4
+2023-11-02 16:39:54.162 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"id":1719913173697564672,"mobile":"13000000000","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg5MTQzOTQsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTAwMDc5NCwiaWF0IjoxNjk4OTE0Mzk0fQ.HPqdONCfOTmFXwe_PHQEYc4OdTZ7FvMDQ6mzg-VINI4"},"success":true}
+2023-11-02 16:39:54.162 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2023-11-02 16:39:55.228 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 16:39:55.229 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/count GET
+2023-11-02 16:39:55.229 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.count
+2023-11-02 16:39:55.229 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 16:39:55.229 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-11-02 16:39:55.230 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":4,"success":true}
+2023-11-02 16:39:55.230 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2023-11-02 16:40:02.510 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 16:40:02.511 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/count GET
+2023-11-02 16:40:02.511 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.count
+2023-11-02 16:40:02.511 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 16:40:02.511 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-11-02 16:40:02.513 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":4,"success":true}
+2023-11-02 16:40:02.513 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2023-11-02 16:40:08.446 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 16:40:08.446 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/count GET
+2023-11-02 16:40:08.446 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.count
+2023-11-02 16:40:08.447 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 16:40:08.447 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-11-02 16:40:08.448 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":4,"success":true}
+2023-11-02 16:40:08.448 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2023-11-02 16:40:14.012 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 16:40:14.013 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/count GET
+2023-11-02 16:40:14.013 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.count
+2023-11-02 16:40:14.013 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 16:40:14.013 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-11-02 16:40:14.015 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":4,"success":true}
+2023-11-02 16:40:14.015 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2023-11-02 16:40:16.400 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 16:40:16.401 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/count GET
+2023-11-02 16:40:16.401 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.count
+2023-11-02 16:40:16.401 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 16:40:16.402 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-11-02 16:40:16.403 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":4,"success":true}
+2023-11-02 16:40:16.403 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2023-11-02 16:40:18.744 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 16:40:18.745 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/count GET
+2023-11-02 16:40:18.745 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.count
+2023-11-02 16:40:18.745 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 16:40:18.745 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-11-02 16:40:18.746 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":4,"success":true}
+2023-11-02 16:40:18.747 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2023-11-02 16:40:31.972 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 16:40:31.973 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/count GET
+2023-11-02 16:40:31.973 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.count
+2023-11-02 16:40:31.973 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 16:40:31.973 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-11-02 16:40:31.974 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":4,"success":true}
+2023-11-02 16:40:31.974 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2023-11-02 16:41:23.765 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 16:41:23.765 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/count GET
+2023-11-02 16:41:23.766 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.count
+2023-11-02 16:41:23.766 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 16:41:23.766 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-11-02 16:41:23.767 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":4,"success":true}
+2023-11-02 16:41:23.768 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2023-11-02 16:57:11.116 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 16:57:11.116 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/send-code POST
+2023-11-02 16:57:11.116 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.sendCode
+2023-11-02 16:57:11.116 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 16:57:11.117 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"mobile":"13000000000"}]
+2023-11-02 16:57:11.118 INFO  com.jiawa.train.member.service.MemberService      :71   [32m                  [0;39m 手机号存在，不插入记录
+2023-11-02 16:57:11.119 INFO  com.jiawa.train.member.service.MemberService      :76   [32m                  [0;39m 生成短信验证码：zqrb
+2023-11-02 16:57:11.119 INFO  com.jiawa.train.member.service.MemberService      :79   [32m                  [0;39m 保存短信记录表
+2023-11-02 16:57:11.119 INFO  com.jiawa.train.member.service.MemberService      :82   [32m                  [0;39m 对接短信通道
+2023-11-02 16:57:11.119 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"success":true}
+2023-11-02 16:57:11.119 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2023-11-02 16:57:12.223 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-02 16:57:12.223 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/member/login POST
+2023-11-02 16:57:12.224 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.login
+2023-11-02 16:57:12.224 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-02 16:57:12.224 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"code":"8888","mobile":"13000000000"}]
+2023-11-02 16:57:12.227 INFO  com.jiawa.train.common.util.JwtUtil               :37   [32m                  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg5MTU0MzIsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTAwMTgzMiwiaWF0IjoxNjk4OTE1NDMyfQ.5h71MJ6L5N1J8vKKuth5pfOq0gCCPDUC2hNJZ8PuAKI
+2023-11-02 16:57:12.227 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"id":1719913173697564672,"mobile":"13000000000","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg5MTU0MzIsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTAwMTgzMiwiaWF0IjoxNjk4OTE1NDMyfQ.5h71MJ6L5N1J8vKKuth5pfOq0gCCPDUC2hNJZ8PuAKI"},"success":true}
+2023-11-02 16:57:12.227 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：4 ms -------------

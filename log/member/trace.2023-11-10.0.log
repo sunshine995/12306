@@ -1,0 +1,706 @@
+2023-11-10 10:25:49.836 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-10 10:25:49.959 INFO  com.jiawa.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 9208 (E:\Springboot\train1\member\target\classes started by MK in E:\Springboot\train1)
+2023-11-10 10:25:49.960 INFO  com.jiawa.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-10 10:25:50.020 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-10 10:25:50.021 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-10 10:25:51.851 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=b51d6f25-f5f0-38de-882a-1bde2b617ce2
+2023-11-10 10:25:52.907 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8082 (http)
+2023-11-10 10:25:52.943 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-10 10:25:52.944 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-10 10:25:52.945 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-10 10:25:53.020 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-10 10:25:53.021 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2999 ms
+2023-11-10 10:25:54.209 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-11-10 10:25:54.416 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-11-10 10:25:54.562 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8082"]
+2023-11-10 10:25:54.592 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8082 (http) with context path '/member'
+2023-11-10 10:25:54.673 INFO  com.jiawa.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 5.728 seconds (process running for 7.608)
+2023-11-10 10:25:54.676 INFO  com.jiawa.train.member.config.MemberApplication   :23   [32m                  [0;39m 启动成功！！
+2023-11-10 10:25:54.677 INFO  com.jiawa.train.member.config.MemberApplication   :24   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8082/member/hello
+2023-11-10 10:32:25.109 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-10 10:32:25.109 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-10 10:32:25.110 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-11-10 10:32:25.301 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699583545128r2v  [0;39m ------------- 开始 -------------
+2023-11-10 10:32:25.302 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699583545128r2v  [0;39m 请求地址: http://127.0.0.1:8082/member/member/send-code POST
+2023-11-10 10:32:25.303 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699583545128r2v  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.sendCode
+2023-11-10 10:32:25.303 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699583545128r2v  [0;39m 远程地址: 127.0.0.1
+2023-11-10 10:32:25.406 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699583545128r2v  [0;39m 请求参数: [{"mobile":"13000000000"}]
+2023-11-10 10:32:25.471 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1699583545128r2v  [0;39m HikariPool-1 - Starting...
+2023-11-10 10:32:25.746 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1699583545128r2v  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1700109b
+2023-11-10 10:32:25.750 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1699583545128r2v  [0;39m HikariPool-1 - Start completed.
+2023-11-10 10:32:25.871 INFO  com.jiawa.train.member.service.MemberService      :71   [32m1699583545128r2v  [0;39m 手机号存在，不插入记录
+2023-11-10 10:32:25.872 INFO  com.jiawa.train.member.service.MemberService      :76   [32m1699583545128r2v  [0;39m 生成短信验证码：bte2
+2023-11-10 10:32:25.872 INFO  com.jiawa.train.member.service.MemberService      :79   [32m1699583545128r2v  [0;39m 保存短信记录表
+2023-11-10 10:32:25.872 INFO  com.jiawa.train.member.service.MemberService      :82   [32m1699583545128r2v  [0;39m 对接短信通道
+2023-11-10 10:32:25.874 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699583545128r2v  [0;39m 返回结果: {"success":true}
+2023-11-10 10:32:25.875 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699583545128r2v  [0;39m ------------- 结束 耗时：575 ms -------------
+2023-11-10 10:32:27.147 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m169958354713716f  [0;39m ------------- 开始 -------------
+2023-11-10 10:32:27.147 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m169958354713716f  [0;39m 请求地址: http://127.0.0.1:8082/member/member/login POST
+2023-11-10 10:32:27.147 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m169958354713716f  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.login
+2023-11-10 10:32:27.147 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m169958354713716f  [0;39m 远程地址: 127.0.0.1
+2023-11-10 10:32:27.149 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m169958354713716f  [0;39m 请求参数: [{"code":"8888","mobile":"13000000000"}]
+2023-11-10 10:32:28.215 INFO  com.jiawa.train.common.util.JwtUtil               :37   [32m169958354713716f  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo
+2023-11-10 10:32:28.217 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m169958354713716f  [0;39m 返回结果: {"content":{"id":1719913173697564672,"mobile":"13000000000","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo"},"success":true}
+2023-11-10 10:32:28.218 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m169958354713716f  [0;39m ------------- 结束 耗时：1071 ms -------------
+2023-11-10 10:32:32.142 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m1699583552142ql9  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo
+2023-11-10 10:32:32.149 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m1699583552142ql9  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 10:32:32.150 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m1699583552142ql9  [0;39m 当前登录会员：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 10:32:32.165 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699583552142ql9  [0;39m ------------- 开始 -------------
+2023-11-10 10:32:32.166 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699583552142ql9  [0;39m 请求地址: http://127.0.0.1:8082/member/passenger/query-list GET
+2023-11-10 10:32:32.166 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699583552142ql9  [0;39m 类名方法: com.jiawa.train.member.controller.PassengerController.queryList
+2023-11-10 10:32:32.167 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699583552142ql9  [0;39m 远程地址: 127.0.0.1
+2023-11-10 10:32:32.169 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699583552142ql9  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-10 10:32:32.541 INFO  com.jiawa.train.member.service.PassengerService   :64   [32m1699583552142ql9  [0;39m 总行数：1
+2023-11-10 10:32:32.542 INFO  com.jiawa.train.member.service.PassengerService   :65   [32m1699583552142ql9  [0;39m 总页数：1
+2023-11-10 10:32:32.549 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699583552142ql9  [0;39m 返回结果: {"content":{"list":[{"createTime":1699347906000,"id":0,"idCard":"12123123","memberId":1719913173697564672,"name":"123","type":"1","updateTime":1699952710000}],"total":1},"success":true}
+2023-11-10 10:32:32.549 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699583552142ql9  [0;39m ------------- 结束 耗时：384 ms -------------
+2023-11-10 10:36:22.786 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m1699583782786x5n  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo
+2023-11-10 10:36:22.787 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m1699583782786x5n  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 10:36:22.787 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m1699583782786x5n  [0;39m 当前登录会员：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 10:36:22.788 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699583782786x5n  [0;39m ------------- 开始 -------------
+2023-11-10 10:36:22.788 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699583782786x5n  [0;39m 请求地址: http://127.0.0.1:8082/member/passenger/query-list GET
+2023-11-10 10:36:22.788 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699583782786x5n  [0;39m 类名方法: com.jiawa.train.member.controller.PassengerController.queryList
+2023-11-10 10:36:22.789 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699583782786x5n  [0;39m 远程地址: 127.0.0.1
+2023-11-10 10:36:22.789 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699583782786x5n  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-10 10:36:22.795 INFO  com.jiawa.train.member.service.PassengerService   :64   [32m1699583782786x5n  [0;39m 总行数：1
+2023-11-10 10:36:22.795 INFO  com.jiawa.train.member.service.PassengerService   :65   [32m1699583782786x5n  [0;39m 总页数：1
+2023-11-10 10:36:22.796 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699583782786x5n  [0;39m 返回结果: {"content":{"list":[{"createTime":1699347906000,"id":0,"idCard":"12123123","memberId":1719913173697564672,"name":"123","type":"1","updateTime":1699952710000}],"total":1},"success":true}
+2023-11-10 10:36:22.796 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699583782786x5n  [0;39m ------------- 结束 耗时：8 ms -------------
+2023-11-10 12:27:07.125 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m1699590427125sm4  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo
+2023-11-10 12:27:07.128 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m1699590427125sm4  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 12:27:07.129 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m1699590427125sm4  [0;39m 当前登录会员：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 12:27:07.139 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699590427125sm4  [0;39m ------------- 开始 -------------
+2023-11-10 12:27:07.140 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699590427125sm4  [0;39m 请求地址: http://127.0.0.1:8082/member/passenger/query-list GET
+2023-11-10 12:27:07.141 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699590427125sm4  [0;39m 类名方法: com.jiawa.train.member.controller.PassengerController.queryList
+2023-11-10 12:27:07.142 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699590427125sm4  [0;39m 远程地址: 127.0.0.1
+2023-11-10 12:27:07.142 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699590427125sm4  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-10 12:27:07.149 INFO  com.jiawa.train.member.service.PassengerService   :64   [32m1699590427125sm4  [0;39m 总行数：1
+2023-11-10 12:27:07.149 INFO  com.jiawa.train.member.service.PassengerService   :65   [32m1699590427125sm4  [0;39m 总页数：1
+2023-11-10 12:27:07.150 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699590427125sm4  [0;39m 返回结果: {"content":{"list":[{"createTime":1699347906000,"id":0,"idCard":"12123123","memberId":1719913173697564672,"name":"123","type":"1","updateTime":1699952710000}],"total":1},"success":true}
+2023-11-10 12:27:07.150 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699590427125sm4  [0;39m ------------- 结束 耗时：11 ms -------------
+2023-11-10 12:29:21.624 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m1699590561623i4f  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo
+2023-11-10 12:29:21.624 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m1699590561623i4f  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 12:29:21.625 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m1699590561623i4f  [0;39m 当前登录会员：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 12:29:21.626 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699590561623i4f  [0;39m ------------- 开始 -------------
+2023-11-10 12:29:21.627 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699590561623i4f  [0;39m 请求地址: http://127.0.0.1:8082/member/passenger/query-list GET
+2023-11-10 12:29:21.627 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699590561623i4f  [0;39m 类名方法: com.jiawa.train.member.controller.PassengerController.queryList
+2023-11-10 12:29:21.627 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699590561623i4f  [0;39m 远程地址: 127.0.0.1
+2023-11-10 12:29:21.627 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699590561623i4f  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-10 12:29:21.635 INFO  com.jiawa.train.member.service.PassengerService   :64   [32m1699590561623i4f  [0;39m 总行数：1
+2023-11-10 12:29:21.636 INFO  com.jiawa.train.member.service.PassengerService   :65   [32m1699590561623i4f  [0;39m 总页数：1
+2023-11-10 12:29:21.637 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699590561623i4f  [0;39m 返回结果: {"content":{"list":[{"createTime":1699347906000,"id":0,"idCard":"12123123","memberId":1719913173697564672,"name":"123","type":"1","updateTime":1699952710000}],"total":1},"success":true}
+2023-11-10 12:29:21.637 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699590561623i4f  [0;39m ------------- 结束 耗时：11 ms -------------
+2023-11-10 12:33:11.986 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m1699590791986z4y  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo
+2023-11-10 12:33:11.987 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m1699590791986z4y  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 12:33:11.987 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m1699590791986z4y  [0;39m 当前登录会员：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 12:33:11.989 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699590791986z4y  [0;39m ------------- 开始 -------------
+2023-11-10 12:33:11.989 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699590791986z4y  [0;39m 请求地址: http://127.0.0.1:8082/member/passenger/query-list GET
+2023-11-10 12:33:11.989 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699590791986z4y  [0;39m 类名方法: com.jiawa.train.member.controller.PassengerController.queryList
+2023-11-10 12:33:11.989 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699590791986z4y  [0;39m 远程地址: 127.0.0.1
+2023-11-10 12:33:11.990 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699590791986z4y  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-10 12:33:11.995 INFO  com.jiawa.train.member.service.PassengerService   :64   [32m1699590791986z4y  [0;39m 总行数：1
+2023-11-10 12:33:11.996 INFO  com.jiawa.train.member.service.PassengerService   :65   [32m1699590791986z4y  [0;39m 总页数：1
+2023-11-10 12:33:11.997 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699590791986z4y  [0;39m 返回结果: {"content":{"list":[{"createTime":1699347906000,"id":0,"idCard":"12123123","memberId":1719913173697564672,"name":"123","type":"1","updateTime":1699952710000}],"total":1},"success":true}
+2023-11-10 12:33:11.997 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699590791986z4y  [0;39m ------------- 结束 耗时：9 ms -------------
+2023-11-10 12:33:21.819 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m1699590801819big  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo
+2023-11-10 12:33:21.819 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m1699590801819big  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 12:33:21.819 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m1699590801819big  [0;39m 当前登录会员：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 12:33:21.824 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699590801819big  [0;39m ------------- 开始 -------------
+2023-11-10 12:33:21.826 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699590801819big  [0;39m 请求地址: http://127.0.0.1:8082/member/passenger/save POST
+2023-11-10 12:33:21.827 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699590801819big  [0;39m 类名方法: com.jiawa.train.member.controller.PassengerController.save
+2023-11-10 12:33:21.828 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699590801819big  [0;39m 远程地址: 127.0.0.1
+2023-11-10 12:33:21.833 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699590801819big  [0;39m 请求参数: [{}]
+2023-11-10 12:33:22.085 ERROR c.j.t.common.controller.ControllerExceptionHandler:31   [32m1699590801819big  [0;39m 系统异常：
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'member_id' cannot be null
+### The error may exist in file [E:\Springboot\train1\member\target\classes\mapper\PassengerMapper.xml]
+### The error may involve com.jiawa.train.member.mapper.PassengerMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into passenger (id, member_id, `name`,        id_card, `type`, create_time,        update_time)     values (?, ?, ?,        ?, ?, ?,        ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'member_id' cannot be null
+; Column 'member_id' cannot be null
+	at org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:87)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy81.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy3/jdk.proxy3.$Proxy83.insert(Unknown Source)
+	at com.jiawa.train.member.service.PassengerService.save(PassengerService.java:39)
+	at com.jiawa.train.member.controller.PassengerController.save(PassengerController.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.jiawa.train.common.aspect.LogAspect.doAround(LogAspect.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:623)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at com.jiawa.train.member.controller.PassengerController$$SpringCGLIB$$0.save(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'member_id' cannot be null
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64)
+	at jdk.proxy2/jdk.proxy2.$Proxy108.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 85 common frames omitted
+2023-11-10 12:33:22.092 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m1699590801819big  [0;39m Resolved [org.springframework.dao.DataIntegrityViolationException: <EOL><EOL>### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'member_id' cannot be null<EOL><EOL>### The error may exist in file [E:\Springboot\train1\member\target\classes\mapper\PassengerMapper.xml]<EOL><EOL>### The error may involve com.jiawa.train.member.mapper.PassengerMapper.insert-Inline<EOL><EOL>### The error occurred while setting parameters<EOL><EOL>### SQL: insert into passenger (id, member_id, `name`,        id_card, `type`, create_time,        update_time)     values (?, ?, ?,        ?, ?, ?,        ?)<EOL><EOL>### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'member_id' cannot be null<EOL>; Column 'member_id' cannot be null]
+2023-11-10 12:33:24.808 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m16995908048083il  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo
+2023-11-10 12:33:24.809 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m16995908048083il  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 12:33:24.809 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m16995908048083il  [0;39m 当前登录会员：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 12:33:24.809 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m16995908048083il  [0;39m ------------- 开始 -------------
+2023-11-10 12:33:24.810 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m16995908048083il  [0;39m 请求地址: http://127.0.0.1:8082/member/passenger/save POST
+2023-11-10 12:33:24.810 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m16995908048083il  [0;39m 类名方法: com.jiawa.train.member.controller.PassengerController.save
+2023-11-10 12:33:24.810 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m16995908048083il  [0;39m 远程地址: 127.0.0.1
+2023-11-10 12:33:24.810 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m16995908048083il  [0;39m 请求参数: [{}]
+2023-11-10 12:33:24.813 ERROR c.j.t.common.controller.ControllerExceptionHandler:31   [32m16995908048083il  [0;39m 系统异常：
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'member_id' cannot be null
+### The error may exist in file [E:\Springboot\train1\member\target\classes\mapper\PassengerMapper.xml]
+### The error may involve com.jiawa.train.member.mapper.PassengerMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into passenger (id, member_id, `name`,        id_card, `type`, create_time,        update_time)     values (?, ?, ?,        ?, ?, ?,        ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'member_id' cannot be null
+; Column 'member_id' cannot be null
+	at org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:87)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy81.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy3/jdk.proxy3.$Proxy83.insert(Unknown Source)
+	at com.jiawa.train.member.service.PassengerService.save(PassengerService.java:39)
+	at com.jiawa.train.member.controller.PassengerController.save(PassengerController.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.jiawa.train.common.aspect.LogAspect.doAround(LogAspect.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:623)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at com.jiawa.train.member.controller.PassengerController$$SpringCGLIB$$0.save(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'member_id' cannot be null
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64)
+	at jdk.proxy2/jdk.proxy2.$Proxy108.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 85 common frames omitted
+2023-11-10 12:33:24.815 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m16995908048083il  [0;39m Resolved [org.springframework.dao.DataIntegrityViolationException: <EOL><EOL>### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'member_id' cannot be null<EOL><EOL>### The error may exist in file [E:\Springboot\train1\member\target\classes\mapper\PassengerMapper.xml]<EOL><EOL>### The error may involve com.jiawa.train.member.mapper.PassengerMapper.insert-Inline<EOL><EOL>### The error occurred while setting parameters<EOL><EOL>### SQL: insert into passenger (id, member_id, `name`,        id_card, `type`, create_time,        update_time)     values (?, ?, ?,        ?, ?, ?,        ?)<EOL><EOL>### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'member_id' cannot be null<EOL>; Column 'member_id' cannot be null]
+2023-11-10 12:33:39.431 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-10 12:33:39.487 INFO  com.jiawa.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 12728 (E:\Springboot\train1\member\target\classes started by MK in E:\Springboot\train1)
+2023-11-10 12:33:39.488 INFO  com.jiawa.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-10 12:33:39.546 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-10 12:33:39.547 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-10 12:33:40.279 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=b51d6f25-f5f0-38de-882a-1bde2b617ce2
+2023-11-10 12:33:40.847 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8082 (http)
+2023-11-10 12:33:40.854 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-10 12:33:40.855 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-10 12:33:40.855 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-10 12:33:40.907 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-10 12:33:40.907 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1359 ms
+2023-11-10 12:33:41.564 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-11-10 12:33:41.723 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-11-10 12:33:41.859 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8082"]
+2023-11-10 12:33:41.874 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8082 (http) with context path '/member'
+2023-11-10 12:33:41.954 INFO  com.jiawa.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 3.06 seconds (process running for 3.732)
+2023-11-10 12:33:41.956 INFO  com.jiawa.train.member.config.MemberApplication   :23   [32m                  [0;39m 启动成功！！
+2023-11-10 12:33:41.957 INFO  com.jiawa.train.member.config.MemberApplication   :24   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8082/member/hello
+2023-11-10 12:34:35.332 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-10 12:34:35.332 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-10 12:34:35.333 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-11-10 12:34:35.352 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m16995908753462r5  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo
+2023-11-10 12:34:35.850 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m16995908753462r5  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 12:34:35.852 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m16995908753462r5  [0;39m 当前登录会员：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 12:34:35.929 ERROR c.j.t.common.controller.ControllerExceptionHandler:31   [32m16995908753462r5  [0;39m 系统异常：
+org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 3 errors
+Field error in object 'passengerSaveReq' on field 'idCard': rejected value [null]; codes [NotBlank.passengerSaveReq.idCard,NotBlank.idCard,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [passengerSaveReq.idCard,idCard]; arguments []; default message [idCard]]; default message [【身份证】不能为空]
+Field error in object 'passengerSaveReq' on field 'type': rejected value [null]; codes [NotBlank.passengerSaveReq.type,NotBlank.type,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [passengerSaveReq.type,type]; arguments []; default message [type]]; default message [【旅客类型】不能为空]
+Field error in object 'passengerSaveReq' on field 'name': rejected value [null]; codes [NotBlank.passengerSaveReq.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [passengerSaveReq.name,name]; arguments []; default message [name]]; default message [【姓名】不能为空]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:175)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-11-10 12:34:35.971 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m16995908753462r5  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 3 errors<EOL>Field error in object 'passengerSaveReq' on field 'idCard': rejected value [null]; codes [NotBlank.passengerSaveReq.idCard,NotBlank.idCard,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [passengerSaveReq.idCard,idCard]; arguments []; default message [idCard]]; default message [【身份证】不能为空]<EOL>Field error in object 'passengerSaveReq' on field 'type': rejected value [null]; codes [NotBlank.passengerSaveReq.type,NotBlank.type,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [passengerSaveReq.type,type]; arguments []; default message [type]]; default message [【旅客类型】不能为空]<EOL>Field error in object 'passengerSaveReq' on field 'name': rejected value [null]; codes [NotBlank.passengerSaveReq.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [passengerSaveReq.name,name]; arguments []; default message [name]]; default message [【姓名】不能为空]]
+2023-11-10 12:40:42.174 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m1699591242174yq5  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo
+2023-11-10 12:40:42.175 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m1699591242174yq5  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 12:40:42.176 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m1699591242174yq5  [0;39m 当前登录会员：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 12:40:42.196 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699591242174yq5  [0;39m ------------- 开始 -------------
+2023-11-10 12:40:42.198 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699591242174yq5  [0;39m 请求地址: http://127.0.0.1:8082/member/passenger/query-list GET
+2023-11-10 12:40:42.198 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699591242174yq5  [0;39m 类名方法: com.jiawa.train.member.controller.PassengerController.queryList
+2023-11-10 12:40:42.198 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699591242174yq5  [0;39m 远程地址: 127.0.0.1
+2023-11-10 12:40:42.248 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699591242174yq5  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-10 12:40:42.333 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1699591242174yq5  [0;39m HikariPool-1 - Starting...
+2023-11-10 12:40:42.446 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1699591242174yq5  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@508dd61a
+2023-11-10 12:40:42.448 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1699591242174yq5  [0;39m HikariPool-1 - Start completed.
+2023-11-10 12:40:42.488 INFO  com.jiawa.train.member.service.PassengerService   :70   [32m1699591242174yq5  [0;39m 总行数：1
+2023-11-10 12:40:42.489 INFO  com.jiawa.train.member.service.PassengerService   :71   [32m1699591242174yq5  [0;39m 总页数：1
+2023-11-10 12:40:42.506 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699591242174yq5  [0;39m 返回结果: {"content":{"list":[{"createTime":1699347906000,"id":0,"idCard":"12123123","memberId":1719913173697564672,"name":"123","type":"1","updateTime":1699952710000}],"total":1},"success":true}
+2023-11-10 12:40:42.507 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699591242174yq5  [0;39m ------------- 结束 耗时：312 ms -------------
+2023-11-10 12:53:51.248 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m1699592031248uyd  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo
+2023-11-10 12:53:51.249 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m1699592031248uyd  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 12:53:51.249 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m1699592031248uyd  [0;39m 当前登录会员：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 12:53:51.251 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699592031248uyd  [0;39m ------------- 开始 -------------
+2023-11-10 12:53:51.252 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699592031248uyd  [0;39m 请求地址: http://127.0.0.1:8082/member/passenger/query-list GET
+2023-11-10 12:53:51.252 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699592031248uyd  [0;39m 类名方法: com.jiawa.train.member.controller.PassengerController.queryList
+2023-11-10 12:53:51.252 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699592031248uyd  [0;39m 远程地址: 127.0.0.1
+2023-11-10 12:53:51.252 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699592031248uyd  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-10 12:53:51.261 INFO  com.jiawa.train.member.service.PassengerService   :70   [32m1699592031248uyd  [0;39m 总行数：1
+2023-11-10 12:53:51.261 INFO  com.jiawa.train.member.service.PassengerService   :71   [32m1699592031248uyd  [0;39m 总页数：1
+2023-11-10 12:53:51.262 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699592031248uyd  [0;39m 返回结果: {"content":{"list":[{"createTime":1699347906000,"id":0,"idCard":"12123123","memberId":1719913173697564672,"name":"123","type":"1","updateTime":1699952710000}],"total":1},"success":true}
+2023-11-10 12:53:51.262 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699592031248uyd  [0;39m ------------- 结束 耗时：11 ms -------------
+2023-11-10 12:57:32.045 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m1699592252045lox  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo
+2023-11-10 12:57:32.046 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m1699592252045lox  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 12:57:32.046 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m1699592252045lox  [0;39m 当前登录会员：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 12:57:32.047 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699592252045lox  [0;39m ------------- 开始 -------------
+2023-11-10 12:57:32.047 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699592252045lox  [0;39m 请求地址: http://127.0.0.1:8082/member/passenger/query-list GET
+2023-11-10 12:57:32.048 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699592252045lox  [0;39m 类名方法: com.jiawa.train.member.controller.PassengerController.queryList
+2023-11-10 12:57:32.048 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699592252045lox  [0;39m 远程地址: 127.0.0.1
+2023-11-10 12:57:32.048 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699592252045lox  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-10 12:57:32.055 INFO  com.jiawa.train.member.service.PassengerService   :70   [32m1699592252045lox  [0;39m 总行数：1
+2023-11-10 12:57:32.055 INFO  com.jiawa.train.member.service.PassengerService   :71   [32m1699592252045lox  [0;39m 总页数：1
+2023-11-10 12:57:32.056 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699592252045lox  [0;39m 返回结果: {"content":{"list":[{"createTime":1699347906000,"id":0,"idCard":"12123123","memberId":1719913173697564672,"name":"123","type":"1","updateTime":1699952710000}],"total":1},"success":true}
+2023-11-10 12:57:32.057 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699592252045lox  [0;39m ------------- 结束 耗时：10 ms -------------
+2023-11-10 12:58:09.046 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m1699592289045vek  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo
+2023-11-10 12:58:09.046 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m1699592289045vek  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 12:58:09.047 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m1699592289045vek  [0;39m 当前登录会员：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 12:58:09.048 ERROR c.j.t.common.controller.ControllerExceptionHandler:31   [32m1699592289045vek  [0;39m 系统异常：
+org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 3 errors
+Field error in object 'passengerSaveReq' on field 'name': rejected value [null]; codes [NotBlank.passengerSaveReq.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [passengerSaveReq.name,name]; arguments []; default message [name]]; default message [【姓名】不能为空]
+Field error in object 'passengerSaveReq' on field 'idCard': rejected value [null]; codes [NotBlank.passengerSaveReq.idCard,NotBlank.idCard,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [passengerSaveReq.idCard,idCard]; arguments []; default message [idCard]]; default message [【身份证】不能为空]
+Field error in object 'passengerSaveReq' on field 'type': rejected value [null]; codes [NotBlank.passengerSaveReq.type,NotBlank.type,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [passengerSaveReq.type,type]; arguments []; default message [type]]; default message [【旅客类型】不能为空]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:175)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-11-10 12:58:09.053 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m1699592289045vek  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 3 errors<EOL>Field error in object 'passengerSaveReq' on field 'name': rejected value [null]; codes [NotBlank.passengerSaveReq.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [passengerSaveReq.name,name]; arguments []; default message [name]]; default message [【姓名】不能为空]<EOL>Field error in object 'passengerSaveReq' on field 'idCard': rejected value [null]; codes [NotBlank.passengerSaveReq.idCard,NotBlank.idCard,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [passengerSaveReq.idCard,idCard]; arguments []; default message [idCard]]; default message [【身份证】不能为空]<EOL>Field error in object 'passengerSaveReq' on field 'type': rejected value [null]; codes [NotBlank.passengerSaveReq.type,NotBlank.type,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [passengerSaveReq.type,type]; arguments []; default message [type]]; default message [【旅客类型】不能为空]]
+2023-11-10 13:19:30.313 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-10 13:19:30.349 INFO  com.jiawa.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 14308 (E:\Springboot\train1\member\target\classes started by MK in E:\Springboot\train1)
+2023-11-10 13:19:30.351 INFO  com.jiawa.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-10 13:19:30.397 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-10 13:19:30.397 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-10 13:19:31.070 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=b51d6f25-f5f0-38de-882a-1bde2b617ce2
+2023-11-10 13:19:31.654 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8082 (http)
+2023-11-10 13:19:31.662 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-10 13:19:31.664 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-10 13:19:31.665 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-10 13:19:31.759 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-10 13:19:31.761 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1362 ms
+2023-11-10 13:19:32.421 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-11-10 13:19:32.581 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-11-10 13:19:32.711 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8082"]
+2023-11-10 13:19:32.725 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8082 (http) with context path '/member'
+2023-11-10 13:19:32.804 INFO  com.jiawa.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 3.13 seconds (process running for 3.694)
+2023-11-10 13:19:32.807 INFO  com.jiawa.train.member.config.MemberApplication   :23   [32m                  [0;39m 启动成功！！
+2023-11-10 13:19:32.808 INFO  com.jiawa.train.member.config.MemberApplication   :24   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8082/member/hello
+2023-11-10 13:19:44.753 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-10 13:19:44.753 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-10 13:19:44.754 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-11-10 13:19:44.780 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m16995935847748b5  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo
+2023-11-10 13:19:45.268 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m16995935847748b5  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 13:19:45.270 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m16995935847748b5  [0;39m 当前登录会员：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 13:19:45.419 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m16995935847748b5  [0;39m ------------- 开始 -------------
+2023-11-10 13:19:45.419 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m16995935847748b5  [0;39m 请求地址: http://127.0.0.1:8082/member/passenger/save POST
+2023-11-10 13:19:45.420 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m16995935847748b5  [0;39m 类名方法: com.jiawa.train.member.controller.PassengerController.save
+2023-11-10 13:19:45.420 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m16995935847748b5  [0;39m 远程地址: 127.0.0.1
+2023-11-10 13:19:45.460 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m16995935847748b5  [0;39m 请求参数: [{"createTime":1699347906000,"id":0,"idCard":"1212312319990912","memberId":1719913173697564672,"name":"123","type":"2","updateTime":1699952710000}]
+2023-11-10 13:19:45.475 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m16995935847748b5  [0;39m HikariPool-1 - Starting...
+2023-11-10 13:19:45.552 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m16995935847748b5  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52e19a14
+2023-11-10 13:19:45.554 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m16995935847748b5  [0;39m HikariPool-1 - Start completed.
+2023-11-10 13:19:45.672 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m16995935847748b5  [0;39m 返回结果: {"success":true}
+2023-11-10 13:19:45.672 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m16995935847748b5  [0;39m ------------- 结束 耗时：254 ms -------------
+2023-11-10 13:19:45.727 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m1699593585727qic  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo
+2023-11-10 13:19:45.728 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m1699593585727qic  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 13:19:45.728 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m1699593585727qic  [0;39m 当前登录会员：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 13:19:45.744 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699593585727qic  [0;39m ------------- 开始 -------------
+2023-11-10 13:19:45.745 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699593585727qic  [0;39m 请求地址: http://127.0.0.1:8082/member/passenger/query-list GET
+2023-11-10 13:19:45.745 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699593585727qic  [0;39m 类名方法: com.jiawa.train.member.controller.PassengerController.queryList
+2023-11-10 13:19:45.745 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699593585727qic  [0;39m 远程地址: 127.0.0.1
+2023-11-10 13:19:45.746 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699593585727qic  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-10 13:19:45.839 INFO  com.jiawa.train.member.service.PassengerService   :70   [32m1699593585727qic  [0;39m 总行数：1
+2023-11-10 13:19:45.839 INFO  com.jiawa.train.member.service.PassengerService   :71   [32m1699593585727qic  [0;39m 总页数：1
+2023-11-10 13:19:45.844 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699593585727qic  [0;39m 返回结果: {"content":{"list":[{"createTime":1699347906000,"id":0,"idCard":"1212312319990912","memberId":1719913173697564672,"name":"123","type":"2","updateTime":1699593585000}],"total":1},"success":true}
+2023-11-10 13:19:45.844 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699593585727qic  [0;39m ------------- 结束 耗时：100 ms -------------
+2023-11-10 13:20:17.367 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m1699593617367hy6  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo
+2023-11-10 13:20:17.367 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m1699593617367hy6  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 13:20:17.368 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m1699593617367hy6  [0;39m 当前登录会员：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 13:20:17.369 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699593617367hy6  [0;39m ------------- 开始 -------------
+2023-11-10 13:20:17.369 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699593617367hy6  [0;39m 请求地址: http://127.0.0.1:8082/member/passenger/save POST
+2023-11-10 13:20:17.369 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699593617367hy6  [0;39m 类名方法: com.jiawa.train.member.controller.PassengerController.save
+2023-11-10 13:20:17.369 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699593617367hy6  [0;39m 远程地址: 127.0.0.1
+2023-11-10 13:20:17.370 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699593617367hy6  [0;39m 请求参数: [{"idCard":"12332119990926756","name":"yyg","type":"3"}]
+2023-11-10 13:20:17.566 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699593617367hy6  [0;39m 返回结果: {"success":true}
+2023-11-10 13:20:17.566 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699593617367hy6  [0;39m ------------- 结束 耗时：197 ms -------------
+2023-11-10 13:20:17.592 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m1699593617592mqu  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo
+2023-11-10 13:20:17.593 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m1699593617592mqu  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 13:20:17.593 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m1699593617592mqu  [0;39m 当前登录会员：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 13:20:17.594 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699593617592mqu  [0;39m ------------- 开始 -------------
+2023-11-10 13:20:17.595 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699593617592mqu  [0;39m 请求地址: http://127.0.0.1:8082/member/passenger/query-list GET
+2023-11-10 13:20:17.595 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699593617592mqu  [0;39m 类名方法: com.jiawa.train.member.controller.PassengerController.queryList
+2023-11-10 13:20:17.595 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699593617592mqu  [0;39m 远程地址: 127.0.0.1
+2023-11-10 13:20:17.595 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699593617592mqu  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-10 13:20:17.602 INFO  com.jiawa.train.member.service.PassengerService   :70   [32m1699593617592mqu  [0;39m 总行数：2
+2023-11-10 13:20:17.603 INFO  com.jiawa.train.member.service.PassengerService   :71   [32m1699593617592mqu  [0;39m 总页数：1
+2023-11-10 13:20:17.605 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699593617592mqu  [0;39m 返回结果: {"content":{"list":[{"createTime":1699347906000,"id":0,"idCard":"1212312319990912","memberId":1719913173697564672,"name":"123","type":"2","updateTime":1699593585000},{"createTime":1699593617000,"id":1722846618673352704,"idCard":"12332119990926756","memberId":1719913173697564672,"name":"yyg","type":"3","updateTime":1699593617000}],"total":2},"success":true}
+2023-11-10 13:20:17.605 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699593617592mqu  [0;39m ------------- 结束 耗时：11 ms -------------
+2023-11-10 13:20:46.487 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m1699593646487ldf  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo
+2023-11-10 13:20:46.487 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m1699593646487ldf  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 13:20:46.488 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m1699593646487ldf  [0;39m 当前登录会员：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 13:20:46.492 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m16995936464929hf  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo
+2023-11-10 13:20:46.493 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m16995936464929hf  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 13:20:46.493 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m16995936464929hf  [0;39m 当前登录会员：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 13:23:17.772 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-10 13:23:17.809 INFO  com.jiawa.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 10680 (E:\Springboot\train1\member\target\classes started by MK in E:\Springboot\train1)
+2023-11-10 13:23:17.810 INFO  com.jiawa.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-10 13:23:17.855 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-10 13:23:17.855 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-10 13:23:18.515 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=b51d6f25-f5f0-38de-882a-1bde2b617ce2
+2023-11-10 13:23:19.039 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8082 (http)
+2023-11-10 13:23:19.045 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-10 13:23:19.046 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-10 13:23:19.046 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-10 13:23:19.095 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-10 13:23:19.096 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1240 ms
+2023-11-10 13:23:19.685 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-11-10 13:23:19.849 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-11-10 13:23:19.976 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8082"]
+2023-11-10 13:23:19.990 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8082 (http) with context path '/member'
+2023-11-10 13:23:20.067 INFO  com.jiawa.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 2.805 seconds (process running for 3.418)
+2023-11-10 13:23:20.070 INFO  com.jiawa.train.member.config.MemberApplication   :23   [32m                  [0;39m 启动成功！！
+2023-11-10 13:23:20.071 INFO  com.jiawa.train.member.config.MemberApplication   :24   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8082/member/hello
+2023-11-10 13:23:31.733 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-10 13:23:31.733 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-10 13:23:31.734 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-11-10 13:23:31.753 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m1699593811748dks  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo
+2023-11-10 13:23:32.250 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m1699593811748dks  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 13:23:32.252 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m1699593811748dks  [0;39m 当前登录会员：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 13:23:32.291 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699593811748dks  [0;39m ------------- 开始 -------------
+2023-11-10 13:23:32.292 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699593811748dks  [0;39m 请求地址: http://127.0.0.1:8082/member/passenger/delete/1722846618673352704 DELETE
+2023-11-10 13:23:32.292 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699593811748dks  [0;39m 类名方法: com.jiawa.train.member.controller.PassengerController.delete
+2023-11-10 13:23:32.292 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699593811748dks  [0;39m 远程地址: 127.0.0.1
+2023-11-10 13:23:32.320 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699593811748dks  [0;39m 请求参数: [1722846618673352704]
+2023-11-10 13:23:32.332 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1699593811748dks  [0;39m HikariPool-1 - Starting...
+2023-11-10 13:23:32.408 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1699593811748dks  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5176bb72
+2023-11-10 13:23:32.409 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1699593811748dks  [0;39m HikariPool-1 - Start completed.
+2023-11-10 13:23:32.584 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699593811748dks  [0;39m 返回结果: {"success":true}
+2023-11-10 13:23:32.585 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699593811748dks  [0;39m ------------- 结束 耗时：295 ms -------------
+2023-11-10 13:23:32.643 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m1699593812643e36  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo
+2023-11-10 13:23:32.644 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m1699593812643e36  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 13:23:32.644 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m1699593812643e36  [0;39m 当前登录会员：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 13:23:32.691 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699593812643e36  [0;39m ------------- 开始 -------------
+2023-11-10 13:23:32.691 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699593812643e36  [0;39m 请求地址: http://127.0.0.1:8082/member/passenger/query-list GET
+2023-11-10 13:23:32.691 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699593812643e36  [0;39m 类名方法: com.jiawa.train.member.controller.PassengerController.queryList
+2023-11-10 13:23:32.692 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699593812643e36  [0;39m 远程地址: 127.0.0.1
+2023-11-10 13:23:32.693 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699593812643e36  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-10 13:23:32.772 INFO  com.jiawa.train.member.service.PassengerService   :70   [32m1699593812643e36  [0;39m 总行数：1
+2023-11-10 13:23:32.772 INFO  com.jiawa.train.member.service.PassengerService   :71   [32m1699593812643e36  [0;39m 总页数：1
+2023-11-10 13:23:32.780 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699593812643e36  [0;39m 返回结果: {"content":{"list":[{"createTime":1699347906000,"id":0,"idCard":"1212312319990912","memberId":1719913173697564672,"name":"123","type":"2","updateTime":1699593585000}],"total":1},"success":true}
+2023-11-10 13:23:32.780 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699593812643e36  [0;39m ------------- 结束 耗时：89 ms -------------
+2023-11-10 13:24:07.119 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m16995938471199zs  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo
+2023-11-10 13:24:07.120 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m16995938471199zs  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 13:24:07.120 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m16995938471199zs  [0;39m 当前登录会员：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 13:24:07.146 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m16995938471199zs  [0;39m ------------- 开始 -------------
+2023-11-10 13:24:07.146 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m16995938471199zs  [0;39m 请求地址: http://127.0.0.1:8082/member/passenger/save POST
+2023-11-10 13:24:07.147 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m16995938471199zs  [0;39m 类名方法: com.jiawa.train.member.controller.PassengerController.save
+2023-11-10 13:24:07.148 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m16995938471199zs  [0;39m 远程地址: 127.0.0.1
+2023-11-10 13:24:07.150 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m16995938471199zs  [0;39m 请求参数: [{"idCard":"123321199909126745","name":"yyg","type":"3"}]
+2023-11-10 13:24:07.235 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m16995938471199zs  [0;39m 返回结果: {"success":true}
+2023-11-10 13:24:07.236 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m16995938471199zs  [0;39m ------------- 结束 耗时：90 ms -------------
+2023-11-10 13:24:07.260 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m16995938472608u9  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo
+2023-11-10 13:24:07.261 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m16995938472608u9  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 13:24:07.261 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m16995938472608u9  [0;39m 当前登录会员：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 13:24:07.262 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m16995938472608u9  [0;39m ------------- 开始 -------------
+2023-11-10 13:24:07.262 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m16995938472608u9  [0;39m 请求地址: http://127.0.0.1:8082/member/passenger/query-list GET
+2023-11-10 13:24:07.263 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m16995938472608u9  [0;39m 类名方法: com.jiawa.train.member.controller.PassengerController.queryList
+2023-11-10 13:24:07.263 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m16995938472608u9  [0;39m 远程地址: 127.0.0.1
+2023-11-10 13:24:07.263 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m16995938472608u9  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-10 13:24:07.268 INFO  com.jiawa.train.member.service.PassengerService   :70   [32m16995938472608u9  [0;39m 总行数：2
+2023-11-10 13:24:07.269 INFO  com.jiawa.train.member.service.PassengerService   :71   [32m16995938472608u9  [0;39m 总页数：1
+2023-11-10 13:24:07.270 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m16995938472608u9  [0;39m 返回结果: {"content":{"list":[{"createTime":1699347906000,"id":0,"idCard":"1212312319990912","memberId":1719913173697564672,"name":"123","type":"2","updateTime":1699593585000},{"createTime":1699593847000,"id":1722847581949792256,"idCard":"123321199909126745","memberId":1719913173697564672,"name":"yyg","type":"3","updateTime":1699593847000}],"total":2},"success":true}
+2023-11-10 13:24:07.270 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m16995938472608u9  [0;39m ------------- 结束 耗时：8 ms -------------
+2023-11-10 19:22:24.251 WARN  com.zaxxer.hikari.pool.HikariPool                 :804  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h18m18s415ms988µs800ns).
+2023-11-10 19:27:43.521 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m1699615663520wim  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTk1ODM1NDcsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MTk5MTMxNzM2OTc1NjQ2NzIsImV4cCI6MTY5OTY2OTk0NywiaWF0IjoxNjk5NTgzNTQ3fQ.ISF1mSFPH8_m1wTsCcE-GR413TgzTVyNqr6TpDgGwPo
+2023-11-10 19:27:43.525 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m1699615663520wim  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 19:27:43.525 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m1699615663520wim  [0;39m 当前登录会员：{"mobile":"13000000000","id":1719913173697564672}
+2023-11-10 19:27:43.553 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699615663520wim  [0;39m ------------- 开始 -------------
+2023-11-10 19:27:43.554 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699615663520wim  [0;39m 请求地址: http://127.0.0.1:8082/member/passenger/query-list GET
+2023-11-10 19:27:43.554 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699615663520wim  [0;39m 类名方法: com.jiawa.train.member.controller.PassengerController.queryList
+2023-11-10 19:27:43.554 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699615663520wim  [0;39m 远程地址: 127.0.0.1
+2023-11-10 19:27:43.555 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699615663520wim  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-10 19:27:43.570 INFO  com.jiawa.train.member.service.PassengerService   :70   [32m1699615663520wim  [0;39m 总行数：2
+2023-11-10 19:27:43.571 INFO  com.jiawa.train.member.service.PassengerService   :71   [32m1699615663520wim  [0;39m 总页数：1
+2023-11-10 19:27:43.572 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699615663520wim  [0;39m 返回结果: {"content":{"list":[{"createTime":1699347906000,"id":0,"idCard":"1212312319990912","memberId":1719913173697564672,"name":"123","type":"2","updateTime":1699593585000},{"createTime":1699593847000,"id":1722847581949792256,"idCard":"123321199909126745","memberId":1719913173697564672,"name":"yyg","type":"3","updateTime":1699593847000}],"total":2},"success":true}
+2023-11-10 19:27:43.572 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699615663520wim  [0;39m ------------- 结束 耗时：19 ms -------------

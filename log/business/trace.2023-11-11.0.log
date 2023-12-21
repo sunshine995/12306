@@ -1,0 +1,179 @@
+2023-11-11 18:49:47.798 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-11 18:49:47.834 INFO  c.jiawa.train.business.config.BusinessApplication :51   [32m                  [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 4000 (E:\Springboot\train1\business\target\classes started by MK in E:\Springboot\train1)
+2023-11-11 18:49:47.835 INFO  c.jiawa.train.business.config.BusinessApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-11 18:49:47.882 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-11 18:49:47.883 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-11 18:49:48.458 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.jiawa.train.*.mapper]' package. Please check your configuration.
+2023-11-11 18:49:48.527 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a388469a-0ac6-3ddf-9bf4-2f5a89c1da40
+2023-11-11 18:49:49.071 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8082 (http)
+2023-11-11 18:49:49.078 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-11 18:49:49.079 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-11 18:49:49.079 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-11 18:49:49.126 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-11 18:49:49.127 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1243 ms
+2023-11-11 18:49:49.607 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-11-11 18:49:49.772 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-11-11 18:49:49.902 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8082"]
+2023-11-11 18:49:49.917 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8082 (http) with context path '/member'
+2023-11-11 18:49:49.997 INFO  c.jiawa.train.business.config.BusinessApplication :57   [32m                  [0;39m Started BusinessApplication in 2.751 seconds (process running for 3.342)
+2023-11-11 18:50:28.382 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-11 18:50:28.417 INFO  c.jiawa.train.business.config.BusinessApplication :51   [32m                  [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 13412 (E:\Springboot\train1\business\target\classes started by MK in E:\Springboot\train1)
+2023-11-11 18:50:28.419 INFO  c.jiawa.train.business.config.BusinessApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-11 18:50:28.464 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-11 18:50:28.464 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-11 18:50:29.034 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.jiawa.train.*.mapper]' package. Please check your configuration.
+2023-11-11 18:50:29.104 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a388469a-0ac6-3ddf-9bf4-2f5a89c1da40
+2023-11-11 18:50:29.638 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8082 (http)
+2023-11-11 18:50:29.645 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-11 18:50:29.646 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-11 18:50:29.646 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-11 18:50:29.692 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-11 18:50:29.692 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1227 ms
+2023-11-11 18:50:30.144 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-11-11 18:50:30.314 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-11-11 18:50:30.449 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8082"]
+2023-11-11 18:50:30.463 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8082 (http) with context path '/member'
+2023-11-11 18:50:30.542 INFO  c.jiawa.train.business.config.BusinessApplication :57   [32m                  [0;39m Started BusinessApplication in 2.72 seconds (process running for 3.327)
+2023-11-11 18:51:06.598 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-11 18:51:06.643 INFO  c.jiawa.train.business.config.BusinessApplication :51   [32m                  [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 11652 (E:\Springboot\train1\business\target\classes started by MK in E:\Springboot\train1)
+2023-11-11 18:51:06.644 INFO  c.jiawa.train.business.config.BusinessApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-11 18:51:06.691 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-11 18:51:06.691 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-11 18:51:07.259 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.jiawa.train.*.mapper]' package. Please check your configuration.
+2023-11-11 18:51:07.328 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a388469a-0ac6-3ddf-9bf4-2f5a89c1da40
+2023-11-11 18:51:07.868 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8082 (http)
+2023-11-11 18:51:07.875 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-11 18:51:07.875 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-11 18:51:07.876 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-11 18:51:07.922 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-11 18:51:07.922 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1230 ms
+2023-11-11 18:51:08.382 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-11-11 18:51:08.534 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-11-11 18:51:08.662 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8082"]
+2023-11-11 18:51:08.677 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8082 (http) with context path '/member'
+2023-11-11 18:51:08.757 INFO  c.jiawa.train.business.config.BusinessApplication :57   [32m                  [0;39m Started BusinessApplication in 2.707 seconds (process running for 3.281)
+2023-11-11 18:55:03.607 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-11 18:55:03.642 INFO  c.jiawa.train.business.config.BusinessApplication :51   [32m                  [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 14148 (E:\Springboot\train1\business\target\classes started by MK in E:\Springboot\train1)
+2023-11-11 18:55:03.643 INFO  c.jiawa.train.business.config.BusinessApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-11 18:55:03.697 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-11 18:55:03.697 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-11 18:55:04.306 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.jiawa.train.*.mapper]' package. Please check your configuration.
+2023-11-11 18:55:04.374 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a388469a-0ac6-3ddf-9bf4-2f5a89c1da40
+2023-11-11 18:55:04.917 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8082 (http)
+2023-11-11 18:55:04.923 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-11 18:55:04.923 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-11 18:55:04.923 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-11 18:55:04.972 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-11 18:55:04.972 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1274 ms
+2023-11-11 18:55:05.424 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-11-11 18:55:05.591 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-11-11 18:55:05.729 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8082"]
+2023-11-11 18:55:05.751 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8082 (http) with context path '/member'
+2023-11-11 18:55:05.833 INFO  c.jiawa.train.business.config.BusinessApplication :57   [32m                  [0;39m Started BusinessApplication in 2.804 seconds (process running for 3.556)
+2023-11-11 18:58:35.315 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-11 18:58:35.353 INFO  c.jiawa.train.business.config.BusinessApplication :51   [32m                  [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 12528 (E:\Springboot\train1\business\target\classes started by MK in E:\Springboot\train1)
+2023-11-11 18:58:35.354 INFO  c.jiawa.train.business.config.BusinessApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-11 18:58:35.403 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-11 18:58:35.404 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-11 18:58:35.995 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.jiawa.train.*.mapper]' package. Please check your configuration.
+2023-11-11 18:58:36.065 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a388469a-0ac6-3ddf-9bf4-2f5a89c1da40
+2023-11-11 18:58:36.607 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8084 (http)
+2023-11-11 18:58:36.613 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8084"]
+2023-11-11 18:58:36.614 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-11 18:58:36.614 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-11 18:58:36.661 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-11 18:58:36.662 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1257 ms
+2023-11-11 18:58:37.128 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-11-11 18:58:37.291 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-11-11 18:58:37.430 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8084"]
+2023-11-11 18:58:37.444 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8084 (http) with context path '/member'
+2023-11-11 18:58:37.526 INFO  c.jiawa.train.business.config.BusinessApplication :57   [32m                  [0;39m Started BusinessApplication in 2.743 seconds (process running for 3.362)
+2023-11-11 19:53:46.291 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-11 19:53:46.328 INFO  c.jiawa.train.business.config.BusinessApplication :51   [32m                  [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 17896 (E:\Springboot\train1\business\target\classes started by MK in E:\Springboot\train1)
+2023-11-11 19:53:46.329 INFO  c.jiawa.train.business.config.BusinessApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-11 19:53:46.376 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-11 19:53:46.377 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-11 19:53:46.937 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.jiawa.train.*.mapper]' package. Please check your configuration.
+2023-11-11 19:53:47.002 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a388469a-0ac6-3ddf-9bf4-2f5a89c1da40
+2023-11-11 19:53:47.534 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8084 (http)
+2023-11-11 19:53:47.540 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8084"]
+2023-11-11 19:53:47.541 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-11 19:53:47.541 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-11 19:53:47.590 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-11 19:53:47.591 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1214 ms
+2023-11-11 19:53:48.043 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-11-11 19:53:48.210 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-11-11 19:53:48.343 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8084"]
+2023-11-11 19:53:48.357 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8084 (http) with context path '/member'
+2023-11-11 19:53:48.434 INFO  c.jiawa.train.business.config.BusinessApplication :57   [32m                  [0;39m Started BusinessApplication in 2.685 seconds (process running for 3.293)
+2023-11-11 19:59:21.545 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-11 19:59:21.546 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-11 19:59:21.547 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-11-11 20:00:41.915 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-11 20:00:41.954 INFO  c.jiawa.train.business.config.BusinessApplication :51   [32m                  [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 9416 (E:\Springboot\train1\business\target\classes started by MK in E:\Springboot\train1)
+2023-11-11 20:00:41.955 INFO  c.jiawa.train.business.config.BusinessApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-11 20:00:42.006 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-11 20:00:42.006 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-11 20:00:42.584 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.jiawa.train.*.mapper]' package. Please check your configuration.
+2023-11-11 20:00:42.651 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a388469a-0ac6-3ddf-9bf4-2f5a89c1da40
+2023-11-11 20:00:43.185 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8084 (http)
+2023-11-11 20:00:43.194 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8084"]
+2023-11-11 20:00:43.195 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-11 20:00:43.195 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-11 20:00:43.241 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-11 20:00:43.242 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1235 ms
+2023-11-11 20:00:43.716 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-11-11 20:00:43.899 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-11-11 20:00:44.039 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8084"]
+2023-11-11 20:00:44.053 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8084 (http) with context path '/member'
+2023-11-11 20:00:44.130 INFO  c.jiawa.train.business.config.BusinessApplication :57   [32m                  [0;39m Started BusinessApplication in 2.766 seconds (process running for 3.463)
+2023-11-11 20:00:44.133 INFO  c.jiawa.train.business.config.BusinessApplication :20   [32m                  [0;39m 启动成功！！
+2023-11-11 20:00:44.134 INFO  c.jiawa.train.business.config.BusinessApplication :21   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8084/member/hello
+2023-11-11 20:00:53.126 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-11 20:00:53.127 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-11 20:00:53.131 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 2 ms
+2023-11-11 20:00:53.163 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699704053152j4v  [0;39m ------------- 开始 -------------
+2023-11-11 20:00:53.164 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699704053152j4v  [0;39m 请求地址: http://127.0.0.1:8084/member/hello GET
+2023-11-11 20:00:53.165 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699704053152j4v  [0;39m 类名方法: com.jiawa.train.business.controller.testController.hello
+2023-11-11 20:00:53.165 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699704053152j4v  [0;39m 远程地址: 127.0.0.1
+2023-11-11 20:00:53.192 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699704053152j4v  [0;39m 请求参数: []
+2023-11-11 20:00:53.192 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699704053152j4v  [0;39m 返回结果: "hello world"
+2023-11-11 20:00:53.192 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699704053152j4v  [0;39m ------------- 结束 耗时：30 ms -------------
+2023-11-11 21:45:33.928 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-11 21:45:33.967 INFO  c.jiawa.train.business.config.BusinessApplication :51   [32m                  [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 2772 (E:\Springboot\train1\business\target\classes started by MK in E:\Springboot\train1)
+2023-11-11 21:45:33.969 INFO  c.jiawa.train.business.config.BusinessApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-11 21:45:34.023 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-11 21:45:34.023 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-11 21:45:34.749 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=9d27b790-8fd4-3a50-b960-361a12eb9289
+2023-11-11 21:45:35.294 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8084 (http)
+2023-11-11 21:45:35.300 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8084"]
+2023-11-11 21:45:35.301 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-11 21:45:35.301 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-11 21:45:35.351 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-11 21:45:35.351 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1327 ms
+2023-11-11 21:45:35.928 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-11-11 21:45:36.090 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2023-11-11 21:45:36.224 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8084"]
+2023-11-11 21:45:36.239 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8084 (http) with context path '/member'
+2023-11-11 21:45:36.316 INFO  c.jiawa.train.business.config.BusinessApplication :57   [32m                  [0;39m Started BusinessApplication in 2.956 seconds (process running for 3.685)
+2023-11-11 21:45:36.319 INFO  c.jiawa.train.business.config.BusinessApplication :20   [32m                  [0;39m 启动成功！！
+2023-11-11 21:45:36.319 INFO  c.jiawa.train.business.config.BusinessApplication :21   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8084/member/hello
+2023-11-11 21:57:09.891 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-11 21:57:09.931 INFO  c.jiawa.train.business.config.BusinessApplication :51   [32m                  [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 4672 (E:\Springboot\train1\business\target\classes started by MK in E:\Springboot\train1)
+2023-11-11 21:57:09.934 INFO  c.jiawa.train.business.config.BusinessApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-11 21:57:09.981 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-11 21:57:09.982 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-11 21:57:10.647 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=9d27b790-8fd4-3a50-b960-361a12eb9289
+2023-11-11 21:57:11.186 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8084 (http)
+2023-11-11 21:57:11.192 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8084"]
+2023-11-11 21:57:11.193 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-11 21:57:11.193 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-11 21:57:11.245 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-11 21:57:11.245 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1263 ms
+2023-11-11 21:57:11.795 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-11-11 21:57:11.958 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2023-11-11 21:57:12.090 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8084"]
+2023-11-11 21:57:12.105 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8084 (http) with context path '/member'
+2023-11-11 21:57:12.181 INFO  c.jiawa.train.business.config.BusinessApplication :57   [32m                  [0;39m Started BusinessApplication in 2.82 seconds (process running for 3.415)
+2023-11-11 21:57:12.184 INFO  c.jiawa.train.business.config.BusinessApplication :20   [32m                  [0;39m 启动成功！！
+2023-11-11 21:57:12.185 INFO  c.jiawa.train.business.config.BusinessApplication :21   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8084/member/hello

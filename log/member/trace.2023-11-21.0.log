@@ -1,0 +1,89 @@
+2023-11-21 09:30:15.100 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-21 09:30:15.140 INFO  com.jiawa.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 11864 (E:\Springboot\train1\member\target\classes started by MK in E:\Springboot\train1)
+2023-11-21 09:30:15.141 INFO  com.jiawa.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-21 09:30:15.196 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-21 09:30:15.196 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-21 09:30:16.445 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=b51d6f25-f5f0-38de-882a-1bde2b617ce2
+2023-11-21 09:30:17.038 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8082 (http)
+2023-11-21 09:30:17.045 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-21 09:30:17.046 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-21 09:30:17.046 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-21 09:30:17.101 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-21 09:30:17.101 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1904 ms
+2023-11-21 09:30:18.170 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-11-21 09:30:18.383 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2023-11-21 09:30:18.539 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8082"]
+2023-11-21 09:30:18.560 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8082 (http) with context path '/member'
+2023-11-21 09:30:18.658 INFO  com.jiawa.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 4.322 seconds (process running for 5.097)
+2023-11-21 09:30:18.662 INFO  com.jiawa.train.member.config.MemberApplication   :23   [32m                  [0;39m 启动成功！！
+2023-11-21 09:30:18.663 INFO  com.jiawa.train.member.config.MemberApplication   :24   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8082/member/hello
+2023-11-21 15:45:18.729 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-21 15:45:18.733 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-21 15:45:18.752 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 18 ms
+2023-11-21 15:45:19.094 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1700552718834qmb  [0;39m ------------- 开始 -------------
+2023-11-21 15:45:19.095 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1700552718834qmb  [0;39m 请求地址: http://127.0.0.1:8082/member/member/send-code POST
+2023-11-21 15:45:19.095 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1700552718834qmb  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.sendCode
+2023-11-21 15:45:19.096 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1700552718834qmb  [0;39m 远程地址: 127.0.0.1
+2023-11-21 15:45:19.201 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1700552718834qmb  [0;39m 请求参数: [{"mobile":"13000000000"}]
+2023-11-21 15:45:19.312 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1700552718834qmb  [0;39m HikariPool-1 - Starting...
+2023-11-21 15:45:19.580 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1700552718834qmb  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c9bea98
+2023-11-21 15:45:19.584 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1700552718834qmb  [0;39m HikariPool-1 - Start completed.
+2023-11-21 15:45:19.649 INFO  com.jiawa.train.member.service.MemberService      :71   [32m1700552718834qmb  [0;39m 手机号存在，不插入记录
+2023-11-21 15:45:19.649 INFO  com.jiawa.train.member.service.MemberService      :76   [32m1700552718834qmb  [0;39m 生成短信验证码：skpw
+2023-11-21 15:45:19.649 INFO  com.jiawa.train.member.service.MemberService      :79   [32m1700552718834qmb  [0;39m 保存短信记录表
+2023-11-21 15:45:19.650 INFO  com.jiawa.train.member.service.MemberService      :82   [32m1700552718834qmb  [0;39m 对接短信通道
+2023-11-21 15:45:19.652 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1700552718834qmb  [0;39m 返回结果: {"success":true}
+2023-11-21 15:45:19.652 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1700552718834qmb  [0;39m ------------- 结束 耗时：559 ms -------------
+2023-11-21 15:45:20.672 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m17005527206632cu  [0;39m ------------- 开始 -------------
+2023-11-21 15:45:20.672 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m17005527206632cu  [0;39m 请求地址: http://127.0.0.1:8082/member/member/login POST
+2023-11-21 15:45:20.672 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m17005527206632cu  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.login
+2023-11-21 15:45:20.672 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m17005527206632cu  [0;39m 远程地址: 127.0.0.1
+2023-11-21 15:45:20.673 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m17005527206632cu  [0;39m 请求参数: [{"code":"8888","mobile":"13000000000"}]
+2023-11-21 15:45:21.516 INFO  com.jiawa.train.common.util.JwtUtil               :37   [32m17005527206632cu  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDA1NTI3MjAsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MjY0ODUyOTM0MjAzODQyNTYsImV4cCI6MTcwMDYzOTEyMCwiaWF0IjoxNzAwNTUyNzIwfQ.s5PCSp5dsriSvRLpI3saRtvHdf0R5ALvK9vCult7CPM
+2023-11-21 15:45:21.517 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m17005527206632cu  [0;39m 返回结果: {"content":{"id":1726485293420384256,"mobile":"13000000000","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDA1NTI3MjAsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MjY0ODUyOTM0MjAzODQyNTYsImV4cCI6MTcwMDYzOTEyMCwiaWF0IjoxNzAwNTUyNzIwfQ.s5PCSp5dsriSvRLpI3saRtvHdf0R5ALvK9vCult7CPM"},"success":true}
+2023-11-21 15:45:21.518 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m17005527206632cu  [0;39m ------------- 结束 耗时：846 ms -------------
+2023-11-21 15:51:09.436 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m17005530694357fp  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDA1NTI3MjAsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MjY0ODUyOTM0MjAzODQyNTYsImV4cCI6MTcwMDYzOTEyMCwiaWF0IjoxNzAwNTUyNzIwfQ.s5PCSp5dsriSvRLpI3saRtvHdf0R5ALvK9vCult7CPM
+2023-11-21 15:51:09.443 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m17005530694357fp  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1726485293420384256}
+2023-11-21 15:51:09.443 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m17005530694357fp  [0;39m 当前登录会员：{"mobile":"13000000000","id":1726485293420384256}
+2023-11-21 15:51:09.448 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m17005530694357fp  [0;39m ------------- 开始 -------------
+2023-11-21 15:51:09.448 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m17005530694357fp  [0;39m 请求地址: http://127.0.0.1:8082/member/member/send-code POST
+2023-11-21 15:51:09.449 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m17005530694357fp  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.sendCode
+2023-11-21 15:51:09.449 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m17005530694357fp  [0;39m 远程地址: 127.0.0.1
+2023-11-21 15:51:09.449 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m17005530694357fp  [0;39m 请求参数: [{"mobile":"13000000000"}]
+2023-11-21 15:51:09.451 INFO  com.jiawa.train.member.service.MemberService      :71   [32m17005530694357fp  [0;39m 手机号存在，不插入记录
+2023-11-21 15:51:09.452 INFO  com.jiawa.train.member.service.MemberService      :76   [32m17005530694357fp  [0;39m 生成短信验证码：wzyo
+2023-11-21 15:51:09.452 INFO  com.jiawa.train.member.service.MemberService      :79   [32m17005530694357fp  [0;39m 保存短信记录表
+2023-11-21 15:51:09.452 INFO  com.jiawa.train.member.service.MemberService      :82   [32m17005530694357fp  [0;39m 对接短信通道
+2023-11-21 15:51:09.452 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m17005530694357fp  [0;39m 返回结果: {"success":true}
+2023-11-21 15:51:09.452 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m17005530694357fp  [0;39m ------------- 结束 耗时：4 ms -------------
+2023-11-21 15:51:10.317 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m1700553070317htj  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDA1NTI3MjAsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MjY0ODUyOTM0MjAzODQyNTYsImV4cCI6MTcwMDYzOTEyMCwiaWF0IjoxNzAwNTUyNzIwfQ.s5PCSp5dsriSvRLpI3saRtvHdf0R5ALvK9vCult7CPM
+2023-11-21 15:51:10.317 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m1700553070317htj  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1726485293420384256}
+2023-11-21 15:51:10.317 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m1700553070317htj  [0;39m 当前登录会员：{"mobile":"13000000000","id":1726485293420384256}
+2023-11-21 15:51:10.318 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1700553070317htj  [0;39m ------------- 开始 -------------
+2023-11-21 15:51:10.319 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1700553070317htj  [0;39m 请求地址: http://127.0.0.1:8082/member/member/login POST
+2023-11-21 15:51:10.319 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1700553070317htj  [0;39m 类名方法: com.jiawa.train.member.controller.MemberController.login
+2023-11-21 15:51:10.319 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1700553070317htj  [0;39m 远程地址: 127.0.0.1
+2023-11-21 15:51:10.319 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1700553070317htj  [0;39m 请求参数: [{"code":"8888","mobile":"13000000000"}]
+2023-11-21 15:51:10.322 INFO  com.jiawa.train.common.util.JwtUtil               :37   [32m1700553070317htj  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDA1NTMwNzAsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MjY0ODUyOTM0MjAzODQyNTYsImV4cCI6MTcwMDYzOTQ3MCwiaWF0IjoxNzAwNTUzMDcwfQ.Fmxlppi5l-pWDjIxwINMKrZKial-7UUa7mI9qmA3Ku4
+2023-11-21 15:51:10.322 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1700553070317htj  [0;39m 返回结果: {"content":{"id":1726485293420384256,"mobile":"13000000000","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDA1NTMwNzAsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MjY0ODUyOTM0MjAzODQyNTYsImV4cCI6MTcwMDYzOTQ3MCwiaWF0IjoxNzAwNTUzMDcwfQ.Fmxlppi5l-pWDjIxwINMKrZKial-7UUa7mI9qmA3Ku4"},"success":true}
+2023-11-21 15:51:10.323 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1700553070317htj  [0;39m ------------- 结束 耗时：5 ms -------------
+2023-11-21 16:17:39.790 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m17005546597890su  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDA1NTMwNzAsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MjY0ODUyOTM0MjAzODQyNTYsImV4cCI6MTcwMDYzOTQ3MCwiaWF0IjoxNzAwNTUzMDcwfQ.Fmxlppi5l-pWDjIxwINMKrZKial-7UUa7mI9qmA3Ku4
+2023-11-21 16:17:39.791 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m17005546597890su  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1726485293420384256}
+2023-11-21 16:17:39.791 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m17005546597890su  [0;39m 当前登录会员：{"mobile":"13000000000","id":1726485293420384256}
+2023-11-21 16:17:39.793 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m17005546597890su  [0;39m ------------- 开始 -------------
+2023-11-21 16:17:39.793 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m17005546597890su  [0;39m 请求地址: http://127.0.0.1:8082/member/passenger/query-mine GET
+2023-11-21 16:17:39.793 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m17005546597890su  [0;39m 类名方法: com.jiawa.train.member.controller.PassengerController.queryMine
+2023-11-21 16:17:39.793 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m17005546597890su  [0;39m 远程地址: 127.0.0.1
+2023-11-21 16:17:39.794 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m17005546597890su  [0;39m 请求参数: []
+2023-11-21 16:17:39.948 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m17005546597890su  [0;39m 返回结果: {"content":[{"createTime":1700461229331,"id":1726485646484312064,"idCard":"123321200202039909","memberId":1726485293420384256,"name":"mll","type":"3","updateTime":1700461229331},{"createTime":1700461176320,"id":1726485424140062720,"idCard":"410423199909226677","memberId":1726485293420384256,"name":"yyg","type":"1","updateTime":1700461176320}],"success":true}
+2023-11-21 16:17:39.949 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m17005546597890su  [0;39m ------------- 结束 耗时：156 ms -------------
+2023-11-21 16:18:15.110 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:29   [32m170055469511092h  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDA1NTMwNzAsIm1vYmlsZSI6IjEzMDAwMDAwMDAwIiwiaWQiOjE3MjY0ODUyOTM0MjAzODQyNTYsImV4cCI6MTcwMDYzOTQ3MCwiaWF0IjoxNzAwNTUzMDcwfQ.Fmxlppi5l-pWDjIxwINMKrZKial-7UUa7mI9qmA3Ku4
+2023-11-21 16:18:15.112 INFO  com.jiawa.train.common.util.JwtUtil               :55   [32m170055469511092h  [0;39m 根据token获取原始内容：{"mobile":"13000000000","id":1726485293420384256}
+2023-11-21 16:18:15.112 INFO  c.jiawa.train.common.interceptor.MemberInterceptor:31   [32m170055469511092h  [0;39m 当前登录会员：{"mobile":"13000000000","id":1726485293420384256}
+2023-11-21 16:18:15.113 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m170055469511092h  [0;39m ------------- 开始 -------------
+2023-11-21 16:18:15.113 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m170055469511092h  [0;39m 请求地址: http://127.0.0.1:8082/member/passenger/query-mine GET
+2023-11-21 16:18:15.113 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m170055469511092h  [0;39m 类名方法: com.jiawa.train.member.controller.PassengerController.queryMine
+2023-11-21 16:18:15.114 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m170055469511092h  [0;39m 远程地址: 127.0.0.1
+2023-11-21 16:18:15.114 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m170055469511092h  [0;39m 请求参数: []
+2023-11-21 16:18:15.120 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m170055469511092h  [0;39m 返回结果: {"content":[{"createTime":1700461229331,"id":1726485646484312064,"idCard":"123321200202039909","memberId":1726485293420384256,"name":"mll","type":"3","updateTime":1700461229331},{"createTime":1700461176320,"id":1726485424140062720,"idCard":"410423199909226677","memberId":1726485293420384256,"name":"yyg","type":"1","updateTime":1700461176320}],"success":true}
+2023-11-21 16:18:15.121 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m170055469511092h  [0;39m ------------- 结束 耗时：8 ms -------------

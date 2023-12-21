@@ -1,0 +1,945 @@
+2023-11-14 09:12:17.102 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-14 09:12:17.147 INFO  com.jiawa.train.batch.config.BatchApplication     :51   [32m                  [0;39m Starting BatchApplication using Java 17.0.4.1 with PID 9744 (E:\Springboot\train1\batch\target\classes started by MK in E:\Springboot\train1)
+2023-11-14 09:12:17.149 INFO  com.jiawa.train.batch.config.BatchApplication     :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-14 09:12:17.191 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-14 09:12:17.192 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-14 09:12:17.786 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.jiawa.train.*.mapper]' package. Please check your configuration.
+2023-11-14 09:12:17.854 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=b812fb21-eb9e-387f-ba17-7e6763d9d451
+2023-11-14 09:12:18.399 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8082 (http)
+2023-11-14 09:12:18.405 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-14 09:12:18.406 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-14 09:12:18.406 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-14 09:12:18.454 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-14 09:12:18.454 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1261 ms
+2023-11-14 09:12:18.895 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-11-14 09:12:19.069 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2023-11-14 09:12:19.205 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8082"]
+2023-11-14 09:12:19.219 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8082 (http) with context path '/batch'
+2023-11-14 09:12:19.300 INFO  com.jiawa.train.batch.config.BatchApplication     :57   [32m                  [0;39m Started BatchApplication in 2.776 seconds (process running for 3.619)
+2023-11-14 09:12:19.304 INFO  com.jiawa.train.batch.config.BatchApplication     :20   [32m                  [0;39m 启动成功！！
+2023-11-14 09:12:19.304 INFO  com.jiawa.train.batch.config.BatchApplication     :21   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8082/batch/hello
+2023-11-14 09:12:50.516 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-14 09:12:50.566 INFO  com.jiawa.train.batch.config.BatchApplication     :51   [32m                  [0;39m Starting BatchApplication using Java 17.0.4.1 with PID 6128 (E:\Springboot\train1\batch\target\classes started by MK in E:\Springboot\train1)
+2023-11-14 09:12:50.567 INFO  com.jiawa.train.batch.config.BatchApplication     :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-14 09:12:50.608 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-14 09:12:50.609 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-14 09:12:51.220 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.jiawa.train.*.mapper]' package. Please check your configuration.
+2023-11-14 09:12:51.289 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=b812fb21-eb9e-387f-ba17-7e6763d9d451
+2023-11-14 09:12:51.823 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8082 (http)
+2023-11-14 09:12:51.831 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-14 09:12:51.831 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-14 09:12:51.832 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-14 09:12:51.883 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-14 09:12:51.884 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1275 ms
+2023-11-14 09:12:52.402 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-11-14 09:12:52.578 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2023-11-14 09:12:52.719 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8082"]
+2023-11-14 09:12:52.733 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8082 (http) with context path '/batch'
+2023-11-14 09:12:52.813 INFO  com.jiawa.train.batch.config.BatchApplication     :57   [32m                  [0;39m Started BatchApplication in 2.851 seconds (process running for 3.482)
+2023-11-14 09:12:52.816 INFO  com.jiawa.train.batch.config.BatchApplication     :20   [32m                  [0;39m 启动成功！！
+2023-11-14 09:12:52.816 INFO  com.jiawa.train.batch.config.BatchApplication     :21   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8082/batch/hello
+2023-11-14 09:13:20.441 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-14 09:13:20.481 INFO  com.jiawa.train.batch.config.BatchApplication     :51   [32m                  [0;39m Starting BatchApplication using Java 17.0.4.1 with PID 10980 (E:\Springboot\train1\batch\target\classes started by MK in E:\Springboot\train1)
+2023-11-14 09:13:20.482 INFO  com.jiawa.train.batch.config.BatchApplication     :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-14 09:13:20.530 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-14 09:13:20.531 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-14 09:13:21.104 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.jiawa.train.*.mapper]' package. Please check your configuration.
+2023-11-14 09:13:21.167 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=b812fb21-eb9e-387f-ba17-7e6763d9d451
+2023-11-14 09:13:21.715 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8085 (http)
+2023-11-14 09:13:21.722 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8085"]
+2023-11-14 09:13:21.722 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-14 09:13:21.722 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-14 09:13:21.768 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-14 09:13:21.768 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1237 ms
+2023-11-14 09:13:22.220 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-11-14 09:13:22.397 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2023-11-14 09:13:22.533 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8085"]
+2023-11-14 09:13:22.548 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8085 (http) with context path '/batch'
+2023-11-14 09:13:22.627 INFO  com.jiawa.train.batch.config.BatchApplication     :57   [32m                  [0;39m Started BatchApplication in 2.771 seconds (process running for 3.375)
+2023-11-14 09:13:22.630 INFO  com.jiawa.train.batch.config.BatchApplication     :20   [32m                  [0;39m 启动成功！！
+2023-11-14 09:13:22.631 INFO  com.jiawa.train.batch.config.BatchApplication     :21   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8085/batch/hello
+2023-11-14 09:13:25.421 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-14 09:13:25.421 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-14 09:13:25.423 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-11-14 09:13:25.548 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-14 09:13:25.549 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8085/batch/hello GET
+2023-11-14 09:13:25.549 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.batch.controller.testController.hello
+2023-11-14 09:13:25.549 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-14 09:13:25.619 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-11-14 09:13:25.620 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: "hello world"
+2023-11-14 09:13:25.620 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：73 ms -------------
+2023-11-14 09:15:30.878 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-14 09:15:30.917 INFO  com.jiawa.train.batch.config.BatchApplication     :51   [32m                  [0;39m Starting BatchApplication using Java 17.0.4.1 with PID 4600 (E:\Springboot\train1\batch\target\classes started by MK in E:\Springboot\train1)
+2023-11-14 09:15:30.918 INFO  com.jiawa.train.batch.config.BatchApplication     :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-14 09:15:30.973 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-14 09:15:30.973 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-14 09:15:31.523 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.jiawa.train.*.mapper]' package. Please check your configuration.
+2023-11-14 09:15:31.588 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=b812fb21-eb9e-387f-ba17-7e6763d9d451
+2023-11-14 09:15:32.123 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8085 (http)
+2023-11-14 09:15:32.129 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8085"]
+2023-11-14 09:15:32.130 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-14 09:15:32.130 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-14 09:15:32.177 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-14 09:15:32.177 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1203 ms
+2023-11-14 09:15:32.626 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-11-14 09:15:32.792 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2023-11-14 09:15:32.930 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8085"]
+2023-11-14 09:15:32.944 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8085 (http) with context path '/batch'
+2023-11-14 09:15:33.024 INFO  com.jiawa.train.batch.config.BatchApplication     :57   [32m                  [0;39m Started BatchApplication in 2.72 seconds (process running for 3.333)
+2023-11-14 09:15:33.028 INFO  com.jiawa.train.batch.config.BatchApplication     :20   [32m                  [0;39m 启动成功！！
+2023-11-14 09:15:33.029 INFO  com.jiawa.train.batch.config.BatchApplication     :21   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8085/batch/hello
+2023-11-14 09:15:51.946 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-14 09:15:51.947 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-14 09:15:51.948 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-11-14 09:15:51.969 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-14 09:15:51.969 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8085/batch/hello GET
+2023-11-14 09:15:51.969 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.batch.controller.testController.hello
+2023-11-14 09:15:51.970 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-14 09:15:51.995 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-11-14 09:15:51.995 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: "hello world"
+2023-11-14 09:15:51.995 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：27 ms -------------
+2023-11-14 09:16:03.789 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-14 09:16:03.827 INFO  com.jiawa.train.batch.config.BatchApplication     :51   [32m                  [0;39m Starting BatchApplication using Java 17.0.4.1 with PID 9172 (E:\Springboot\train1\batch\target\classes started by MK in E:\Springboot\train1)
+2023-11-14 09:16:03.828 INFO  com.jiawa.train.batch.config.BatchApplication     :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-14 09:16:03.890 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-14 09:16:03.891 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-14 09:16:04.647 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.jiawa.train.*.mapper]' package. Please check your configuration.
+2023-11-14 09:16:04.713 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=b812fb21-eb9e-387f-ba17-7e6763d9d451
+2023-11-14 09:16:05.274 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8085 (http)
+2023-11-14 09:16:05.281 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8085"]
+2023-11-14 09:16:05.282 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-14 09:16:05.282 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-14 09:16:05.331 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-14 09:16:05.331 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1438 ms
+2023-11-14 09:16:05.825 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-11-14 09:16:06.006 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2023-11-14 09:16:06.139 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8085"]
+2023-11-14 09:16:06.153 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8085 (http) with context path '/batch'
+2023-11-14 09:16:06.232 INFO  com.jiawa.train.batch.config.BatchApplication     :57   [32m                  [0;39m Started BatchApplication in 3.011 seconds (process running for 3.659)
+2023-11-14 09:16:06.236 INFO  com.jiawa.train.batch.config.BatchApplication     :20   [32m                  [0;39m 启动成功！！
+2023-11-14 09:16:06.236 INFO  com.jiawa.train.batch.config.BatchApplication     :21   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8085/batch/hello
+2023-11-14 09:16:12.078 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-14 09:16:12.078 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-14 09:16:12.079 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2023-11-14 09:16:12.101 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-14 09:16:12.102 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8085/batch/hello GET
+2023-11-14 09:16:12.102 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.batch.controller.testController.hello
+2023-11-14 09:16:12.102 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-14 09:16:12.128 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-11-14 09:16:12.128 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: "hello world"
+2023-11-14 09:16:12.129 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：29 ms -------------
+2023-11-14 09:16:13.778 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-14 09:16:13.778 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8085/batch/hello GET
+2023-11-14 09:16:13.779 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.batch.controller.testController.hello
+2023-11-14 09:16:13.780 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-14 09:16:13.780 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-11-14 09:16:13.780 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: "hello world"
+2023-11-14 09:16:13.781 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2023-11-14 09:16:15.970 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-14 09:16:15.971 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8085/batch/hello GET
+2023-11-14 09:16:15.971 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.batch.controller.testController.hello
+2023-11-14 09:16:15.971 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-14 09:16:15.971 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-11-14 09:16:15.971 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: "hello world"
+2023-11-14 09:16:15.971 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：1 ms -------------
+2023-11-14 09:16:36.489 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-14 09:16:36.528 INFO  com.jiawa.train.batch.config.BatchApplication     :51   [32m                  [0;39m Starting BatchApplication using Java 17.0.4.1 with PID 12944 (E:\Springboot\train1\batch\target\classes started by MK in E:\Springboot\train1)
+2023-11-14 09:16:36.529 INFO  com.jiawa.train.batch.config.BatchApplication     :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-14 09:16:36.582 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-14 09:16:36.583 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-14 09:16:37.152 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.jiawa.train.*.mapper]' package. Please check your configuration.
+2023-11-14 09:16:37.221 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=b812fb21-eb9e-387f-ba17-7e6763d9d451
+2023-11-14 09:16:37.760 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8085 (http)
+2023-11-14 09:16:37.767 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8085"]
+2023-11-14 09:16:37.767 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-14 09:16:37.768 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-14 09:16:37.813 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-14 09:16:37.814 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1231 ms
+2023-11-14 09:16:38.273 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-11-14 09:16:38.472 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2023-11-14 09:16:38.610 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8085"]
+2023-11-14 09:16:38.624 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8085 (http) with context path '/batch'
+2023-11-14 09:16:38.714 INFO  com.jiawa.train.batch.config.BatchApplication     :57   [32m                  [0;39m Started BatchApplication in 2.793 seconds (process running for 3.399)
+2023-11-14 09:16:38.717 INFO  com.jiawa.train.batch.config.BatchApplication     :20   [32m                  [0;39m 启动成功！！
+2023-11-14 09:16:38.717 INFO  com.jiawa.train.batch.config.BatchApplication     :21   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8085/batch/hello
+2023-11-14 20:29:50.440 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-14 20:29:50.442 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-14 20:29:50.448 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 5 ms
+2023-11-14 20:29:50.498 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-11-14 20:29:50.499 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8085/batch/hello GET
+2023-11-14 20:29:50.499 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.batch.controller.testController.hello
+2023-11-14 20:29:50.499 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-11-14 20:29:50.528 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-11-14 20:29:50.529 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: "hello world"
+2023-11-14 20:29:50.529 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：32 ms -------------
+2023-11-14 20:31:58.065 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-14 20:31:58.106 INFO  com.jiawa.train.batch.config.BatchApplication     :51   [32m                  [0;39m Starting BatchApplication using Java 17.0.4.1 with PID 16672 (E:\Springboot\train1\batch\target\classes started by MK in E:\Springboot\train1)
+2023-11-14 20:31:58.108 INFO  com.jiawa.train.batch.config.BatchApplication     :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-14 20:31:58.183 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-14 20:31:58.183 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-14 20:31:59.137 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.jiawa.train.*.mapper]' package. Please check your configuration.
+2023-11-14 20:31:59.241 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=1136e9d8-748e-38a2-bdaf-ddd460605885
+2023-11-14 20:32:00.020 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8085 (http)
+2023-11-14 20:32:00.031 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8085"]
+2023-11-14 20:32:00.032 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-14 20:32:00.033 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-14 20:32:00.115 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-14 20:32:00.115 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1931 ms
+2023-11-14 20:32:00.292 INFO  org.quartz.impl.StdSchedulerFactory               :1220 [32m                  [0;39m Using default implementation for ThreadExecutor
+2023-11-14 20:32:00.305 INFO  org.quartz.core.SchedulerSignalerImpl             :61   [32m                  [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-11-14 20:32:00.305 INFO  org.quartz.core.QuartzScheduler                   :229  [32m                  [0;39m Quartz Scheduler v.2.3.2 created.
+2023-11-14 20:32:00.330 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-11-14 20:32:00.419 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c875ca8
+2023-11-14 20:32:00.420 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-11-14 20:32:00.427 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  [32m                  [0;39m Using db table-based data access locking (synchronization).
+2023-11-14 20:32:00.429 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  [32m                  [0;39m JobStoreCMT initialized.
+2023-11-14 20:32:00.430 INFO  org.quartz.core.QuartzScheduler                   :294  [32m                  [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2023-11-14 20:32:00.430 INFO  org.quartz.impl.StdSchedulerFactory               :1374 [32m                  [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2023-11-14 20:32:00.430 INFO  org.quartz.impl.StdSchedulerFactory               :1378 [32m                  [0;39m Quartz scheduler version: 2.3.2
+2023-11-14 20:32:00.431 INFO  org.quartz.core.QuartzScheduler                   :2293 [32m                  [0;39m JobFactory set to: com.jiawa.train.batch.config.MyJobFactory@1442b426
+2023-11-14 20:32:00.853 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-11-14 20:32:01.023 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2023-11-14 20:32:01.169 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8085"]
+2023-11-14 20:32:01.187 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8085 (http) with context path '/batch'
+2023-11-14 20:32:01.263 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  [32m                  [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
+2023-11-14 20:32:01.271 INFO  com.jiawa.train.batch.config.BatchApplication     :57   [32m                  [0;39m Started BatchApplication in 4.016 seconds (process running for 5.72)
+2023-11-14 20:32:01.275 INFO  com.jiawa.train.batch.config.BatchApplication     :20   [32m                  [0;39m 启动成功！！
+2023-11-14 20:32:01.276 INFO  com.jiawa.train.batch.config.BatchApplication     :21   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8085/batch/hello
+2023-11-14 20:32:03.266 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  [32m                  [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
+2023-11-14 20:32:03.362 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  [32m                  [0;39m Freed 0 triggers from 'acquired' / 'blocked' state.
+2023-11-14 20:32:03.376 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  [32m                  [0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2023-11-14 20:32:03.377 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  [32m                  [0;39m Recovery complete.
+2023-11-14 20:32:03.378 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  [32m                  [0;39m Removed 0 'complete' triggers.
+2023-11-14 20:32:03.378 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  [32m                  [0;39m Removed 0 stale fired job entries.
+2023-11-14 20:32:03.431 INFO  org.quartz.core.QuartzScheduler                   :547  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2023-11-14 20:32:11.124 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-14 20:32:11.124 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-14 20:32:11.125 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2023-11-14 20:32:11.153 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m169996513114147r  [0;39m ------------- 开始 -------------
+2023-11-14 20:32:11.154 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m169996513114147r  [0;39m 请求地址: http://127.0.0.1:8085/batch/admin/job/query GET
+2023-11-14 20:32:11.154 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m169996513114147r  [0;39m 类名方法: com.jiawa.train.batch.controller.JobController.query
+2023-11-14 20:32:11.155 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m169996513114147r  [0;39m 远程地址: 127.0.0.1
+2023-11-14 20:32:11.182 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m169996513114147r  [0;39m 请求参数: []
+2023-11-14 20:32:11.183 INFO  com.jiawa.train.batch.controller.JobController    :169  [32m169996513114147r  [0;39m 查看所有定时任务开始
+2023-11-14 20:32:11.188 INFO  com.jiawa.train.batch.controller.JobController    :200  [32m169996513114147r  [0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[]}
+2023-11-14 20:32:11.201 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m169996513114147r  [0;39m 返回结果: {"content":[],"success":true}
+2023-11-14 20:32:11.202 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m169996513114147r  [0;39m ------------- 结束 耗时：49 ms -------------
+2023-11-14 20:34:03.756 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m169996524359430r  [0;39m ------------- 开始 -------------
+2023-11-14 20:34:03.756 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m169996524359430r  [0;39m 请求地址: http://127.0.0.1:8085/batch/admin/job/add POST
+2023-11-14 20:34:03.757 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m169996524359430r  [0;39m 类名方法: com.jiawa.train.batch.controller.JobController.add
+2023-11-14 20:34:03.757 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m169996524359430r  [0;39m 远程地址: 127.0.0.1
+2023-11-14 20:34:03.758 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m169996524359430r  [0;39m 请求参数: [{"cronExpression":"0/5 * * * *","description":"TEST","group":"DEFAULT","name":"com.jiawa.train.batch.job."}]
+2023-11-14 20:34:03.759 INFO  com.jiawa.train.batch.controller.JobController    :46   [32m169996524359430r  [0;39m 创建定时任务开始：com.jiawa.train.batch.job.，DEFAULT，0/5 * * * *，TEST
+2023-11-14 20:34:03.759 INFO  org.quartz.core.QuartzScheduler                   :547  [32m169996524359430r  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2023-11-14 20:34:03.759 ERROR com.jiawa.train.batch.controller.JobController    :72   [32m169996524359430r  [0;39m 创建定时任务失败:java.lang.ClassNotFoundException: com.jiawa.train.batch.job.
+2023-11-14 20:34:03.760 INFO  com.jiawa.train.batch.controller.JobController    :76   [32m169996524359430r  [0;39m 创建定时任务结束：CommonResp{success=false, message='创建定时任务失败：任务类不存在', content=null}
+2023-11-14 20:34:03.760 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m169996524359430r  [0;39m 返回结果: {"message":"创建定时任务失败：任务类不存在","success":false}
+2023-11-14 20:34:03.760 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m169996524359430r  [0;39m ------------- 结束 耗时：4 ms -------------
+2023-11-14 20:35:25.434 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m16999653254330aw  [0;39m ------------- 开始 -------------
+2023-11-14 20:35:25.435 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m16999653254330aw  [0;39m 请求地址: http://127.0.0.1:8085/batch/admin/job/add POST
+2023-11-14 20:35:25.435 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m16999653254330aw  [0;39m 类名方法: com.jiawa.train.batch.controller.JobController.add
+2023-11-14 20:35:25.435 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m16999653254330aw  [0;39m 远程地址: 127.0.0.1
+2023-11-14 20:35:25.436 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m16999653254330aw  [0;39m 请求参数: [{"cronExpression":"0/5 * * * *","description":"TEST","group":"DEFAULT","name":"com.jiawa.train.batch.job.TestJob"}]
+2023-11-14 20:35:25.436 INFO  com.jiawa.train.batch.controller.JobController    :46   [32m16999653254330aw  [0;39m 创建定时任务开始：com.jiawa.train.batch.job.TestJob，DEFAULT，0/5 * * * *，TEST
+2023-11-14 20:35:25.436 INFO  org.quartz.core.QuartzScheduler                   :547  [32m16999653254330aw  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2023-11-14 20:35:25.440 ERROR c.j.t.common.controller.ControllerExceptionHandler:31   [32m16999653254330aw  [0;39m 系统异常：
+java.lang.RuntimeException: CronExpression '0/5 * * * *' is invalid.
+	at org.quartz.CronScheduleBuilder.cronSchedule(CronScheduleBuilder.java:111)
+	at com.jiawa.train.batch.controller.JobController.add(JobController.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.jiawa.train.common.aspect.LogAspect.doAround(LogAspect.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:623)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at com.jiawa.train.batch.controller.JobController$$SpringCGLIB$$0.add(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.text.ParseException: Unexpected end of expression.
+	at org.quartz.CronExpression.buildExpression(CronExpression.java:494)
+	at org.quartz.CronExpression.<init>(CronExpression.java:276)
+	at org.quartz.CronScheduleBuilder.cronSchedule(CronScheduleBuilder.java:107)
+	... 78 common frames omitted
+2023-11-14 20:35:25.542 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m16999653254330aw  [0;39m Resolved [java.lang.RuntimeException: CronExpression '0/5 * * * *' is invalid.]
+2023-11-14 20:36:34.463 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699965394463a0w  [0;39m ------------- 开始 -------------
+2023-11-14 20:36:34.464 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699965394463a0w  [0;39m 请求地址: http://127.0.0.1:8085/batch/admin/job/add POST
+2023-11-14 20:36:34.464 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699965394463a0w  [0;39m 类名方法: com.jiawa.train.batch.controller.JobController.add
+2023-11-14 20:36:34.464 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699965394463a0w  [0;39m 远程地址: 127.0.0.1
+2023-11-14 20:36:34.464 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699965394463a0w  [0;39m 请求参数: [{"cronExpression":"0/5 * * * *?","description":"TEST","group":"DEFAULT","name":"com.jiawa.train.batch.job.TestJob"}]
+2023-11-14 20:36:34.465 INFO  com.jiawa.train.batch.controller.JobController    :46   [32m1699965394463a0w  [0;39m 创建定时任务开始：com.jiawa.train.batch.job.TestJob，DEFAULT，0/5 * * * *?，TEST
+2023-11-14 20:36:34.465 INFO  org.quartz.core.QuartzScheduler                   :547  [32m1699965394463a0w  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2023-11-14 20:36:34.465 ERROR c.j.t.common.controller.ControllerExceptionHandler:31   [32m1699965394463a0w  [0;39m 系统异常：
+java.lang.RuntimeException: CronExpression '0/5 * * * *?' is invalid.
+	at org.quartz.CronScheduleBuilder.cronSchedule(CronScheduleBuilder.java:111)
+	at com.jiawa.train.batch.controller.JobController.add(JobController.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.jiawa.train.common.aspect.LogAspect.doAround(LogAspect.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:623)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at com.jiawa.train.batch.controller.JobController$$SpringCGLIB$$0.add(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.text.ParseException: Unexpected end of expression.
+	at org.quartz.CronExpression.buildExpression(CronExpression.java:494)
+	at org.quartz.CronExpression.<init>(CronExpression.java:276)
+	at org.quartz.CronScheduleBuilder.cronSchedule(CronScheduleBuilder.java:107)
+	... 78 common frames omitted
+2023-11-14 20:36:34.467 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m1699965394463a0w  [0;39m Resolved [java.lang.RuntimeException: CronExpression '0/5 * * * *?' is invalid.]
+2023-11-14 20:37:06.425 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699965426425isl  [0;39m ------------- 开始 -------------
+2023-11-14 20:37:06.426 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699965426425isl  [0;39m 请求地址: http://127.0.0.1:8085/batch/admin/job/add POST
+2023-11-14 20:37:06.426 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699965426425isl  [0;39m 类名方法: com.jiawa.train.batch.controller.JobController.add
+2023-11-14 20:37:06.426 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699965426425isl  [0;39m 远程地址: 127.0.0.1
+2023-11-14 20:37:06.426 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699965426425isl  [0;39m 请求参数: [{"cronExpression":"0/5 * * * * ?","description":"TEST","group":"DEFAULT","name":"com.jiawa.train.batch.job.TestJob"}]
+2023-11-14 20:37:06.427 INFO  com.jiawa.train.batch.controller.JobController    :46   [32m1699965426425isl  [0;39m 创建定时任务开始：com.jiawa.train.batch.job.TestJob，DEFAULT，0/5 * * * * ?，TEST
+2023-11-14 20:37:06.427 INFO  org.quartz.core.QuartzScheduler                   :547  [32m1699965426425isl  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2023-11-14 20:37:06.709 INFO  com.jiawa.train.batch.controller.JobController    :76   [32m1699965426425isl  [0;39m 创建定时任务结束：CommonResp{success=true, message='null', content=null}
+2023-11-14 20:37:06.709 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699965426425isl  [0;39m 返回结果: {"success":true}
+2023-11-14 20:37:06.709 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699965426425isl  [0;39m ------------- 结束 耗时：284 ms -------------
+2023-11-14 20:37:06.733 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699965426733a28  [0;39m ------------- 开始 -------------
+2023-11-14 20:37:06.733 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699965426733a28  [0;39m 请求地址: http://127.0.0.1:8085/batch/admin/job/query GET
+2023-11-14 20:37:06.733 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699965426733a28  [0;39m 类名方法: com.jiawa.train.batch.controller.JobController.query
+2023-11-14 20:37:06.734 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699965426733a28  [0;39m 远程地址: 127.0.0.1
+2023-11-14 20:37:06.734 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699965426733a28  [0;39m 请求参数: []
+2023-11-14 20:37:06.734 INFO  com.jiawa.train.batch.controller.JobController    :169  [32m1699965426733a28  [0;39m 查看所有定时任务开始
+2023-11-14 20:37:06.742 INFO  com.jiawa.train.batch.controller.JobController    :200  [32m1699965426733a28  [0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='0/5 * * * * ?', group='DEFAULT', name='com.jiawa.train.batch.job.TestJob', description='TEST', state='NORMAL', nextFireTime=Tue Nov 14 20:37:10 GMT+08:00 2023, preFireTime=null}]}
+2023-11-14 20:37:06.748 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699965426733a28  [0;39m 返回结果: {"content":[{"cronExpression":"0/5 * * * * ?","description":"TEST","group":"DEFAULT","name":"com.jiawa.train.batch.job.TestJob","nextFireTime":1699965430000,"state":"NORMAL"}],"success":true}
+2023-11-14 20:37:06.749 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699965426733a28  [0;39m ------------- 结束 耗时：16 ms -------------
+2023-11-14 20:37:13.014 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699965433013gcu  [0;39m ------------- 开始 -------------
+2023-11-14 20:37:13.014 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699965433013gcu  [0;39m 请求地址: http://127.0.0.1:8085/batch/admin/job/pause POST
+2023-11-14 20:37:13.014 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699965433013gcu  [0;39m 类名方法: com.jiawa.train.batch.controller.JobController.pause
+2023-11-14 20:37:13.014 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699965433013gcu  [0;39m 远程地址: 127.0.0.1
+2023-11-14 20:37:13.014 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699965433013gcu  [0;39m 请求参数: [{"group":"DEFAULT","name":"com.jiawa.train.batch.job.TestJob"}]
+2023-11-14 20:37:13.015 INFO  com.jiawa.train.batch.controller.JobController    :84   [32m1699965433013gcu  [0;39m 暂停定时任务开始：com.jiawa.train.batch.job.TestJob，DEFAULT
+2023-11-14 20:37:13.070 INFO  com.jiawa.train.batch.controller.JobController    :94   [32m1699965433013gcu  [0;39m 暂停定时任务结束：CommonResp{success=true, message='null', content=null}
+2023-11-14 20:37:13.071 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699965433013gcu  [0;39m 返回结果: {"success":true}
+2023-11-14 20:37:13.071 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699965433013gcu  [0;39m ------------- 结束 耗时：57 ms -------------
+2023-11-14 20:37:13.088 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699965433088iha  [0;39m ------------- 开始 -------------
+2023-11-14 20:37:13.088 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699965433088iha  [0;39m 请求地址: http://127.0.0.1:8085/batch/admin/job/query GET
+2023-11-14 20:37:13.088 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699965433088iha  [0;39m 类名方法: com.jiawa.train.batch.controller.JobController.query
+2023-11-14 20:37:13.088 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699965433088iha  [0;39m 远程地址: 127.0.0.1
+2023-11-14 20:37:13.088 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699965433088iha  [0;39m 请求参数: []
+2023-11-14 20:37:13.088 INFO  com.jiawa.train.batch.controller.JobController    :169  [32m1699965433088iha  [0;39m 查看所有定时任务开始
+2023-11-14 20:37:13.092 INFO  com.jiawa.train.batch.controller.JobController    :200  [32m1699965433088iha  [0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='0/5 * * * * ?', group='DEFAULT', name='com.jiawa.train.batch.job.TestJob', description='TEST', state='PAUSED', nextFireTime=Tue Nov 14 20:37:15 GMT+08:00 2023, preFireTime=Tue Nov 14 20:37:10 GMT+08:00 2023}]}
+2023-11-14 20:37:13.092 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699965433088iha  [0;39m 返回结果: {"content":[{"cronExpression":"0/5 * * * * ?","description":"TEST","group":"DEFAULT","name":"com.jiawa.train.batch.job.TestJob","nextFireTime":1699965435000,"preFireTime":1699965430000,"state":"PAUSED"}],"success":true}
+2023-11-14 20:37:13.092 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699965433088iha  [0;39m ------------- 结束 耗时：4 ms -------------
+2023-11-14 20:37:15.603 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699965435602ik2  [0;39m ------------- 开始 -------------
+2023-11-14 20:37:15.603 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699965435602ik2  [0;39m 请求地址: http://127.0.0.1:8085/batch/admin/job/reschedule POST
+2023-11-14 20:37:15.604 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699965435602ik2  [0;39m 类名方法: com.jiawa.train.batch.controller.JobController.reschedule
+2023-11-14 20:37:15.604 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699965435602ik2  [0;39m 远程地址: 127.0.0.1
+2023-11-14 20:37:15.604 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699965435602ik2  [0;39m 请求参数: [{"cronExpression":"0/5 * * * * ?","description":"TEST","group":"DEFAULT","name":"com.jiawa.train.batch.job.TestJob"}]
+2023-11-14 20:37:15.605 INFO  com.jiawa.train.batch.controller.JobController    :122  [32m1699965435602ik2  [0;39m 更新定时任务开始：com.jiawa.train.batch.job.TestJob，DEFAULT，0/5 * * * * ?，TEST
+2023-11-14 20:37:16.526 INFO  com.jiawa.train.batch.controller.JobController    :143  [32m1699965435602ik2  [0;39m 更新定时任务结束：CommonResp{success=true, message='null', content=null}
+2023-11-14 20:37:16.526 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699965435602ik2  [0;39m 返回结果: {"success":true}
+2023-11-14 20:37:16.527 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699965435602ik2  [0;39m ------------- 结束 耗时：924 ms -------------
+2023-11-14 20:37:16.543 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699965436543e8a  [0;39m ------------- 开始 -------------
+2023-11-14 20:37:16.543 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699965436543e8a  [0;39m 请求地址: http://127.0.0.1:8085/batch/admin/job/query GET
+2023-11-14 20:37:16.543 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699965436543e8a  [0;39m 类名方法: com.jiawa.train.batch.controller.JobController.query
+2023-11-14 20:37:16.544 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699965436543e8a  [0;39m 远程地址: 127.0.0.1
+2023-11-14 20:37:16.544 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699965436543e8a  [0;39m 请求参数: []
+2023-11-14 20:37:16.544 INFO  com.jiawa.train.batch.controller.JobController    :169  [32m1699965436543e8a  [0;39m 查看所有定时任务开始
+2023-11-14 20:37:16.548 INFO  com.jiawa.train.batch.controller.JobController    :200  [32m1699965436543e8a  [0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='0/5 * * * * ?', group='DEFAULT', name='com.jiawa.train.batch.job.TestJob', description='TEST', state='NORMAL', nextFireTime=Tue Nov 14 20:37:15 GMT+08:00 2023, preFireTime=null}]}
+2023-11-14 20:37:16.548 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699965436543e8a  [0;39m 返回结果: {"content":[{"cronExpression":"0/5 * * * * ?","description":"TEST","group":"DEFAULT","name":"com.jiawa.train.batch.job.TestJob","nextFireTime":1699965435000,"state":"NORMAL"}],"success":true}
+2023-11-14 20:37:16.548 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699965436543e8a  [0;39m ------------- 结束 耗时：5 ms -------------
+2023-11-14 20:38:13.894 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699965493893cdv  [0;39m ------------- 开始 -------------
+2023-11-14 20:38:13.895 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699965493893cdv  [0;39m 请求地址: http://127.0.0.1:8085/batch/admin/job/run POST
+2023-11-14 20:38:13.895 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699965493893cdv  [0;39m 类名方法: com.jiawa.train.batch.controller.JobController.run
+2023-11-14 20:38:13.895 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699965493893cdv  [0;39m 远程地址: 127.0.0.1
+2023-11-14 20:38:13.895 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699965493893cdv  [0;39m 请求参数: [{"cronExpression":"0/5 * * * * ?","description":"TEST","group":"DEFAULT","name":"com.jiawa.train.batch.job.TestJob"}]
+2023-11-14 20:38:13.895 INFO  com.jiawa.train.batch.controller.JobController    :35   [32m1699965493893cdv  [0;39m 手动执行任务开始：com.jiawa.train.batch.job.TestJob, DEFAULT
+2023-11-14 20:38:14.026 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699965493893cdv  [0;39m 返回结果: {"success":true}
+2023-11-14 20:38:14.026 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699965493893cdv  [0;39m ------------- 结束 耗时：132 ms -------------
+2023-11-14 20:38:38.722 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-14 20:38:38.765 INFO  com.jiawa.train.batch.config.BatchApplication     :51   [32m                  [0;39m Starting BatchApplication using Java 17.0.4.1 with PID 17856 (E:\Springboot\train1\batch\target\classes started by MK in E:\Springboot\train1)
+2023-11-14 20:38:38.766 INFO  com.jiawa.train.batch.config.BatchApplication     :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-14 20:38:38.823 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-14 20:38:38.824 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-14 20:38:39.461 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.jiawa.train.*.mapper]' package. Please check your configuration.
+2023-11-14 20:38:39.538 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=1136e9d8-748e-38a2-bdaf-ddd460605885
+2023-11-14 20:38:40.099 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8085 (http)
+2023-11-14 20:38:40.106 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8085"]
+2023-11-14 20:38:40.106 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-14 20:38:40.107 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-14 20:38:40.154 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-14 20:38:40.154 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1329 ms
+2023-11-14 20:38:40.272 INFO  org.quartz.impl.StdSchedulerFactory               :1220 [32m                  [0;39m Using default implementation for ThreadExecutor
+2023-11-14 20:38:40.280 INFO  org.quartz.core.SchedulerSignalerImpl             :61   [32m                  [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-11-14 20:38:40.280 INFO  org.quartz.core.QuartzScheduler                   :229  [32m                  [0;39m Quartz Scheduler v.2.3.2 created.
+2023-11-14 20:38:40.285 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-11-14 20:38:40.368 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@860f7c1
+2023-11-14 20:38:40.371 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-11-14 20:38:40.378 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  [32m                  [0;39m Using db table-based data access locking (synchronization).
+2023-11-14 20:38:40.380 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  [32m                  [0;39m JobStoreCMT initialized.
+2023-11-14 20:38:40.380 INFO  org.quartz.core.QuartzScheduler                   :294  [32m                  [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2023-11-14 20:38:40.381 INFO  org.quartz.impl.StdSchedulerFactory               :1374 [32m                  [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2023-11-14 20:38:40.381 INFO  org.quartz.impl.StdSchedulerFactory               :1378 [32m                  [0;39m Quartz scheduler version: 2.3.2
+2023-11-14 20:38:40.381 INFO  org.quartz.core.QuartzScheduler                   :2293 [32m                  [0;39m JobFactory set to: com.jiawa.train.batch.config.MyJobFactory@5ea2caff
+2023-11-14 20:38:40.902 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-11-14 20:38:41.079 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2023-11-14 20:38:41.232 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8085"]
+2023-11-14 20:38:41.247 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8085 (http) with context path '/batch'
+2023-11-14 20:38:41.320 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  [32m                  [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
+2023-11-14 20:38:41.332 INFO  com.jiawa.train.batch.config.BatchApplication     :57   [32m                  [0;39m Started BatchApplication in 3.206 seconds (process running for 3.887)
+2023-11-14 20:38:41.336 INFO  com.jiawa.train.batch.config.BatchApplication     :20   [32m                  [0;39m 启动成功！！
+2023-11-14 20:38:41.336 INFO  com.jiawa.train.batch.config.BatchApplication     :21   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8085/batch/hello
+2023-11-14 20:38:43.325 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  [32m                  [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
+2023-11-14 20:38:43.360 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  [32m                  [0;39m Freed 1 triggers from 'acquired' / 'blocked' state.
+2023-11-14 20:38:43.361 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  [32m                  [0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2023-11-14 20:38:43.362 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  [32m                  [0;39m Recovery complete.
+2023-11-14 20:38:43.362 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  [32m                  [0;39m Removed 0 'complete' triggers.
+2023-11-14 20:38:43.363 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  [32m                  [0;39m Removed 1 stale fired job entries.
+2023-11-14 20:38:43.404 INFO  org.quartz.core.QuartzScheduler                   :547  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2023-11-14 20:39:05.159 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-14 20:39:05.159 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-14 20:39:05.159 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2023-11-14 20:39:05.229 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699965545173zui  [0;39m ------------- 开始 -------------
+2023-11-14 20:39:05.229 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699965545173zui  [0;39m 请求地址: http://127.0.0.1:8085/batch/admin/job/reschedule POST
+2023-11-14 20:39:05.229 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699965545173zui  [0;39m 类名方法: com.jiawa.train.batch.controller.JobController.reschedule
+2023-11-14 20:39:05.230 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699965545173zui  [0;39m 远程地址: 127.0.0.1
+2023-11-14 20:39:05.269 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699965545173zui  [0;39m 请求参数: [{"cronExpression":"0/10 * * * * ?","description":"TEST","group":"DEFAULT","name":"com.jiawa.train.batch.job.TestJob"}]
+2023-11-14 20:39:05.269 INFO  com.jiawa.train.batch.controller.JobController    :122  [32m1699965545173zui  [0;39m 更新定时任务开始：com.jiawa.train.batch.job.TestJob，DEFAULT，0/10 * * * * ?，TEST
+2023-11-14 20:39:05.758 INFO  com.jiawa.train.batch.controller.JobController    :143  [32m1699965545173zui  [0;39m 更新定时任务结束：CommonResp{success=true, message='null', content=null}
+2023-11-14 20:39:05.762 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699965545173zui  [0;39m 返回结果: {"success":true}
+2023-11-14 20:39:05.763 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699965545173zui  [0;39m ------------- 结束 耗时：535 ms -------------
+2023-11-14 20:39:05.807 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m16999655458072fc  [0;39m ------------- 开始 -------------
+2023-11-14 20:39:05.808 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m16999655458072fc  [0;39m 请求地址: http://127.0.0.1:8085/batch/admin/job/query GET
+2023-11-14 20:39:05.808 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m16999655458072fc  [0;39m 类名方法: com.jiawa.train.batch.controller.JobController.query
+2023-11-14 20:39:05.808 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m16999655458072fc  [0;39m 远程地址: 127.0.0.1
+2023-11-14 20:39:05.809 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m16999655458072fc  [0;39m 请求参数: []
+2023-11-14 20:39:05.809 INFO  com.jiawa.train.batch.controller.JobController    :169  [32m16999655458072fc  [0;39m 查看所有定时任务开始
+2023-11-14 20:39:05.818 INFO  com.jiawa.train.batch.controller.JobController    :200  [32m16999655458072fc  [0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='0/10 * * * * ?', group='DEFAULT', name='com.jiawa.train.batch.job.TestJob', description='TEST', state='NORMAL', nextFireTime=Tue Nov 14 20:39:10 GMT+08:00 2023, preFireTime=null}]}
+2023-11-14 20:39:05.827 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m16999655458072fc  [0;39m 返回结果: {"content":[{"cronExpression":"0/10 * * * * ?","description":"TEST","group":"DEFAULT","name":"com.jiawa.train.batch.job.TestJob","nextFireTime":1699965550000,"state":"NORMAL"}],"success":true}
+2023-11-14 20:39:05.828 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m16999655458072fc  [0;39m ------------- 结束 耗时：21 ms -------------
+2023-11-14 20:44:30.414 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m16999658704149bi  [0;39m ------------- 开始 -------------
+2023-11-14 20:44:30.415 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m16999658704149bi  [0;39m 请求地址: http://127.0.0.1:8085/batch/admin/job/query GET
+2023-11-14 20:44:30.415 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m16999658704149bi  [0;39m 类名方法: com.jiawa.train.batch.controller.JobController.query
+2023-11-14 20:44:30.415 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m16999658704149bi  [0;39m 远程地址: 127.0.0.1
+2023-11-14 20:44:30.416 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m16999658704149bi  [0;39m 请求参数: []
+2023-11-14 20:44:30.416 INFO  com.jiawa.train.batch.controller.JobController    :169  [32m16999658704149bi  [0;39m 查看所有定时任务开始
+2023-11-14 20:44:30.420 INFO  com.jiawa.train.batch.controller.JobController    :200  [32m16999658704149bi  [0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='0/10 * * * * ?', group='DEFAULT', name='com.jiawa.train.batch.job.TestJob', description='TEST', state='NORMAL', nextFireTime=Tue Nov 14 20:44:40 GMT+08:00 2023, preFireTime=Tue Nov 14 20:44:30 GMT+08:00 2023}]}
+2023-11-14 20:44:30.421 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m16999658704149bi  [0;39m 返回结果: {"content":[{"cronExpression":"0/10 * * * * ?","description":"TEST","group":"DEFAULT","name":"com.jiawa.train.batch.job.TestJob","nextFireTime":1699965880000,"preFireTime":1699965870000,"state":"NORMAL"}],"success":true}
+2023-11-14 20:44:30.422 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m16999658704149bi  [0;39m ------------- 结束 耗时：8 ms -------------
+2023-11-14 20:45:12.042 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m16999659120426j5  [0;39m ------------- 开始 -------------
+2023-11-14 20:45:12.042 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m16999659120426j5  [0;39m 请求地址: http://127.0.0.1:8085/batch/admin/job/query GET
+2023-11-14 20:45:12.042 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m16999659120426j5  [0;39m 类名方法: com.jiawa.train.batch.controller.JobController.query
+2023-11-14 20:45:12.043 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m16999659120426j5  [0;39m 远程地址: 127.0.0.1
+2023-11-14 20:45:12.043 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m16999659120426j5  [0;39m 请求参数: []
+2023-11-14 20:45:12.043 INFO  com.jiawa.train.batch.controller.JobController    :169  [32m16999659120426j5  [0;39m 查看所有定时任务开始
+2023-11-14 20:45:12.046 INFO  com.jiawa.train.batch.controller.JobController    :200  [32m16999659120426j5  [0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='0/10 * * * * ?', group='DEFAULT', name='com.jiawa.train.batch.job.TestJob', description='TEST', state='NORMAL', nextFireTime=Tue Nov 14 20:45:20 GMT+08:00 2023, preFireTime=Tue Nov 14 20:45:10 GMT+08:00 2023}]}
+2023-11-14 20:45:12.046 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m16999659120426j5  [0;39m 返回结果: {"content":[{"cronExpression":"0/10 * * * * ?","description":"TEST","group":"DEFAULT","name":"com.jiawa.train.batch.job.TestJob","nextFireTime":1699965920000,"preFireTime":1699965910000,"state":"NORMAL"}],"success":true}
+2023-11-14 20:45:12.046 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m16999659120426j5  [0;39m ------------- 结束 耗时：4 ms -------------
+2023-11-14 20:50:45.528 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699966245526ssf  [0;39m ------------- 开始 -------------
+2023-11-14 20:50:45.528 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699966245526ssf  [0;39m 请求地址: http://127.0.0.1:8085/batch/admin/job/query GET
+2023-11-14 20:50:45.528 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699966245526ssf  [0;39m 类名方法: com.jiawa.train.batch.controller.JobController.query
+2023-11-14 20:50:45.528 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699966245526ssf  [0;39m 远程地址: 127.0.0.1
+2023-11-14 20:50:45.528 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699966245526ssf  [0;39m 请求参数: []
+2023-11-14 20:50:45.528 INFO  com.jiawa.train.batch.controller.JobController    :169  [32m1699966245526ssf  [0;39m 查看所有定时任务开始
+2023-11-14 20:50:45.531 INFO  com.jiawa.train.batch.controller.JobController    :200  [32m1699966245526ssf  [0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='0/10 * * * * ?', group='DEFAULT', name='com.jiawa.train.batch.job.TestJob', description='TEST', state='NORMAL', nextFireTime=Tue Nov 14 20:50:50 GMT+08:00 2023, preFireTime=Tue Nov 14 20:50:40 GMT+08:00 2023}]}
+2023-11-14 20:50:45.531 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699966245526ssf  [0;39m 返回结果: {"content":[{"cronExpression":"0/10 * * * * ?","description":"TEST","group":"DEFAULT","name":"com.jiawa.train.batch.job.TestJob","nextFireTime":1699966250000,"preFireTime":1699966240000,"state":"NORMAL"}],"success":true}
+2023-11-14 20:50:45.531 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699966245526ssf  [0;39m ------------- 结束 耗时：3 ms -------------
+2023-11-14 20:55:13.615 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699966513614br5  [0;39m ------------- 开始 -------------
+2023-11-14 20:55:13.615 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699966513614br5  [0;39m 请求地址: http://127.0.0.1:8085/batch/admin/job/query GET
+2023-11-14 20:55:13.616 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699966513614br5  [0;39m 类名方法: com.jiawa.train.batch.controller.JobController.query
+2023-11-14 20:55:13.616 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699966513614br5  [0;39m 远程地址: 127.0.0.1
+2023-11-14 20:55:13.617 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699966513614br5  [0;39m 请求参数: []
+2023-11-14 20:55:13.617 INFO  com.jiawa.train.batch.controller.JobController    :169  [32m1699966513614br5  [0;39m 查看所有定时任务开始
+2023-11-14 20:55:13.620 INFO  com.jiawa.train.batch.controller.JobController    :200  [32m1699966513614br5  [0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='0/10 * * * * ?', group='DEFAULT', name='com.jiawa.train.batch.job.TestJob', description='TEST', state='NORMAL', nextFireTime=Tue Nov 14 20:55:20 GMT+08:00 2023, preFireTime=Tue Nov 14 20:55:10 GMT+08:00 2023}]}
+2023-11-14 20:55:13.620 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699966513614br5  [0;39m 返回结果: {"content":[{"cronExpression":"0/10 * * * * ?","description":"TEST","group":"DEFAULT","name":"com.jiawa.train.batch.job.TestJob","nextFireTime":1699966520000,"preFireTime":1699966510000,"state":"NORMAL"}],"success":true}
+2023-11-14 20:55:13.620 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699966513614br5  [0;39m ------------- 结束 耗时：5 ms -------------
+2023-11-14 21:25:44.402 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-14 21:25:44.443 INFO  c.jiawa.train.business.config.BusinessApplication :51   [32m                  [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 2532 (E:\Springboot\train1\business\target\classes started by MK in E:\Springboot\train1)
+2023-11-14 21:25:44.445 INFO  c.jiawa.train.business.config.BusinessApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-14 21:25:44.500 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-14 21:25:44.500 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-14 21:25:45.863 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=00f6a534-c835-30f5-a4f0-c47b93d95bb3
+2023-11-14 21:25:46.443 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8084 (http)
+2023-11-14 21:25:46.450 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8084"]
+2023-11-14 21:25:46.450 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-14 21:25:46.450 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-14 21:25:46.497 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-14 21:25:46.498 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1997 ms
+2023-11-14 21:25:47.406 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-11-14 21:25:47.562 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2023-11-14 21:25:47.705 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8084"]
+2023-11-14 21:25:47.722 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8084 (http) with context path '/business'
+2023-11-14 21:25:47.807 INFO  c.jiawa.train.business.config.BusinessApplication :57   [32m                  [0;39m Started BusinessApplication in 4.004 seconds (process running for 4.693)
+2023-11-14 21:25:47.809 INFO  c.jiawa.train.business.config.BusinessApplication :20   [32m                  [0;39m 启动成功！！
+2023-11-14 21:25:47.810 INFO  c.jiawa.train.business.config.BusinessApplication :21   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8084/business/hello
+2023-11-14 21:25:49.695 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699968349694tl0  [0;39m ------------- 开始 -------------
+2023-11-14 21:25:49.696 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699968349694tl0  [0;39m 请求地址: http://127.0.0.1:8085/batch/admin/job/query GET
+2023-11-14 21:25:49.696 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699968349694tl0  [0;39m 类名方法: com.jiawa.train.batch.controller.JobController.query
+2023-11-14 21:25:49.697 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699968349694tl0  [0;39m 远程地址: 127.0.0.1
+2023-11-14 21:25:49.697 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699968349694tl0  [0;39m 请求参数: []
+2023-11-14 21:25:49.697 INFO  com.jiawa.train.batch.controller.JobController    :169  [32m1699968349694tl0  [0;39m 查看所有定时任务开始
+2023-11-14 21:25:49.709 INFO  com.jiawa.train.batch.controller.JobController    :200  [32m1699968349694tl0  [0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='0/10 * * * * ?', group='DEFAULT', name='com.jiawa.train.batch.job.TestJob', description='TEST', state='NORMAL', nextFireTime=Tue Nov 14 21:25:50 GMT+08:00 2023, preFireTime=Tue Nov 14 21:25:40 GMT+08:00 2023}]}
+2023-11-14 21:25:49.709 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699968349694tl0  [0;39m 返回结果: {"content":[{"cronExpression":"0/10 * * * * ?","description":"TEST","group":"DEFAULT","name":"com.jiawa.train.batch.job.TestJob","nextFireTime":1699968350000,"preFireTime":1699968340000,"state":"NORMAL"}],"success":true}
+2023-11-14 21:25:49.710 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699968349694tl0  [0;39m ------------- 结束 耗时：15 ms -------------
+2023-11-14 21:25:53.435 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699968353429cuq  [0;39m ------------- 开始 -------------
+2023-11-14 21:25:53.435 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699968353429cuq  [0;39m 请求地址: http://127.0.0.1:8085/batch/admin/job/pause POST
+2023-11-14 21:25:53.435 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699968353429cuq  [0;39m 类名方法: com.jiawa.train.batch.controller.JobController.pause
+2023-11-14 21:25:53.435 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699968353429cuq  [0;39m 远程地址: 127.0.0.1
+2023-11-14 21:25:53.435 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699968353429cuq  [0;39m 请求参数: [{"group":"DEFAULT","name":"com.jiawa.train.batch.job.TestJob"}]
+2023-11-14 21:25:53.436 INFO  com.jiawa.train.batch.controller.JobController    :84   [32m1699968353429cuq  [0;39m 暂停定时任务开始：com.jiawa.train.batch.job.TestJob，DEFAULT
+2023-11-14 21:25:53.478 INFO  com.jiawa.train.batch.controller.JobController    :94   [32m1699968353429cuq  [0;39m 暂停定时任务结束：CommonResp{success=true, message='null', content=null}
+2023-11-14 21:25:53.478 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699968353429cuq  [0;39m 返回结果: {"success":true}
+2023-11-14 21:25:53.478 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699968353429cuq  [0;39m ------------- 结束 耗时：43 ms -------------
+2023-11-14 21:25:53.508 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699968353508462  [0;39m ------------- 开始 -------------
+2023-11-14 21:25:53.508 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699968353508462  [0;39m 请求地址: http://127.0.0.1:8085/batch/admin/job/query GET
+2023-11-14 21:25:53.509 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699968353508462  [0;39m 类名方法: com.jiawa.train.batch.controller.JobController.query
+2023-11-14 21:25:53.509 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699968353508462  [0;39m 远程地址: 127.0.0.1
+2023-11-14 21:25:53.509 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699968353508462  [0;39m 请求参数: []
+2023-11-14 21:25:53.509 INFO  com.jiawa.train.batch.controller.JobController    :169  [32m1699968353508462  [0;39m 查看所有定时任务开始
+2023-11-14 21:25:53.511 INFO  com.jiawa.train.batch.controller.JobController    :200  [32m1699968353508462  [0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='0/10 * * * * ?', group='DEFAULT', name='com.jiawa.train.batch.job.TestJob', description='TEST', state='PAUSED', nextFireTime=Tue Nov 14 21:26:00 GMT+08:00 2023, preFireTime=Tue Nov 14 21:25:50 GMT+08:00 2023}]}
+2023-11-14 21:25:53.512 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699968353508462  [0;39m 返回结果: {"content":[{"cronExpression":"0/10 * * * * ?","description":"TEST","group":"DEFAULT","name":"com.jiawa.train.batch.job.TestJob","nextFireTime":1699968360000,"preFireTime":1699968350000,"state":"PAUSED"}],"success":true}
+2023-11-14 21:25:53.512 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699968353508462  [0;39m ------------- 结束 耗时：4 ms -------------
+2023-11-14 21:26:16.820 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-14 21:26:16.821 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-14 21:26:16.823 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-11-14 21:26:16.908 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699968376841t93  [0;39m ------------- 开始 -------------
+2023-11-14 21:26:16.909 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699968376841t93  [0;39m 请求地址: http://127.0.0.1:8084/business/admin/daily-train/query-list GET
+2023-11-14 21:26:16.909 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699968376841t93  [0;39m 类名方法: com.jiawa.train.business.controller.admin.daily_trainAdminController.queryList
+2023-11-14 21:26:16.910 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699968376841t93  [0;39m 远程地址: 127.0.0.1
+2023-11-14 21:26:16.957 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699968376841t93  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-14 21:26:16.959 INFO  c.jiawa.train.business.service.daily_trainService :50   [32m1699968376841t93  [0;39m 查询页码：1
+2023-11-14 21:26:16.960 INFO  c.jiawa.train.business.service.daily_trainService :51   [32m1699968376841t93  [0;39m 每页条数：10
+2023-11-14 21:26:17.036 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1699968376841t93  [0;39m HikariPool-1 - Starting...
+2023-11-14 21:26:17.132 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1699968376841t93  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@362ae685
+2023-11-14 21:26:17.134 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1699968376841t93  [0;39m HikariPool-1 - Start completed.
+2023-11-14 21:26:17.142 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699968376841t93  [0;39m ==>  Preparing: SELECT count(0) FROM daily_train
+2023-11-14 21:26:17.160 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699968376841t93  [0;39m ==> Parameters: 
+2023-11-14 21:26:17.191 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m1699968376841t93  [0;39m <==    Columns: count(0)
+2023-11-14 21:26:17.191 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m1699968376841t93  [0;39m <==        Row: 0
+2023-11-14 21:26:17.194 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699968376841t93  [0;39m <==      Total: 1
+2023-11-14 21:26:17.198 INFO  c.jiawa.train.business.service.daily_trainService :56   [32m1699968376841t93  [0;39m 总行数：0
+2023-11-14 21:26:17.199 INFO  c.jiawa.train.business.service.daily_trainService :57   [32m1699968376841t93  [0;39m 总页数：0
+2023-11-14 21:26:17.205 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699968376841t93  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2023-11-14 21:26:17.206 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699968376841t93  [0;39m ------------- 结束 耗时：299 ms -------------
+2023-11-14 21:33:46.417 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699968826416ayq  [0;39m ------------- 开始 -------------
+2023-11-14 21:33:46.417 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699968826416ayq  [0;39m 请求地址: http://127.0.0.1:8084/business/admin/daily-train/query-list GET
+2023-11-14 21:33:46.418 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699968826416ayq  [0;39m 类名方法: com.jiawa.train.business.controller.admin.daily_trainAdminController.queryList
+2023-11-14 21:33:46.418 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699968826416ayq  [0;39m 远程地址: 127.0.0.1
+2023-11-14 21:33:46.418 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699968826416ayq  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-14 21:33:46.418 INFO  c.jiawa.train.business.service.daily_trainService :50   [32m1699968826416ayq  [0;39m 查询页码：1
+2023-11-14 21:33:46.418 INFO  c.jiawa.train.business.service.daily_trainService :51   [32m1699968826416ayq  [0;39m 每页条数：10
+2023-11-14 21:33:46.421 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699968826416ayq  [0;39m ==>  Preparing: SELECT count(0) FROM daily_train
+2023-11-14 21:33:46.422 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699968826416ayq  [0;39m ==> Parameters: 
+2023-11-14 21:33:46.423 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m1699968826416ayq  [0;39m <==    Columns: count(0)
+2023-11-14 21:33:46.423 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m1699968826416ayq  [0;39m <==        Row: 0
+2023-11-14 21:33:46.423 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699968826416ayq  [0;39m <==      Total: 1
+2023-11-14 21:33:46.423 INFO  c.jiawa.train.business.service.daily_trainService :56   [32m1699968826416ayq  [0;39m 总行数：0
+2023-11-14 21:33:46.423 INFO  c.jiawa.train.business.service.daily_trainService :57   [32m1699968826416ayq  [0;39m 总页数：0
+2023-11-14 21:33:46.424 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699968826416ayq  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2023-11-14 21:33:46.424 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699968826416ayq  [0;39m ------------- 结束 耗时：7 ms -------------
+2023-11-14 21:33:50.193 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m16999688301937kl  [0;39m ------------- 开始 -------------
+2023-11-14 21:33:50.194 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m16999688301937kl  [0;39m 请求地址: http://127.0.0.1:8084/business/admin/daily-train/query-list GET
+2023-11-14 21:33:50.194 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m16999688301937kl  [0;39m 类名方法: com.jiawa.train.business.controller.admin.daily_trainAdminController.queryList
+2023-11-14 21:33:50.195 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m16999688301937kl  [0;39m 远程地址: 127.0.0.1
+2023-11-14 21:33:50.195 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m16999688301937kl  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-14 21:33:50.196 INFO  c.jiawa.train.business.service.daily_trainService :50   [32m16999688301937kl  [0;39m 查询页码：1
+2023-11-14 21:33:50.196 INFO  c.jiawa.train.business.service.daily_trainService :51   [32m16999688301937kl  [0;39m 每页条数：10
+2023-11-14 21:33:50.199 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m16999688301937kl  [0;39m ==>  Preparing: SELECT count(0) FROM daily_train
+2023-11-14 21:33:50.200 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m16999688301937kl  [0;39m ==> Parameters: 
+2023-11-14 21:33:50.201 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m16999688301937kl  [0;39m <==    Columns: count(0)
+2023-11-14 21:33:50.201 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m16999688301937kl  [0;39m <==        Row: 0
+2023-11-14 21:33:50.202 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m16999688301937kl  [0;39m <==      Total: 1
+2023-11-14 21:33:50.203 INFO  c.jiawa.train.business.service.daily_trainService :56   [32m16999688301937kl  [0;39m 总行数：0
+2023-11-14 21:33:50.203 INFO  c.jiawa.train.business.service.daily_trainService :57   [32m16999688301937kl  [0;39m 总页数：0
+2023-11-14 21:33:50.203 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m16999688301937kl  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2023-11-14 21:33:50.204 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m16999688301937kl  [0;39m ------------- 结束 耗时：11 ms -------------
+2023-11-14 21:34:01.895 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699968841894jvh  [0;39m ------------- 开始 -------------
+2023-11-14 21:34:01.895 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699968841894jvh  [0;39m 请求地址: http://127.0.0.1:8084/business/admin/train/query-all GET
+2023-11-14 21:34:01.895 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699968841894jvh  [0;39m 类名方法: com.jiawa.train.business.controller.admin.TrainAdminController.queryAll
+2023-11-14 21:34:01.895 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699968841894jvh  [0;39m 远程地址: 127.0.0.1
+2023-11-14 21:34:01.896 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699968841894jvh  [0;39m 请求参数: []
+2023-11-14 21:34:01.899 DEBUG c.j.t.business.mapper.TrainMapper.selectByExample :137  [32m1699968841894jvh  [0;39m ==>  Preparing: select id, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from train order by code asc
+2023-11-14 21:34:01.899 DEBUG c.j.t.business.mapper.TrainMapper.selectByExample :137  [32m1699968841894jvh  [0;39m ==> Parameters: 
+2023-11-14 21:34:01.926 TRACE c.j.t.business.mapper.TrainMapper.selectByExample :143  [32m1699968841894jvh  [0;39m <==    Columns: id, code, type, start, start_pinyin, start_time, end, end_pinyin, end_time, create_time, update_time
+2023-11-14 21:34:01.928 TRACE c.j.t.business.mapper.TrainMapper.selectByExample :143  [32m1699968841894jvh  [0;39m <==        Row: 1723704540592738304, D2, D, 洛阳, luoyang, 00:01:02, 郑州, zhengzhou, 13:06:06, 2023-11-12 22:09:22, 2023-11-12 22:09:22
+2023-11-14 21:34:01.929 TRACE c.j.t.business.mapper.TrainMapper.selectByExample :143  [32m1699968841894jvh  [0;39m <==        Row: 1723640370857906176, G1, G, 北京, beijing, 02:11:02, 洛阳, luoyang, 07:07:06, 2023-11-12 17:54:22, 2023-11-12 21:20:09
+2023-11-14 21:34:01.930 TRACE c.j.t.business.mapper.TrainMapper.selectByExample :143  [32m1699968841894jvh  [0;39m <==        Row: 1723693768974143488, G2, G, 兰州, lanzhou, 01:01:01, 郑州, zhengzhou, 07:05:05, 2023-11-12 21:26:33, 2023-11-12 21:26:33
+2023-11-14 21:34:01.932 DEBUG c.j.t.business.mapper.TrainMapper.selectByExample :137  [32m1699968841894jvh  [0;39m <==      Total: 3
+2023-11-14 21:34:01.977 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699968841894jvh  [0;39m 返回结果: {"content":[{"code":"D2","createTime":1699798162000,"end":"郑州","endPinyin":"zhengzhou","endTime":18366000,"id":1723704540592738304,"start":"洛阳","startPinyin":"luoyang","startTime":-28738000,"type":"D","updateTime":1699798162000},{"code":"G1","createTime":1699782862000,"end":"洛阳","endPinyin":"luoyang","endTime":-3174000,"id":1723640370857906176,"start":"北京","startPinyin":"beijing","startTime":-20938000,"type":"G","updateTime":1699795209000},{"code":"G2","createTime":1699795593000,"end":"郑州","endPinyin":"zhengzhou","endTime":-3295000,"id":1723693768974143488,"start":"兰州","startPinyin":"lanzhou","startTime":-25139000,"type":"G","updateTime":1699795593000}],"success":true}
+2023-11-14 21:34:01.977 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699968841894jvh  [0;39m ------------- 结束 耗时：82 ms -------------
+2023-11-14 21:37:32.073 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699969052072s6e  [0;39m ------------- 开始 -------------
+2023-11-14 21:37:32.073 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699969052072s6e  [0;39m 请求地址: http://127.0.0.1:8084/business/admin/daily-train/query-list GET
+2023-11-14 21:37:32.073 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699969052072s6e  [0;39m 类名方法: com.jiawa.train.business.controller.admin.daily_trainAdminController.queryList
+2023-11-14 21:37:32.074 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699969052072s6e  [0;39m 远程地址: 127.0.0.1
+2023-11-14 21:37:32.074 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699969052072s6e  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-14 21:37:32.074 INFO  c.jiawa.train.business.service.daily_trainService :50   [32m1699969052072s6e  [0;39m 查询页码：1
+2023-11-14 21:37:32.074 INFO  c.jiawa.train.business.service.daily_trainService :51   [32m1699969052072s6e  [0;39m 每页条数：10
+2023-11-14 21:37:32.078 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699969052072s6e  [0;39m ==>  Preparing: SELECT count(0) FROM daily_train
+2023-11-14 21:37:32.079 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699969052072s6e  [0;39m ==> Parameters: 
+2023-11-14 21:37:32.080 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m1699969052072s6e  [0;39m <==    Columns: count(0)
+2023-11-14 21:37:32.080 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m1699969052072s6e  [0;39m <==        Row: 0
+2023-11-14 21:37:32.080 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699969052072s6e  [0;39m <==      Total: 1
+2023-11-14 21:37:32.081 INFO  c.jiawa.train.business.service.daily_trainService :56   [32m1699969052072s6e  [0;39m 总行数：0
+2023-11-14 21:37:32.081 INFO  c.jiawa.train.business.service.daily_trainService :57   [32m1699969052072s6e  [0;39m 总页数：0
+2023-11-14 21:37:32.081 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699969052072s6e  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2023-11-14 21:37:32.082 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699969052072s6e  [0;39m ------------- 结束 耗时：9 ms -------------
+2023-11-14 21:38:59.183 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699969139183puy  [0;39m ------------- 开始 -------------
+2023-11-14 21:38:59.184 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699969139183puy  [0;39m 请求地址: http://127.0.0.1:8084/business/admin/daily-train/query-list GET
+2023-11-14 21:38:59.184 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699969139183puy  [0;39m 类名方法: com.jiawa.train.business.controller.admin.daily_trainAdminController.queryList
+2023-11-14 21:38:59.184 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699969139183puy  [0;39m 远程地址: 127.0.0.1
+2023-11-14 21:38:59.184 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699969139183puy  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-14 21:38:59.185 INFO  c.jiawa.train.business.service.daily_trainService :50   [32m1699969139183puy  [0;39m 查询页码：1
+2023-11-14 21:38:59.185 INFO  c.jiawa.train.business.service.daily_trainService :51   [32m1699969139183puy  [0;39m 每页条数：10
+2023-11-14 21:38:59.188 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699969139183puy  [0;39m ==>  Preparing: SELECT count(0) FROM daily_train
+2023-11-14 21:38:59.189 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699969139183puy  [0;39m ==> Parameters: 
+2023-11-14 21:38:59.191 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m1699969139183puy  [0;39m <==    Columns: count(0)
+2023-11-14 21:38:59.192 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m1699969139183puy  [0;39m <==        Row: 0
+2023-11-14 21:38:59.193 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699969139183puy  [0;39m <==      Total: 1
+2023-11-14 21:38:59.193 INFO  c.jiawa.train.business.service.daily_trainService :56   [32m1699969139183puy  [0;39m 总行数：0
+2023-11-14 21:38:59.193 INFO  c.jiawa.train.business.service.daily_trainService :57   [32m1699969139183puy  [0;39m 总页数：0
+2023-11-14 21:38:59.193 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699969139183puy  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2023-11-14 21:38:59.194 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699969139183puy  [0;39m ------------- 结束 耗时：11 ms -------------
+2023-11-14 21:38:59.222 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m16999691392218lp  [0;39m ------------- 开始 -------------
+2023-11-14 21:38:59.222 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m16999691392218lp  [0;39m 请求地址: http://127.0.0.1:8084/business/admin/daily-train/query-list GET
+2023-11-14 21:38:59.222 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m16999691392218lp  [0;39m 类名方法: com.jiawa.train.business.controller.admin.daily_trainAdminController.queryList
+2023-11-14 21:38:59.222 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m16999691392218lp  [0;39m 远程地址: 127.0.0.1
+2023-11-14 21:38:59.223 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m16999691392218lp  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-14 21:38:59.223 INFO  c.jiawa.train.business.service.daily_trainService :50   [32m16999691392218lp  [0;39m 查询页码：1
+2023-11-14 21:38:59.223 INFO  c.jiawa.train.business.service.daily_trainService :51   [32m16999691392218lp  [0;39m 每页条数：10
+2023-11-14 21:38:59.226 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m16999691392218lp  [0;39m ==>  Preparing: SELECT count(0) FROM daily_train
+2023-11-14 21:38:59.226 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m16999691392218lp  [0;39m ==> Parameters: 
+2023-11-14 21:38:59.228 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m16999691392218lp  [0;39m <==    Columns: count(0)
+2023-11-14 21:38:59.228 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m16999691392218lp  [0;39m <==        Row: 0
+2023-11-14 21:38:59.229 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m16999691392218lp  [0;39m <==      Total: 1
+2023-11-14 21:38:59.230 INFO  c.jiawa.train.business.service.daily_trainService :56   [32m16999691392218lp  [0;39m 总行数：0
+2023-11-14 21:38:59.230 INFO  c.jiawa.train.business.service.daily_trainService :57   [32m16999691392218lp  [0;39m 总页数：0
+2023-11-14 21:38:59.230 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m16999691392218lp  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2023-11-14 21:38:59.230 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m16999691392218lp  [0;39m ------------- 结束 耗时：8 ms -------------
+2023-11-14 21:38:59.271 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699969139271rlh  [0;39m ------------- 开始 -------------
+2023-11-14 21:38:59.272 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699969139271rlh  [0;39m 请求地址: http://127.0.0.1:8084/business/admin/daily-train/query-list GET
+2023-11-14 21:38:59.272 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699969139271rlh  [0;39m 类名方法: com.jiawa.train.business.controller.admin.daily_trainAdminController.queryList
+2023-11-14 21:38:59.272 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699969139271rlh  [0;39m 远程地址: 127.0.0.1
+2023-11-14 21:38:59.272 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699969139271rlh  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-14 21:38:59.272 INFO  c.jiawa.train.business.service.daily_trainService :50   [32m1699969139271rlh  [0;39m 查询页码：1
+2023-11-14 21:38:59.272 INFO  c.jiawa.train.business.service.daily_trainService :51   [32m1699969139271rlh  [0;39m 每页条数：10
+2023-11-14 21:38:59.274 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699969139271rlh  [0;39m ==>  Preparing: SELECT count(0) FROM daily_train
+2023-11-14 21:38:59.275 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699969139271rlh  [0;39m ==> Parameters: 
+2023-11-14 21:38:59.276 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m1699969139271rlh  [0;39m <==    Columns: count(0)
+2023-11-14 21:38:59.276 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m1699969139271rlh  [0;39m <==        Row: 0
+2023-11-14 21:38:59.277 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699969139271rlh  [0;39m <==      Total: 1
+2023-11-14 21:38:59.277 INFO  c.jiawa.train.business.service.daily_trainService :56   [32m1699969139271rlh  [0;39m 总行数：0
+2023-11-14 21:38:59.277 INFO  c.jiawa.train.business.service.daily_trainService :57   [32m1699969139271rlh  [0;39m 总页数：0
+2023-11-14 21:38:59.278 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699969139271rlh  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2023-11-14 21:38:59.278 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699969139271rlh  [0;39m ------------- 结束 耗时：7 ms -------------
+2023-11-14 21:39:10.362 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699969150362ney  [0;39m ------------- 开始 -------------
+2023-11-14 21:39:10.363 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699969150362ney  [0;39m 请求地址: http://127.0.0.1:8084/business/admin/train/query-all GET
+2023-11-14 21:39:10.363 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699969150362ney  [0;39m 类名方法: com.jiawa.train.business.controller.admin.TrainAdminController.queryAll
+2023-11-14 21:39:10.363 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699969150362ney  [0;39m 远程地址: 127.0.0.1
+2023-11-14 21:39:10.363 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699969150362ney  [0;39m 请求参数: []
+2023-11-14 21:39:10.364 DEBUG c.j.t.business.mapper.TrainMapper.selectByExample :137  [32m1699969150362ney  [0;39m ==>  Preparing: select id, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from train order by code asc
+2023-11-14 21:39:10.365 DEBUG c.j.t.business.mapper.TrainMapper.selectByExample :137  [32m1699969150362ney  [0;39m ==> Parameters: 
+2023-11-14 21:39:10.366 TRACE c.j.t.business.mapper.TrainMapper.selectByExample :143  [32m1699969150362ney  [0;39m <==    Columns: id, code, type, start, start_pinyin, start_time, end, end_pinyin, end_time, create_time, update_time
+2023-11-14 21:39:10.366 TRACE c.j.t.business.mapper.TrainMapper.selectByExample :143  [32m1699969150362ney  [0;39m <==        Row: 1723704540592738304, D2, D, 洛阳, luoyang, 00:01:02, 郑州, zhengzhou, 13:06:06, 2023-11-12 22:09:22, 2023-11-12 22:09:22
+2023-11-14 21:39:10.367 TRACE c.j.t.business.mapper.TrainMapper.selectByExample :143  [32m1699969150362ney  [0;39m <==        Row: 1723640370857906176, G1, G, 北京, beijing, 02:11:02, 洛阳, luoyang, 07:07:06, 2023-11-12 17:54:22, 2023-11-12 21:20:09
+2023-11-14 21:39:10.368 TRACE c.j.t.business.mapper.TrainMapper.selectByExample :143  [32m1699969150362ney  [0;39m <==        Row: 1723693768974143488, G2, G, 兰州, lanzhou, 01:01:01, 郑州, zhengzhou, 07:05:05, 2023-11-12 21:26:33, 2023-11-12 21:26:33
+2023-11-14 21:39:10.369 DEBUG c.j.t.business.mapper.TrainMapper.selectByExample :137  [32m1699969150362ney  [0;39m <==      Total: 3
+2023-11-14 21:39:10.371 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699969150362ney  [0;39m 返回结果: {"content":[{"code":"D2","createTime":1699798162000,"end":"郑州","endPinyin":"zhengzhou","endTime":18366000,"id":1723704540592738304,"start":"洛阳","startPinyin":"luoyang","startTime":-28738000,"type":"D","updateTime":1699798162000},{"code":"G1","createTime":1699782862000,"end":"洛阳","endPinyin":"luoyang","endTime":-3174000,"id":1723640370857906176,"start":"北京","startPinyin":"beijing","startTime":-20938000,"type":"G","updateTime":1699795209000},{"code":"G2","createTime":1699795593000,"end":"郑州","endPinyin":"zhengzhou","endTime":-3295000,"id":1723693768974143488,"start":"兰州","startPinyin":"lanzhou","startTime":-25139000,"type":"G","updateTime":1699795593000}],"success":true}
+2023-11-14 21:39:10.371 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699969150362ney  [0;39m ------------- 结束 耗时：9 ms -------------
+2023-11-14 21:41:08.582 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m16999692685814no  [0;39m ------------- 开始 -------------
+2023-11-14 21:41:08.582 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m16999692685814no  [0;39m 请求地址: http://127.0.0.1:8084/business/admin/daily-train/query-list GET
+2023-11-14 21:41:08.582 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m16999692685814no  [0;39m 类名方法: com.jiawa.train.business.controller.admin.daily_trainAdminController.queryList
+2023-11-14 21:41:08.583 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m16999692685814no  [0;39m 远程地址: 127.0.0.1
+2023-11-14 21:41:08.583 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m16999692685814no  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-14 21:41:08.584 INFO  c.jiawa.train.business.service.daily_trainService :50   [32m16999692685814no  [0;39m 查询页码：1
+2023-11-14 21:41:08.584 INFO  c.jiawa.train.business.service.daily_trainService :51   [32m16999692685814no  [0;39m 每页条数：10
+2023-11-14 21:41:08.587 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m16999692685814no  [0;39m ==>  Preparing: SELECT count(0) FROM daily_train
+2023-11-14 21:41:08.587 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m16999692685814no  [0;39m ==> Parameters: 
+2023-11-14 21:41:08.588 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m16999692685814no  [0;39m <==    Columns: count(0)
+2023-11-14 21:41:08.588 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m16999692685814no  [0;39m <==        Row: 0
+2023-11-14 21:41:08.589 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m16999692685814no  [0;39m <==      Total: 1
+2023-11-14 21:41:08.589 INFO  c.jiawa.train.business.service.daily_trainService :56   [32m16999692685814no  [0;39m 总行数：0
+2023-11-14 21:41:08.589 INFO  c.jiawa.train.business.service.daily_trainService :57   [32m16999692685814no  [0;39m 总页数：0
+2023-11-14 21:41:08.589 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m16999692685814no  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2023-11-14 21:41:08.589 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m16999692685814no  [0;39m ------------- 结束 耗时：7 ms -------------
+2023-11-14 21:41:08.619 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699969268619d26  [0;39m ------------- 开始 -------------
+2023-11-14 21:41:08.619 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699969268619d26  [0;39m 请求地址: http://127.0.0.1:8084/business/admin/daily-train/query-list GET
+2023-11-14 21:41:08.620 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699969268619d26  [0;39m 类名方法: com.jiawa.train.business.controller.admin.daily_trainAdminController.queryList
+2023-11-14 21:41:08.620 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699969268619d26  [0;39m 远程地址: 127.0.0.1
+2023-11-14 21:41:08.620 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699969268619d26  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-14 21:41:08.620 INFO  c.jiawa.train.business.service.daily_trainService :50   [32m1699969268619d26  [0;39m 查询页码：1
+2023-11-14 21:41:08.620 INFO  c.jiawa.train.business.service.daily_trainService :51   [32m1699969268619d26  [0;39m 每页条数：10
+2023-11-14 21:41:08.622 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699969268619d26  [0;39m ==>  Preparing: SELECT count(0) FROM daily_train
+2023-11-14 21:41:08.622 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699969268619d26  [0;39m ==> Parameters: 
+2023-11-14 21:41:08.623 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m1699969268619d26  [0;39m <==    Columns: count(0)
+2023-11-14 21:41:08.623 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m1699969268619d26  [0;39m <==        Row: 0
+2023-11-14 21:41:08.623 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699969268619d26  [0;39m <==      Total: 1
+2023-11-14 21:41:08.624 INFO  c.jiawa.train.business.service.daily_trainService :56   [32m1699969268619d26  [0;39m 总行数：0
+2023-11-14 21:41:08.625 INFO  c.jiawa.train.business.service.daily_trainService :57   [32m1699969268619d26  [0;39m 总页数：0
+2023-11-14 21:41:08.626 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699969268619d26  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2023-11-14 21:41:08.626 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699969268619d26  [0;39m ------------- 结束 耗时：7 ms -------------
+2023-11-14 21:41:20.504 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699969280504gk2  [0;39m ------------- 开始 -------------
+2023-11-14 21:41:20.504 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699969280504gk2  [0;39m 请求地址: http://127.0.0.1:8084/business/admin/train/query-all GET
+2023-11-14 21:41:20.504 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699969280504gk2  [0;39m 类名方法: com.jiawa.train.business.controller.admin.TrainAdminController.queryAll
+2023-11-14 21:41:20.504 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699969280504gk2  [0;39m 远程地址: 127.0.0.1
+2023-11-14 21:41:20.504 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699969280504gk2  [0;39m 请求参数: []
+2023-11-14 21:41:20.505 DEBUG c.j.t.business.mapper.TrainMapper.selectByExample :137  [32m1699969280504gk2  [0;39m ==>  Preparing: select id, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from train order by code asc
+2023-11-14 21:41:20.505 DEBUG c.j.t.business.mapper.TrainMapper.selectByExample :137  [32m1699969280504gk2  [0;39m ==> Parameters: 
+2023-11-14 21:41:20.506 TRACE c.j.t.business.mapper.TrainMapper.selectByExample :143  [32m1699969280504gk2  [0;39m <==    Columns: id, code, type, start, start_pinyin, start_time, end, end_pinyin, end_time, create_time, update_time
+2023-11-14 21:41:20.507 TRACE c.j.t.business.mapper.TrainMapper.selectByExample :143  [32m1699969280504gk2  [0;39m <==        Row: 1723704540592738304, D2, D, 洛阳, luoyang, 00:01:02, 郑州, zhengzhou, 13:06:06, 2023-11-12 22:09:22, 2023-11-12 22:09:22
+2023-11-14 21:41:20.508 TRACE c.j.t.business.mapper.TrainMapper.selectByExample :143  [32m1699969280504gk2  [0;39m <==        Row: 1723640370857906176, G1, G, 北京, beijing, 02:11:02, 洛阳, luoyang, 07:07:06, 2023-11-12 17:54:22, 2023-11-12 21:20:09
+2023-11-14 21:41:20.510 TRACE c.j.t.business.mapper.TrainMapper.selectByExample :143  [32m1699969280504gk2  [0;39m <==        Row: 1723693768974143488, G2, G, 兰州, lanzhou, 01:01:01, 郑州, zhengzhou, 07:05:05, 2023-11-12 21:26:33, 2023-11-12 21:26:33
+2023-11-14 21:41:20.511 DEBUG c.j.t.business.mapper.TrainMapper.selectByExample :137  [32m1699969280504gk2  [0;39m <==      Total: 3
+2023-11-14 21:41:20.512 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699969280504gk2  [0;39m 返回结果: {"content":[{"code":"D2","createTime":1699798162000,"end":"郑州","endPinyin":"zhengzhou","endTime":18366000,"id":1723704540592738304,"start":"洛阳","startPinyin":"luoyang","startTime":-28738000,"type":"D","updateTime":1699798162000},{"code":"G1","createTime":1699782862000,"end":"洛阳","endPinyin":"luoyang","endTime":-3174000,"id":1723640370857906176,"start":"北京","startPinyin":"beijing","startTime":-20938000,"type":"G","updateTime":1699795209000},{"code":"G2","createTime":1699795593000,"end":"郑州","endPinyin":"zhengzhou","endTime":-3295000,"id":1723693768974143488,"start":"兰州","startPinyin":"lanzhou","startTime":-25139000,"type":"G","updateTime":1699795593000}],"success":true}
+2023-11-14 21:41:20.512 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699969280504gk2  [0;39m ------------- 结束 耗时：8 ms -------------
+2023-11-14 21:41:30.753 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699969290752unq  [0;39m ------------- 开始 -------------
+2023-11-14 21:41:30.753 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699969290752unq  [0;39m 请求地址: http://127.0.0.1:8084/business/admin/daily-train/query-list GET
+2023-11-14 21:41:30.753 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699969290752unq  [0;39m 类名方法: com.jiawa.train.business.controller.admin.daily_trainAdminController.queryList
+2023-11-14 21:41:30.753 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699969290752unq  [0;39m 远程地址: 127.0.0.1
+2023-11-14 21:41:30.754 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699969290752unq  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-14 21:41:30.754 INFO  c.jiawa.train.business.service.daily_trainService :50   [32m1699969290752unq  [0;39m 查询页码：1
+2023-11-14 21:41:30.754 INFO  c.jiawa.train.business.service.daily_trainService :51   [32m1699969290752unq  [0;39m 每页条数：10
+2023-11-14 21:41:30.757 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699969290752unq  [0;39m ==>  Preparing: SELECT count(0) FROM daily_train
+2023-11-14 21:41:30.758 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699969290752unq  [0;39m ==> Parameters: 
+2023-11-14 21:41:30.762 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m1699969290752unq  [0;39m <==    Columns: count(0)
+2023-11-14 21:41:30.764 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m1699969290752unq  [0;39m <==        Row: 0
+2023-11-14 21:41:30.764 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699969290752unq  [0;39m <==      Total: 1
+2023-11-14 21:41:30.765 INFO  c.jiawa.train.business.service.daily_trainService :56   [32m1699969290752unq  [0;39m 总行数：0
+2023-11-14 21:41:30.765 INFO  c.jiawa.train.business.service.daily_trainService :57   [32m1699969290752unq  [0;39m 总页数：0
+2023-11-14 21:41:30.766 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699969290752unq  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2023-11-14 21:41:30.766 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699969290752unq  [0;39m ------------- 结束 耗时：13 ms -------------
+2023-11-14 21:45:24.111 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699969524110zbf  [0;39m ------------- 开始 -------------
+2023-11-14 21:45:24.112 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699969524110zbf  [0;39m 请求地址: http://127.0.0.1:8084/business/admin/daily-train/query-list GET
+2023-11-14 21:45:24.112 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699969524110zbf  [0;39m 类名方法: com.jiawa.train.business.controller.admin.daily_trainAdminController.queryList
+2023-11-14 21:45:24.112 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699969524110zbf  [0;39m 远程地址: 127.0.0.1
+2023-11-14 21:45:24.112 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699969524110zbf  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-14 21:45:24.112 INFO  c.jiawa.train.business.service.daily_trainService :50   [32m1699969524110zbf  [0;39m 查询页码：1
+2023-11-14 21:45:24.113 INFO  c.jiawa.train.business.service.daily_trainService :51   [32m1699969524110zbf  [0;39m 每页条数：10
+2023-11-14 21:45:24.117 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699969524110zbf  [0;39m ==>  Preparing: SELECT count(0) FROM daily_train
+2023-11-14 21:45:24.118 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699969524110zbf  [0;39m ==> Parameters: 
+2023-11-14 21:45:24.121 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m1699969524110zbf  [0;39m <==    Columns: count(0)
+2023-11-14 21:45:24.121 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m1699969524110zbf  [0;39m <==        Row: 0
+2023-11-14 21:45:24.122 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699969524110zbf  [0;39m <==      Total: 1
+2023-11-14 21:45:24.122 INFO  c.jiawa.train.business.service.daily_trainService :56   [32m1699969524110zbf  [0;39m 总行数：0
+2023-11-14 21:45:24.123 INFO  c.jiawa.train.business.service.daily_trainService :57   [32m1699969524110zbf  [0;39m 总页数：0
+2023-11-14 21:45:24.123 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699969524110zbf  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2023-11-14 21:45:24.124 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699969524110zbf  [0;39m ------------- 结束 耗时：13 ms -------------
+2023-11-14 21:45:24.971 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699969524971071  [0;39m ------------- 开始 -------------
+2023-11-14 21:45:24.971 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699969524971071  [0;39m 请求地址: http://127.0.0.1:8084/business/admin/train/query-all GET
+2023-11-14 21:45:24.972 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699969524971071  [0;39m 类名方法: com.jiawa.train.business.controller.admin.TrainAdminController.queryAll
+2023-11-14 21:45:24.972 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699969524971071  [0;39m 远程地址: 127.0.0.1
+2023-11-14 21:45:24.972 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699969524971071  [0;39m 请求参数: []
+2023-11-14 21:45:24.973 DEBUG c.j.t.business.mapper.TrainMapper.selectByExample :137  [32m1699969524971071  [0;39m ==>  Preparing: select id, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from train order by code asc
+2023-11-14 21:45:24.973 DEBUG c.j.t.business.mapper.TrainMapper.selectByExample :137  [32m1699969524971071  [0;39m ==> Parameters: 
+2023-11-14 21:45:24.974 TRACE c.j.t.business.mapper.TrainMapper.selectByExample :143  [32m1699969524971071  [0;39m <==    Columns: id, code, type, start, start_pinyin, start_time, end, end_pinyin, end_time, create_time, update_time
+2023-11-14 21:45:24.975 TRACE c.j.t.business.mapper.TrainMapper.selectByExample :143  [32m1699969524971071  [0;39m <==        Row: 1723704540592738304, D2, D, 洛阳, luoyang, 00:01:02, 郑州, zhengzhou, 13:06:06, 2023-11-12 22:09:22, 2023-11-12 22:09:22
+2023-11-14 21:45:24.976 TRACE c.j.t.business.mapper.TrainMapper.selectByExample :143  [32m1699969524971071  [0;39m <==        Row: 1723640370857906176, G1, G, 北京, beijing, 02:11:02, 洛阳, luoyang, 07:07:06, 2023-11-12 17:54:22, 2023-11-12 21:20:09
+2023-11-14 21:45:24.978 TRACE c.j.t.business.mapper.TrainMapper.selectByExample :143  [32m1699969524971071  [0;39m <==        Row: 1723693768974143488, G2, G, 兰州, lanzhou, 01:01:01, 郑州, zhengzhou, 07:05:05, 2023-11-12 21:26:33, 2023-11-12 21:26:33
+2023-11-14 21:45:24.979 DEBUG c.j.t.business.mapper.TrainMapper.selectByExample :137  [32m1699969524971071  [0;39m <==      Total: 3
+2023-11-14 21:45:24.980 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699969524971071  [0;39m 返回结果: {"content":[{"code":"D2","createTime":1699798162000,"end":"郑州","endPinyin":"zhengzhou","endTime":18366000,"id":1723704540592738304,"start":"洛阳","startPinyin":"luoyang","startTime":-28738000,"type":"D","updateTime":1699798162000},{"code":"G1","createTime":1699782862000,"end":"洛阳","endPinyin":"luoyang","endTime":-3174000,"id":1723640370857906176,"start":"北京","startPinyin":"beijing","startTime":-20938000,"type":"G","updateTime":1699795209000},{"code":"G2","createTime":1699795593000,"end":"郑州","endPinyin":"zhengzhou","endTime":-3295000,"id":1723693768974143488,"start":"兰州","startPinyin":"lanzhou","startTime":-25139000,"type":"G","updateTime":1699795593000}],"success":true}
+2023-11-14 21:45:24.981 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699969524971071  [0;39m ------------- 结束 耗时：10 ms -------------
+2023-11-14 21:45:32.377 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699969532236olc  [0;39m ------------- 开始 -------------
+2023-11-14 21:45:32.377 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699969532236olc  [0;39m 请求地址: http://127.0.0.1:8084/business/admin/daily-train/save POST
+2023-11-14 21:45:32.377 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699969532236olc  [0;39m 类名方法: com.jiawa.train.business.controller.admin.daily_trainAdminController.save
+2023-11-14 21:45:32.378 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699969532236olc  [0;39m 远程地址: 127.0.0.1
+2023-11-14 21:45:32.380 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699969532236olc  [0;39m 请求参数: [{"code":"D2","createTime":1699798162000,"date":1699372800000,"end":"郑州","endPinyin":"zhengzhou","endTime":18366000,"start":"洛阳","startPinyin":"luoyang","startTime":-28738000,"type":"D","updateTime":1699798162000}]
+2023-11-14 21:45:32.412 DEBUG c.j.train.business.mapper.daily_trainMapper.insert:137  [32m1699969532236olc  [0;39m ==>  Preparing: insert into daily_train (id, `date`, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-11-14 21:45:32.415 DEBUG c.j.train.business.mapper.daily_trainMapper.insert:137  [32m1699969532236olc  [0;39m ==> Parameters: 1724423320130162688(Long), 2023-11-08(Date), D2(String), D(String), 洛阳(String), luoyang(String), 00:01:02(Time), 郑州(String), zhengzhou(String), 13:06:06(Time), 2023-11-14 21:45:32.381(Timestamp), 2023-11-14 21:45:32.381(Timestamp)
+2023-11-14 21:45:32.483 DEBUG c.j.train.business.mapper.daily_trainMapper.insert:137  [32m1699969532236olc  [0;39m <==    Updates: 1
+2023-11-14 21:45:32.484 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699969532236olc  [0;39m 返回结果: {"success":true}
+2023-11-14 21:45:32.484 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699969532236olc  [0;39m ------------- 结束 耗时：107 ms -------------
+2023-11-14 21:45:32.533 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699969532532475  [0;39m ------------- 开始 -------------
+2023-11-14 21:45:32.533 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699969532532475  [0;39m 请求地址: http://127.0.0.1:8084/business/admin/daily-train/query-list GET
+2023-11-14 21:45:32.533 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699969532532475  [0;39m 类名方法: com.jiawa.train.business.controller.admin.daily_trainAdminController.queryList
+2023-11-14 21:45:32.534 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699969532532475  [0;39m 远程地址: 127.0.0.1
+2023-11-14 21:45:32.534 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699969532532475  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-14 21:45:32.534 INFO  c.jiawa.train.business.service.daily_trainService :50   [32m1699969532532475  [0;39m 查询页码：1
+2023-11-14 21:45:32.534 INFO  c.jiawa.train.business.service.daily_trainService :51   [32m1699969532532475  [0;39m 每页条数：10
+2023-11-14 21:45:32.536 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699969532532475  [0;39m ==>  Preparing: SELECT count(0) FROM daily_train
+2023-11-14 21:45:32.537 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699969532532475  [0;39m ==> Parameters: 
+2023-11-14 21:45:32.538 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m1699969532532475  [0;39m <==    Columns: count(0)
+2023-11-14 21:45:32.539 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m1699969532532475  [0;39m <==        Row: 1
+2023-11-14 21:45:32.539 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m1699969532532475  [0;39m <==      Total: 1
+2023-11-14 21:45:32.542 DEBUG c.j.t.b.mapper.daily_trainMapper.selectByExample  :137  [32m1699969532532475  [0;39m ==>  Preparing: select id, `date`, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from daily_train order by id desc LIMIT ?
+2023-11-14 21:45:32.543 DEBUG c.j.t.b.mapper.daily_trainMapper.selectByExample  :137  [32m1699969532532475  [0;39m ==> Parameters: 10(Integer)
+2023-11-14 21:45:32.553 TRACE c.j.t.b.mapper.daily_trainMapper.selectByExample  :143  [32m1699969532532475  [0;39m <==    Columns: id, date, code, type, start, start_pinyin, start_time, end, end_pinyin, end_time, create_time, update_time
+2023-11-14 21:45:32.554 TRACE c.j.t.b.mapper.daily_trainMapper.selectByExample  :143  [32m1699969532532475  [0;39m <==        Row: 1724423320130162688, 2023-11-08, D2, D, 洛阳, luoyang, 00:01:02, 郑州, zhengzhou, 13:06:06, 2023-11-14 21:45:32, 2023-11-14 21:45:32
+2023-11-14 21:45:32.556 DEBUG c.j.t.b.mapper.daily_trainMapper.selectByExample  :137  [32m1699969532532475  [0;39m <==      Total: 1
+2023-11-14 21:45:32.557 INFO  c.jiawa.train.business.service.daily_trainService :56   [32m1699969532532475  [0;39m 总行数：1
+2023-11-14 21:45:32.557 INFO  c.jiawa.train.business.service.daily_trainService :57   [32m1699969532532475  [0;39m 总页数：1
+2023-11-14 21:45:32.564 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699969532532475  [0;39m 返回结果: {"content":{"list":[{"code":"D2","createTime":1699969532000,"date":1699372800000,"end":"郑州","endPinyin":"zhengzhou","endTime":18366000,"id":1724423320130162688,"start":"洛阳","startPinyin":"luoyang","startTime":-28738000,"type":"D","updateTime":1699969532000}],"total":1},"success":true}
+2023-11-14 21:45:32.565 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699969532532475  [0;39m ------------- 结束 耗时：32 ms -------------
+2023-11-14 21:45:41.262 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m1699969541260b0j  [0;39m ------------- 开始 -------------
+2023-11-14 21:45:41.262 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m1699969541260b0j  [0;39m 请求地址: http://127.0.0.1:8084/business/admin/daily-train/save POST
+2023-11-14 21:45:41.262 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m1699969541260b0j  [0;39m 类名方法: com.jiawa.train.business.controller.admin.daily_trainAdminController.save
+2023-11-14 21:45:41.262 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m1699969541260b0j  [0;39m 远程地址: 127.0.0.1
+2023-11-14 21:45:41.262 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m1699969541260b0j  [0;39m 请求参数: [{"code":"D2","createTime":1699798162000,"date":1699372800000,"end":"郑州","endPinyin":"zhengzhou","endTime":18366000,"id":1724423320130162688,"start":"洛阳","startPinyin":"luoyang","startTime":-28738000,"type":"G","updateTime":1699798162000}]
+2023-11-14 21:45:41.263 DEBUG c.j.t.b.m.daily_trainMapper.updateByPrimaryKey    :137  [32m1699969541260b0j  [0;39m ==>  Preparing: update daily_train set `date` = ?, code = ?, `type` = ?, `start` = ?, start_pinyin = ?, start_time = ?, `end` = ?, end_pinyin = ?, end_time = ?, create_time = ?, update_time = ? where id = ?
+2023-11-14 21:45:41.264 DEBUG c.j.t.b.m.daily_trainMapper.updateByPrimaryKey    :137  [32m1699969541260b0j  [0;39m ==> Parameters: 2023-11-08(Date), D2(String), G(String), 洛阳(String), luoyang(String), 00:01:02(Time), 郑州(String), zhengzhou(String), 13:06:06(Time), 2023-11-12 22:09:22.0(Timestamp), 2023-11-14 21:45:41.262(Timestamp), 1724423320130162688(Long)
+2023-11-14 21:45:41.312 DEBUG c.j.t.b.m.daily_trainMapper.updateByPrimaryKey    :137  [32m1699969541260b0j  [0;39m <==    Updates: 1
+2023-11-14 21:45:41.313 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m1699969541260b0j  [0;39m 返回结果: {"success":true}
+2023-11-14 21:45:41.313 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m1699969541260b0j  [0;39m ------------- 结束 耗时：51 ms -------------
+2023-11-14 21:45:41.347 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m16999695413469hm  [0;39m ------------- 开始 -------------
+2023-11-14 21:45:41.347 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m16999695413469hm  [0;39m 请求地址: http://127.0.0.1:8084/business/admin/daily-train/query-list GET
+2023-11-14 21:45:41.347 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m16999695413469hm  [0;39m 类名方法: com.jiawa.train.business.controller.admin.daily_trainAdminController.queryList
+2023-11-14 21:45:41.347 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m16999695413469hm  [0;39m 远程地址: 127.0.0.1
+2023-11-14 21:45:41.347 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m16999695413469hm  [0;39m 请求参数: [{"page":1,"size":10}]
+2023-11-14 21:45:41.347 INFO  c.jiawa.train.business.service.daily_trainService :50   [32m16999695413469hm  [0;39m 查询页码：1
+2023-11-14 21:45:41.347 INFO  c.jiawa.train.business.service.daily_trainService :51   [32m16999695413469hm  [0;39m 每页条数：10
+2023-11-14 21:45:41.350 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m16999695413469hm  [0;39m ==>  Preparing: SELECT count(0) FROM daily_train
+2023-11-14 21:45:41.350 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m16999695413469hm  [0;39m ==> Parameters: 
+2023-11-14 21:45:41.351 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m16999695413469hm  [0;39m <==    Columns: count(0)
+2023-11-14 21:45:41.351 TRACE c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :143  [32m16999695413469hm  [0;39m <==        Row: 1
+2023-11-14 21:45:41.351 DEBUG c.j.t.b.m.daily_trainMapper.selectByExample_COUNT :137  [32m16999695413469hm  [0;39m <==      Total: 1
+2023-11-14 21:45:41.352 DEBUG c.j.t.b.mapper.daily_trainMapper.selectByExample  :137  [32m16999695413469hm  [0;39m ==>  Preparing: select id, `date`, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from daily_train order by id desc LIMIT ?
+2023-11-14 21:45:41.352 DEBUG c.j.t.b.mapper.daily_trainMapper.selectByExample  :137  [32m16999695413469hm  [0;39m ==> Parameters: 10(Integer)
+2023-11-14 21:45:41.353 TRACE c.j.t.b.mapper.daily_trainMapper.selectByExample  :143  [32m16999695413469hm  [0;39m <==    Columns: id, date, code, type, start, start_pinyin, start_time, end, end_pinyin, end_time, create_time, update_time
+2023-11-14 21:45:41.353 TRACE c.j.t.b.mapper.daily_trainMapper.selectByExample  :143  [32m16999695413469hm  [0;39m <==        Row: 1724423320130162688, 2023-11-08, D2, G, 洛阳, luoyang, 00:01:02, 郑州, zhengzhou, 13:06:06, 2023-11-12 22:09:22, 2023-11-14 21:45:41
+2023-11-14 21:45:41.354 DEBUG c.j.t.b.mapper.daily_trainMapper.selectByExample  :137  [32m16999695413469hm  [0;39m <==      Total: 1
+2023-11-14 21:45:41.354 INFO  c.jiawa.train.business.service.daily_trainService :56   [32m16999695413469hm  [0;39m 总行数：1
+2023-11-14 21:45:41.355 INFO  c.jiawa.train.business.service.daily_trainService :57   [32m16999695413469hm  [0;39m 总页数：1
+2023-11-14 21:45:41.355 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m16999695413469hm  [0;39m 返回结果: {"content":{"list":[{"code":"D2","createTime":1699798162000,"date":1699372800000,"end":"郑州","endPinyin":"zhengzhou","endTime":18366000,"id":1724423320130162688,"start":"洛阳","startPinyin":"luoyang","startTime":-28738000,"type":"G","updateTime":1699969541000}],"total":1},"success":true}
+2023-11-14 21:45:41.355 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m16999695413469hm  [0;39m ------------- 结束 耗时：8 ms -------------

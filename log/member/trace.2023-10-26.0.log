@@ -1,0 +1,149 @@
+2023-10-26 14:54:43.110 INFO  com.jiawa.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 17812 (E:\Springboot\train1\member\target\classes started by MK in E:\Springboot\train1)
+2023-10-26 14:54:43.113 INFO  com.jiawa.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-26 14:54:43.150 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-26 14:54:43.150 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-26 14:54:43.598 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=48127f96-07f5-3ac5-99c5-e6fe52ea15b1
+2023-10-26 14:54:43.975 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-26 14:54:43.981 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-26 14:54:43.982 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-26 14:54:43.982 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-26 14:54:44.024 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-26 14:54:44.025 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 874 ms
+2023-10-26 14:54:44.253 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-26 14:54:44.372 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-26 14:54:44.386 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path '/member'
+2023-10-26 14:54:44.467 INFO  com.jiawa.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 2.043 seconds (process running for 2.601)
+2023-10-26 14:54:44.470 INFO  com.jiawa.train.member.config.MemberApplication   :21   [32m                  [0;39m 启动成功！！
+2023-10-26 14:54:44.471 INFO  com.jiawa.train.member.config.MemberApplication   :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8081/hello
+2023-10-26 15:01:44.950 INFO  com.jiawa.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 21276 (E:\Springboot\train1\member\target\classes started by MK in E:\Springboot\train1)
+2023-10-26 15:01:44.955 INFO  com.jiawa.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-26 15:01:45.033 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-26 15:01:45.034 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-26 15:01:45.494 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=48127f96-07f5-3ac5-99c5-e6fe52ea15b1
+2023-10-26 15:01:45.878 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-26 15:01:45.885 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-26 15:01:45.886 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-26 15:01:45.886 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-26 15:01:45.928 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-26 15:01:45.928 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 893 ms
+2023-10-26 15:01:46.160 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-26 15:01:46.285 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-26 15:01:46.301 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path '/member'
+2023-10-26 15:01:46.385 INFO  com.jiawa.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 1.96 seconds (process running for 2.501)
+2023-10-26 15:01:46.388 INFO  com.jiawa.train.member.config.MemberApplication   :21   [32m                  [0;39m 启动成功！！
+2023-10-26 15:01:46.388 INFO  com.jiawa.train.member.config.MemberApplication   :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8081/member/hello
+2023-10-26 15:01:48.358 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-26 15:01:48.359 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-26 15:01:48.360 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-10-26 15:20:41.917 INFO  com.jiawa.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 10928 (E:\Springboot\train1\member\target\classes started by MK in E:\Springboot\train1)
+2023-10-26 15:20:41.920 INFO  com.jiawa.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-26 15:20:41.963 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-26 15:20:41.964 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-26 15:20:42.563 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a1c63f2a-71b2-3a2e-82be-283d66126288
+2023-10-26 15:20:43.147 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-26 15:20:43.155 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-26 15:20:43.155 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-26 15:20:43.156 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-26 15:20:43.202 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-26 15:20:43.202 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1238 ms
+2023-10-26 15:20:43.619 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-26 15:20:43.747 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-26 15:20:43.761 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path '/member'
+2023-10-26 15:20:43.843 INFO  com.jiawa.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 2.434 seconds (process running for 3.005)
+2023-10-26 15:20:43.845 INFO  com.jiawa.train.member.config.MemberApplication   :21   [32m                  [0;39m 启动成功！！
+2023-10-26 15:20:43.846 INFO  com.jiawa.train.member.config.MemberApplication   :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8081/member/hello
+2023-10-26 15:21:31.932 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-26 15:21:31.932 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-26 15:21:31.934 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 2 ms
+2023-10-26 15:21:31.964 INFO  com.jiawa.train.member.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-10-26 15:21:31.965 INFO  com.jiawa.train.member.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8081/member/hello GET
+2023-10-26 15:21:31.965 INFO  com.jiawa.train.member.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.TestController.hello
+2023-10-26 15:21:31.965 INFO  com.jiawa.train.member.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-10-26 15:21:31.993 INFO  com.jiawa.train.member.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-10-26 15:21:31.993 INFO  com.jiawa.train.member.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: "hello world"
+2023-10-26 15:21:31.994 INFO  com.jiawa.train.member.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：31 ms -------------
+2023-10-26 15:27:36.848 INFO  com.jiawa.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 19596 (E:\Springboot\train1\member\target\classes started by MK in E:\Springboot\train1)
+2023-10-26 15:27:36.852 INFO  com.jiawa.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-26 15:27:36.899 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-26 15:27:36.899 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-26 15:27:37.393 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a1c63f2a-71b2-3a2e-82be-283d66126288
+2023-10-26 15:27:37.909 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-26 15:27:37.916 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-26 15:27:37.917 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-26 15:27:37.917 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-26 15:27:37.958 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-26 15:27:37.959 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1059 ms
+2023-10-26 15:27:38.359 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-26 15:27:38.487 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-26 15:27:38.501 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path '/member'
+2023-10-26 15:27:38.581 INFO  com.jiawa.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 2.333 seconds (process running for 2.904)
+2023-10-26 15:27:38.585 INFO  com.jiawa.train.member.config.MemberApplication   :21   [32m                  [0;39m 启动成功！！
+2023-10-26 15:27:38.586 INFO  com.jiawa.train.member.config.MemberApplication   :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8081/member/hello
+2023-10-26 15:37:01.143 INFO  com.jiawa.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 7924 (E:\Springboot\train1\member\target\classes started by MK in E:\Springboot\train1)
+2023-10-26 15:37:01.146 INFO  com.jiawa.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-26 15:37:01.190 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-26 15:37:01.190 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-26 15:37:01.734 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a1c63f2a-71b2-3a2e-82be-283d66126288
+2023-10-26 15:37:02.295 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2023-10-26 15:37:02.302 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2023-10-26 15:37:02.302 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-26 15:37:02.303 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-26 15:37:02.348 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-26 15:37:02.348 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1157 ms
+2023-10-26 15:37:02.807 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-26 15:37:02.947 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2023-10-26 15:37:02.963 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path '/member'
+2023-10-26 15:37:03.044 INFO  com.jiawa.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 2.475 seconds (process running for 3.053)
+2023-10-26 15:37:03.046 INFO  com.jiawa.train.member.config.MemberApplication   :21   [32m                  [0;39m 启动成功！！
+2023-10-26 15:37:03.047 INFO  com.jiawa.train.member.config.MemberApplication   :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8081/member/hello
+2023-10-26 15:37:05.851 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-26 15:37:05.852 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-26 15:37:05.853 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-10-26 15:37:05.891 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-10-26 15:37:05.892 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8081/member/hello GET
+2023-10-26 15:37:05.893 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.TestController.hello
+2023-10-26 15:37:05.893 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-10-26 15:37:05.935 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-10-26 15:37:05.935 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: "hello world"
+2023-10-26 15:37:05.935 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：47 ms -------------
+2023-10-26 15:40:10.140 INFO  com.jiawa.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 18872 (E:\Springboot\train1\member\target\classes started by MK in E:\Springboot\train1)
+2023-10-26 15:40:10.145 INFO  com.jiawa.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-26 15:40:10.197 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-26 15:40:10.198 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-26 15:40:10.740 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a1c63f2a-71b2-3a2e-82be-283d66126288
+2023-10-26 15:40:11.265 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8082 (http)
+2023-10-26 15:40:11.272 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8082"]
+2023-10-26 15:40:11.273 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-26 15:40:11.273 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-10-26 15:40:11.317 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-26 15:40:11.317 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1118 ms
+2023-10-26 15:40:11.736 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-26 15:40:11.861 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8082"]
+2023-10-26 15:40:11.876 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8082 (http) with context path '/member'
+2023-10-26 15:40:11.959 INFO  com.jiawa.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 2.544 seconds (process running for 3.111)
+2023-10-26 15:40:11.963 INFO  com.jiawa.train.member.config.MemberApplication   :21   [32m                  [0;39m 启动成功！！
+2023-10-26 15:40:11.963 INFO  com.jiawa.train.member.config.MemberApplication   :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8082/member/hello
+2023-10-26 15:40:13.498 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-26 15:40:13.499 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-26 15:40:13.501 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 2 ms
+2023-10-26 15:40:13.542 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-10-26 15:40:13.543 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/hello GET
+2023-10-26 15:40:13.543 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.TestController.hello
+2023-10-26 15:40:13.543 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-10-26 15:40:13.574 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-10-26 15:40:13.574 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: "hello world"
+2023-10-26 15:40:13.574 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：33 ms -------------
+2023-10-26 17:30:34.605 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-10-26 17:30:34.619 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/hello GET
+2023-10-26 17:30:34.620 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.TestController.hello
+2023-10-26 17:30:34.621 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-10-26 17:30:34.625 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-10-26 17:30:34.631 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: "hello world"
+2023-10-26 17:30:34.632 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：29 ms -------------
+2023-10-26 17:34:21.973 INFO  com.jiawa.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2023-10-26 17:34:21.973 INFO  com.jiawa.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8082/member/hello GET
+2023-10-26 17:34:21.973 INFO  com.jiawa.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.jiawa.train.member.controller.TestController.hello
+2023-10-26 17:34:21.973 INFO  com.jiawa.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-10-26 17:34:21.974 INFO  com.jiawa.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2023-10-26 17:34:21.974 INFO  com.jiawa.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: "hello world"
+2023-10-26 17:34:21.974 INFO  com.jiawa.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
